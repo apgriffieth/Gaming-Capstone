@@ -11,6 +11,7 @@ public class GitHubTest : MonoBehaviour
          * Test if GitHub is working for you:
          * Add your name to the below comments and save the project
          * Go to GitHub Desktop and click Fetch Origin at the top
+         * If you need to pull
          * In the summary field, put "GitHub Test" with your name
          * Click commit to main
          * Click push to origin
