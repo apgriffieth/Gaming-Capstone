@@ -11,6 +11,10 @@ public class GitHubTest : MonoBehaviour
          * Test if GitHub is working for you:
          * Add your name to the below comments and save the project
          * Go to GitHub Desktop and you should see your changed files to the left
+         *****************************************************************************************************
+         NOTE: If someone has been editing the same file at the same time you have and has already uploaded
+         their changes, an error will pop up and you will have to click "Stash changes and continue"
+         *****************************************************************************************************
          * In the summary field, put "GitHub Test" with your name
          * Click Commit to main
          * Click Push to origin at the top
