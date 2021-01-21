@@ -15,6 +15,7 @@ public class GitHubTest : MonoBehaviour
          * Click commit to main
          * Click push to origin
          * Ask someone else to Fetch Origin and verify that they can now see your name in the comments
+         * Testing fetch origin
          * Finished! Follow this same process anytime you make a change or add/delete anything in the project
          * ****************************************************************************************************
          * ****************************************************************************************************
