@@ -11,9 +11,11 @@ public class GitHubTest : MonoBehaviour
          * Test if GitHub is working for you:
          * Add your name to the below comments and save the project
          * Go to GitHub Desktop and you should see your changed files to the left
+         * If any changes have been done by others, the button will change to Pull origin. Click this
          *****************************************************************************************************
          NOTE: If someone has been editing the same file at the same time you have and has already uploaded
-         their changes, an error will pop up and you will have to click "Stash changes and continue"
+         their changes, an error will pop up and you will have to click "Stash changes and continue". Once
+         GitHub finishes pulling the origin, you can now click "View stash" and "Restore".
          *****************************************************************************************************
          * In the summary field, put "GitHub Test" with your name
          * Click Commit to main
