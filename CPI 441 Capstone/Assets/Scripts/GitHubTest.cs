@@ -11,11 +11,11 @@ public class GitHubTest : MonoBehaviour
          * Test if GitHub is working for you:
          * Add your name to the below comments and save the project
          * Go to GitHub Desktop and click Fetch Origin at the top
-         * If you need to pull
+         * If you need to pull, the button will change to Pull origin. Click this
          * In the summary field, put "GitHub Test" with your name
-         * Click commit to main
-         * Click push to origin
-         * Ask someone else to Fetch Origin and verify that they can now see your name in the comments
+         * Click Commit to main
+         * Click Push to origin at the top
+         * Ask someone else to Fetch and Pull Origin and verify that they can now see your name in the comments
          * Testing fetch origin
          * Finished! Follow this same process anytime you make a change or add/delete anything in the project
          * ****************************************************************************************************
