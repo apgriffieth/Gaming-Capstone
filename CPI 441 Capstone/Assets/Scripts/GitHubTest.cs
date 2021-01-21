@@ -9,8 +9,9 @@ public class GitHubTest : MonoBehaviour
     {
         /*******************************************
          * Test if GitHub is working for you:
-         * Add your name to the below comments and save the project
-         * Go to GitHub Desktop and you should see your changed files to the left
+         * Add a new C# Script in the Scripts folder called "GitHubTestYourName"
+         * Save changes and exit Unity
+         * Go to GitHub Desktop and click Fetch origin at the top
          * If any changes have been done by others, the button will change to Pull origin. Click this
          ******************************************************************************************************
          NOTE: If someone has been editing the same file at the same time you have and has already uploaded
@@ -29,16 +30,8 @@ public class GitHubTest : MonoBehaviour
          * Click Push to origin at the top
          * Ask someone else to Fetch and Pull Origin and verify that they can now see your name in the comments
          * Finished! Follow this same process anytime you make a change or add/delete anything in the project
-         * ****************************************************************************************************
-         * ****************************************************************************************************
-         * Names:
-         * Alan
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
+         ******************************************************************************************************
+         ******************************************************************************************************
          *******************************************/
     }
 
