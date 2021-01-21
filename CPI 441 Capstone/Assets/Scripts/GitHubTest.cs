@@ -12,8 +12,13 @@ public class GitHubTest : MonoBehaviour
          * Add your name to the below comments and save the project
          * Go to GitHub Desktop and click Fetch Origin at the top
          * If you need to pull, the button will change to Pull origin. Click this
-         **************************************************************************
-         NOTE: If someone else has edited the file that you were working on, you will get
+         ******************************************************************************************************
+         NOTE: If someone else has edited the file that you were working on, you will get an error stating that
+         you are unable to pull
+         
+         
+         
+         ******************************************************************************************************
          * In the summary field, put "GitHub Test" with your name
          * Click Commit to main
          * Click Push to origin at the top
