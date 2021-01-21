@@ -28,7 +28,7 @@ public class GitHubTest : MonoBehaviour
          * In the summary field, put "GitHub Test" with your name
          * Click Commit to main
          * Click Push to origin at the top
-         * Ask someone else to Fetch and Pull Origin and verify that they can now see your name in the comments
+         * Ask someone else to Fetch and Pull Origin and verify that they can now see the file you added
          * Finished! Follow this same process anytime you make a change or add/delete anything in the project
          ******************************************************************************************************
          ******************************************************************************************************
