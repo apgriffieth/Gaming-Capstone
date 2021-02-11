@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.virtualforge.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\fleeg\\Desktop\\Unity Projects\\Virtual Forge\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\apgriff1\\Downloads\\Gaming Capstone\\Virtual Forge\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Virtual Forge [Testing]"

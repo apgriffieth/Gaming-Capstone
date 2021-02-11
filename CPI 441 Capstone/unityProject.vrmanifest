@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.cpi441capstone.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\apgriff1\\Downloads\\Capstone\\CPI 441 Capstone\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\apgriff1\\Downloads\\Gaming Capstone\\CPI 441 Capstone\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "CPI 441 Capstone [Testing]"
