@@ -15,11 +15,11 @@ C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51527
+55478
 Successfully changed project path to: C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,357 +43,112 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004323 seconds.
+Registered in 0.004516 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.120 seconds
+- Completed reload, in  2.066 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002688 seconds.
+Registered in 0.002671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.899 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
+System memory in use before: 83.6 MB.
 System memory in use after: 83.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1865.
-Total: 1.501400 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.262500 ms  DeleteObjects: 0.058100 ms)
+Total: 1.737200 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.375800 ms  DeleteObjects: 0.102700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Terrain/New Terrain.asset
-  artifactKey: Guid(dd20d007fee509947b99b1e761331533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/New Terrain.asset using Guid(dd20d007fee509947b99b1e761331533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3eec39526d2e6e8335d9af8d82d835') in 0.075980 seconds
-  Import took 0.078550 seconds .
+  path: Assets/Models/smithing_hammer.fbx
+  artifactKey: Guid(abf5c301440d7584da0d47c97daa87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/smithing_hammer.fbx using Guid(abf5c301440d7584da0d47c97daa87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae52280c22c3e288e24d1a32321a3b1') in 0.188938 seconds
+  Import took 0.191191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 145.922831 seconds.
-  path: Assets/Terrain/TerrainTexturesPackFree/DemoScene
-  artifactKey: Guid(daaf684aaa977cb4bb502a01c3040027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/TerrainTexturesPackFree/DemoScene using Guid(daaf684aaa977cb4bb502a01c3040027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45ac31b2c3491b5d2eebe19b2208786') in 0.004603 seconds
-  Import took 0.007123 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/anvil.fbx
+  artifactKey: Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/anvil.fbx using Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e4b8e43e15250c0629baefa19d9996') in 0.016551 seconds
+  Import took 0.018668 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 437.841778 seconds.
-  path: Assets/QS
-  artifactKey: Guid(f3afd4d9f2228ec4197820f2650985b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QS using Guid(f3afd4d9f2228ec4197820f2650985b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e900b214812e46b91ef3972380d863') in 0.004926 seconds
-  Import took 0.007520 seconds .
+  Time since last request: 0.000655 seconds.
+  path: Assets/Models/anvil.fbx
+  artifactKey: Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/anvil.fbx using Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e4b8e43e15250c0629baefa19d9996') in 0.015218 seconds
+  Import took 0.017455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.854903 seconds.
-  path: Assets/QS/QS-Textures-Grass-v1
-  artifactKey: Guid(a494362051271d046a0df533cf24475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QS/QS-Textures-Grass-v1 using Guid(a494362051271d046a0df533cf24475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbded73126d607f36a5d3e31e2659f7') in 0.004658 seconds
-  Import took 0.006744 seconds .
+  Time since last request: 566.696847 seconds.
+  path: Assets/Models/New Material.mat
+  artifactKey: Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New Material.mat using Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b38f465da99fc4b8c48229ce5e68d') in 0.019944 seconds
+  Import took 0.022657 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.652574 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials
-  artifactKey: Guid(fe0a0f0b9a2bf684e870685423c054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials using Guid(fe0a0f0b9a2bf684e870685423c054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4699063ba65a3eafa519bc66f4512a') in 0.005864 seconds
-  Import took 0.008002 seconds .
+  Time since last request: 3531.197545 seconds.
+  path: Assets/Models/Temp Anvil Mat.mat
+  artifactKey: Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Temp Anvil Mat.mat using Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b872bc8bd4dd92ad8bbb94c58a1aff') in 0.025416 seconds
+  Import took 0.028120 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.070745 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-1.1.mat
-  artifactKey: Guid(4167230534a52bb4d9073a435cafff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-1.1.mat using Guid(4167230534a52bb4d9073a435cafff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26800b9d227e00af0e3438e8dd8549a3') in 0.171069 seconds
-  Import took 0.173310 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1370 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 86.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-5.1.mat
-  artifactKey: Guid(73996a8ad321ed94a963ba91c795655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-5.1.mat using Guid(73996a8ad321ed94a963ba91c795655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad1dd9ddfe3b43deb069f859972f615') in 0.012569 seconds
-  Import took 0.014882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-9.1.mat
-  artifactKey: Guid(78ebcdd3e5c01fc4a9903952d644cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-9.1.mat using Guid(78ebcdd3e5c01fc4a9903952d644cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259353a2ab26b2c2713670443184dfa6') in 0.016294 seconds
-  Import took 0.018857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-10.1.mat
-  artifactKey: Guid(195886598c796944d9b61f55745b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-10.1.mat using Guid(195886598c796944d9b61f55745b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a63a2c12a1eb2acc206aaeeb9e66b7a') in 0.016753 seconds
-  Import took 0.019120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-8.1.mat
-  artifactKey: Guid(d016af9cb9d0e044d98ec2af98dc93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-8.1.mat using Guid(d016af9cb9d0e044d98ec2af98dc93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64ea70559545facbb4db8d53aa868d0') in 0.014705 seconds
-  Import took 0.016962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-7.1.mat
-  artifactKey: Guid(9661e7c70e2954b45acfb10ce490c36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-7.1.mat using Guid(9661e7c70e2954b45acfb10ce490c36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce2e480883a6df2f029ffe45d074c21') in 0.015135 seconds
-  Import took 0.017326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-3.1.mat
-  artifactKey: Guid(5f208e503b1f2c04aad5dc65bb51eef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-3.1.mat using Guid(5f208e503b1f2c04aad5dc65bb51eef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff78fc439f2c18cb63810cc0aed2f79') in 0.016796 seconds
-  Import took 0.018978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-4.1.mat
-  artifactKey: Guid(ce7994312a92b6a4db77f2b1ef9214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-4.1.mat using Guid(ce7994312a92b6a4db77f2b1ef9214bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9b5313670735c7921859ef41b518f0') in 0.014598 seconds
-  Import took 0.016794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-2.1.mat
-  artifactKey: Guid(921ee172916c4154ab9e684b7441eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-2.1.mat using Guid(921ee172916c4154ab9e684b7441eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60004fa87b889d4b85e271df7164fc83') in 0.014020 seconds
-  Import took 0.016204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-6.1.mat
-  artifactKey: Guid(4c020fa31514bcc4d99927874da69cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-6.1.mat using Guid(4c020fa31514bcc4d99927874da69cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993689b8056185b5ef44cbd019f4209e') in 0.019142 seconds
-  Import took 0.021341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.819087 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures
-  artifactKey: Guid(5b395a6838159eb4fb6ef6cee923a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures using Guid(5b395a6838159eb4fb6ef6cee923a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9b3c45cb317191fbf08bf50ce199ee') in 0.003852 seconds
-  Import took 0.006124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054560 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-1.1.png
-  artifactKey: Guid(13fd3dd52bf157845864087bf321dbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-1.1.png using Guid(13fd3dd52bf157845864087bf321dbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d511179e707a2badb43fb23bf1da5dc') in 0.039327 seconds
-  Import took 0.041570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-9.png
-  artifactKey: Guid(8d55ff15069da024c8d559c9b71e71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-9.png using Guid(8d55ff15069da024c8d559c9b71e71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1179908bab8897b3e589218b1b2bb3') in 0.015709 seconds
-  Import took 0.017911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-3.1.png
-  artifactKey: Guid(d328323ac18b12b4eacc6998b100dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-3.1.png using Guid(d328323ac18b12b4eacc6998b100dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e008cc0fed6c5b3e42192a4d59380338') in 0.009855 seconds
-  Import took 0.012129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png
-  artifactKey: Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png using Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d4a8587783feb16d2e90ce9d6d5334') in 0.009716 seconds
-  Import took 0.011971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-8.1.png
-  artifactKey: Guid(84da742bd36439745a3e5bda7e7f1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-8.1.png using Guid(84da742bd36439745a3e5bda7e7f1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67298c8d132af9db68d887a1941c6944') in 0.022628 seconds
-  Import took 0.024785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-4.1.png
-  artifactKey: Guid(487e8c740f10d6e42a9134485b82d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-4.1.png using Guid(487e8c740f10d6e42a9134485b82d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ca780a02c942bf13c2b15040aff51a') in 0.012884 seconds
-  Import took 0.015097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-9.1.png
-  artifactKey: Guid(b7db08026c22ca2448703b02a6c2ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-9.1.png using Guid(b7db08026c22ca2448703b02a6c2ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2f759cdab3ae78bfedd0a9467eec0e') in 0.014989 seconds
-  Import took 0.017172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-5.1.png
-  artifactKey: Guid(3f74625973561224b8d54f04f8549029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-5.1.png using Guid(3f74625973561224b8d54f04f8549029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a521f58877e9debd0fd00018be70c9') in 0.013444 seconds
-  Import took 0.015621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-6.1.png
-  artifactKey: Guid(e976a3fb05af8ff49852a29592031e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-6.1.png using Guid(e976a3fb05af8ff49852a29592031e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd79b7b87bb10542d6114db9b99a575') in 0.009761 seconds
-  Import took 0.011902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-7.1.png
-  artifactKey: Guid(30915eb6d6267ed49bfb794a0e622444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-7.1.png using Guid(30915eb6d6267ed49bfb794a0e622444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa75e9ea42f46bde6342bdfe19094f7b') in 0.015221 seconds
-  Import took 0.018185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.316879 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile
-  artifactKey: Guid(ded435800f4eb4c49b7b0ac714ad6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile using Guid(ded435800f4eb4c49b7b0ac714ad6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccd537ce3d453e74720f85ef9380ea0') in 0.004913 seconds
-  Import took 0.007267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051259 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-1.2.mat
-  artifactKey: Guid(1cbaee1df18ffbc4fa83eaf12a30f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-1.2.mat using Guid(1cbaee1df18ffbc4fa83eaf12a30f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277cc2a45e48b77714d4b41e4110a341') in 0.096270 seconds
-  Import took 0.098551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-10.2.mat
-  artifactKey: Guid(99c70849cfbe1f7439e32ec7c4ee12f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-10.2.mat using Guid(99c70849cfbe1f7439e32ec7c4ee12f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcb31f3109853408ad920086d40a4a8') in 0.017737 seconds
-  Import took 0.020100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-8.2.mat
-  artifactKey: Guid(78cda8d7bc03dcc41a9dfc49907a519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-8.2.mat using Guid(78cda8d7bc03dcc41a9dfc49907a519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fde9a6343f8c1b4dcaef562e10c4aad') in 0.015801 seconds
-  Import took 0.017955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-3.2.mat
-  artifactKey: Guid(b2de661feda2b44459ce9a066ce069a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-3.2.mat using Guid(b2de661feda2b44459ce9a066ce069a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3253fff66342ca228cac3f0221a465') in 0.019974 seconds
-  Import took 0.022186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-6.2.mat
-  artifactKey: Guid(76ae9a622f742e84e8e0e15eb5cb5685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-6.2.mat using Guid(76ae9a622f742e84e8e0e15eb5cb5685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158f2ef3190f61582b1ead2278e2b05') in 0.013319 seconds
-  Import took 0.015628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-4.2.mat
-  artifactKey: Guid(b0336b930a179e2469e304628bfb9965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-4.2.mat using Guid(b0336b930a179e2469e304628bfb9965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65d108ac4d28bc3d45f68d407a9df42') in 0.014922 seconds
-  Import took 0.017214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-7.2.mat
-  artifactKey: Guid(7db3bd76d4a592e4ba33efb698e7d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-7.2.mat using Guid(7db3bd76d4a592e4ba33efb698e7d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7df2f245b6eed8054ab82d91fdf5fe2') in 0.015089 seconds
-  Import took 0.017321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-5.2.mat
-  artifactKey: Guid(e6c1ed428c9b99c4fbe069219470339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-5.2.mat using Guid(e6c1ed428c9b99c4fbe069219470339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdce126ecaae089deb1bf2a8722e8f44') in 0.014890 seconds
-  Import took 0.017110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-2.2.mat
-  artifactKey: Guid(22e971249e99216449bae9b23c499243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-2.2.mat using Guid(22e971249e99216449bae9b23c499243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92852946b95522393ace86e80c44854c') in 0.014234 seconds
-  Import took 0.016384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-9.2.mat
-  artifactKey: Guid(6a8dd6b779ebd9b43800de9ca5bff82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Materials/Mobile/QS-GRASS-9.2.mat using Guid(6a8dd6b779ebd9b43800de9ca5bff82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cc2fd35c631a41ef35af35cba69564') in 0.014766 seconds
-  Import took 0.016945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.702692 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer
-  artifactKey: Guid(f9bb0a9176e3f8c4891e8e3b60ea4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer using Guid(f9bb0a9176e3f8c4891e8e3b60ea4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726032b9bf2ebd57ace19a23174f4063') in 0.018718 seconds
-  Import took 0.021030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.679422 seconds.
-  path: Assets/Terrain/TerrainTexturesPackFree
-  artifactKey: Guid(4b959f8e18692024aba3e5e3d6f9df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/TerrainTexturesPackFree using Guid(4b959f8e18692024aba3e5e3d6f9df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad22d2302985b8ed3160eefa8e1395f9') in 0.003818 seconds
-  Import took 0.006013 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 1.758400 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.495600 ms  DeleteObjects: 0.020400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
