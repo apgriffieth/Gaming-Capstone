@@ -42,6 +42,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
     y: 30
     width: 938
     height: 931
@@ -49,6 +50,17 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 166
+=======
+    y: 43
+    width: 2560
+    height: 1397
+  m_ShowMode: 4
+  m_Title: Game
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,6 +104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 205
     height: 579
   m_MinSize: {x: 201, y: 221}
@@ -101,6 +114,14 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
+=======
+    width: 1934
+    height: 177
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 102
+>>>>>>> Stashed changes
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,6 +157,34 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1425
+    height: 1347
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 174
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -148,8 +197,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 938
     height: 981
+=======
+    width: 2560
+    height: 1397
+>>>>>>> Stashed changes
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -181,7 +235,37 @@ MonoBehaviour:
   - {fileID: 20}
   m_MainToolbar: {fileID: 20}
   m_LastLoadedLayoutName: 
+<<<<<<< Updated upstream
 --- !u!114 &8
+=======
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 12}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2560
+    height: 1347
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 0
+  controlID: 141
+--- !u!114 &10
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,6 +437,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< Updated upstream
   m_LastProjectPath: C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
     Forge
   m_LockTracker:
@@ -362,6 +447,16 @@ MonoBehaviour:
     m_SelectedIDs: 18430000
     m_LastClickedID: 17176
     m_ExpandedIDs: 0000000016430000184300001a4300001c4300001e43000020430000224300002443000026430000284300002a4300002c4300002e43000030430000324300003443000036430000384300003a430000404300009a430000da430000dc430000de4300009e440000a0440000a24400007a5300007e5300008854000000ca9a3b
+=======
+  m_LastProjectPath: C:\Users\fleeg\Documents\GitHub\Gaming-Capstone\Virtual Forge
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 323e0000
+    m_LastClickedID: 15922
+    m_ExpandedIDs: 00000000323e0000343e0000363e000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +484,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000016430000184300001a4300001c4300001e43000020430000224300002443000026430000284300002a4300002c4300002e43000030430000324300003443000036430000384300003a430000
+=======
+    m_ExpandedIDs: 00000000323e0000343e0000363e0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,8 +515,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< Updated upstream
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,9 +732,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.22166073, y: 0.2826942, z: -0.06738601, w: -0.93077374}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 8.407707
     speed: 2
     m_Value: 8.407707
+=======
+    m_Target: 19.42021
+    speed: 2
+    m_Value: 18.583933
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,6 +791,7 @@ MonoBehaviour:
     width: 479
     height: 639
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< Updated upstream
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
@@ -797,6 +908,38 @@ MonoBehaviour:
     height: 550
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
+=======
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 54fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 14}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 86f6f0774e424cf40ae1f079d5092cc6
+--- !u!114 &22
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
