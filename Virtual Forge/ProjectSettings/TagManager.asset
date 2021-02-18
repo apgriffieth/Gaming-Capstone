@@ -7,6 +7,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - Forgable
+  - Grabbable
+  - SmithingHammer
   layers:
   - Default
   - TransparentFX
