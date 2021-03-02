@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 
@@ -18,55 +16,55 @@ public class Forging : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-	if (collidingObject || !other.GetComponent<Rigidbody>())
-	{
-	    return;
-	}
+        if (collidingObject || !other.GetComponent<Rigidbody>())
+        {
+            return;
+        }
 
-	collidingObject = other.gameObject;
-	print(this.GetComponent<Rigidbody>().velocity.magnitude * 36000);
-	if (collidingObject.tag == "Forgable" && isHeld && Math.Abs(this.GetComponent<Rigidbody>().velocity.magnitude * 36000) > .002)
-	{
-	    if (Math.Abs(this.GetComponent<Rigidbody>().velocity.magnitude * 36000) > 0.002 && canHit)
-	    {
-		canHit = false;
-		hapticAction.Execute(0, vibrationDuration, vibrationFrequency, vibrationAmplitude, handType);
-		DescaleObject(other);
-	    }
-	}
+        collidingObject = other.gameObject;
+        if (collidingObject.tag == "Forgable" && isHeld && canHit)
+        {
+            canHit = false;
+            hapticAction.Execute(0, vibrationDuration, vibrationFrequency, vibrationAmplitude, handType);
+            DescaleObject(other);
+        }
     }
 
     public void OnTriggerExit(Collider other)
     {
-	if (!collidingObject)
-	{
-	    return;
-	}
+        if (!collidingObject)
+        {
+            return;
+        }
 
-	canHit = true;
-	collidingObject = null;
+        canHit = true;
+        collidingObject = null;
     }
 
     private void DescaleObject(Collider collidingObject)
     {
-	Vector3 scale = new Vector3(0.005f, -0.01f, 0.05f);
+        float xScaler = 0.005f;
+        float zScaler = 0.05f;
+        float volume = collidingObject.transform.localScale.x * collidingObject.transform.localScale.y * collidingObject.transform.localScale.z;
+        float yScaler = volume / ((collidingObject.transform.localScale.x + xScaler) * (collidingObject.transform.localScale.z * zScaler)) - collidingObject.transform.localScale.y;
+        Vector3 scale = new Vector3(xScaler, yScaler, zScaler);
 
-	if (collidingObject.transform.localScale.y > (Math.Abs(scale.y) * 2))
-	{
-	    collidingObject.transform.localScale += scale;
-	    collidingObject.transform.position += new Vector3(0f, scale.y * 0.5f, 0);
-	}
+        if (collidingObject.transform.localScale.y > (Math.Abs(scale.y) * 2))
+        {
+            collidingObject.transform.localScale += scale;
+            collidingObject.transform.position += new Vector3(0f, scale.y * 0.5f, 0);
+        }
     }
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
