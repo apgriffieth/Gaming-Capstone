@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Grading Area.unity
+- path: Assets/Scenes/MeshDeformation.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

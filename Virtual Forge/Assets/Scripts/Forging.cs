@@ -46,14 +46,21 @@ public class Forging : MonoBehaviour
         float xScaler = 0.005f;
         float zScaler = 0.05f;
         float volume = collidingObject.transform.localScale.x * collidingObject.transform.localScale.y * collidingObject.transform.localScale.z;
-        float yScaler = volume / ((collidingObject.transform.localScale.x + xScaler) * (collidingObject.transform.localScale.z * zScaler)) - collidingObject.transform.localScale.y;
+	print("Volume: " + volume);
+	//print("x + scaler: " + collidingObject.transform.localScale.x + xScaler);
+	//print("z + scaler: " + collidingObject.transform.localScale.z * zScaler);
+        float yScaler = volume / ((collidingObject.transform.localScale.x + xScaler) * (collidingObject.transform.localScale.z + zScaler)) - collidingObject.transform.localScale.y;
         Vector3 scale = new Vector3(xScaler, yScaler, zScaler);
+	//print("scale.y: " + scale.y);
+	print("localScale: " + collidingObject.transform.localScale.y);
 
-        if (collidingObject.transform.localScale.y > (Math.Abs(scale.y) * 2))
+        if (collidingObject.transform.localScale.y > 0.015f)
         {
             collidingObject.transform.localScale += scale;
             collidingObject.transform.position += new Vector3(0f, scale.y * 0.5f, 0);
         }
+	float newVolume = collidingObject.transform.localScale.x * collidingObject.transform.localScale.y * collidingObject.transform.localScale.z;
+	print("New Volume: " + newVolume);
     }
 
     // Start is called before the first frame update
