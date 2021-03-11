@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 7069 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16262 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,43 +11,320 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51401
-Successfully changed project path to: C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
-C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+54474
+Successfully changed project path to: C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
+C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 2271.35 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 2.59 ms.
+Refreshing native plugins compatible for Editor in 63.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
+[Subsystems] Discovering subsystems at path C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
     Vendor:   
-    VRAM:     3534 MB
-    Driver:   27.20.1034.6
+    VRAM:     8131 MB
+    Driver:   24.20.100.6194
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003733 seconds.
+Registered in 0.001617 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 53.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.015 seconds
+- Completed reload, in  1.345 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.168891 seconds.
+Registered in 0.006556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.34 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 2.731500 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.095300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SteamVR/Prefabs/[CameraRig] (1).prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig] (1).prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8d153c876209e3671a6a9c86ea4aa7') in 0.087568 seconds
+  Import took 0.091632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.402633 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da7339c864bdca3c0a7ddaf2ebcc746') in 0.009424 seconds
+  Import took 0.017647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016933 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da7339c864bdca3c0a7ddaf2ebcc746') in 0.006889 seconds
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.312355 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb7bbb6c8a5749f4be46d52ba2765c6') in 0.009268 seconds
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.200819 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b697c2acdda63cba033541accdbbdd2e') in 0.006621 seconds
+  Import took 0.013048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.983151 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d865974281ee25a944c502ca6f8d57') in 0.414266 seconds
+  Import took 0.423509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.351412 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig2].prefab
+  artifactKey: Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig2].prefab using Guid(7130ed1b12578534a8435d8ec44362c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa704a453ee92137a3107503f09a5b48') in 0.028795 seconds
+  Import took 0.037473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.455168 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f86a15ef60c092cf74391f88c7e9fdc') in 0.011292 seconds
+  Import took 0.017332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.853890 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6afd119ad8765364c1cc4f56bd98b6') in 0.006533 seconds
+  Import took 0.012839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.616612 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f3ed1c4f90ffcbd10924fbbba2bf88') in 0.028011 seconds
+  Import took 0.033744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009453 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f3ed1c4f90ffcbd10924fbbba2bf88') in 0.012314 seconds
+  Import took 0.017621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.594244 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fb25c81433a04f4ea6f9aa7554cd1e') in 0.010849 seconds
+  Import took 0.018070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.847082 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef26d138e84d1081a31b58d2fbf644f7') in 0.013798 seconds
+  Import took 0.021616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.923945 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cdf231ba5416886682bef3b407e699') in 0.021675 seconds
+  Import took 0.029629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.986713 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a7bf71f5dea330df9df56a99aaf5bf') in 0.010554 seconds
+  Import took 0.017198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.543648 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5450414b2eb388f4e6ae131589ef12b') in 0.017507 seconds
+  Import took 0.023096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.623286 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c462a5aedcde37a5bff61e0493eb59c3') in 0.017388 seconds
+  Import took 0.022479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.114739 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a99d942cf949d3e1cdd9b0cfd19f56') in 0.033626 seconds
+  Import took 0.044817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.486026 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c06ff1a0701cd9cddbf1adfb4022a3c') in 0.012832 seconds
+  Import took 0.018249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.803501 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaebf10c8cf4e088e8388b9501d5c78') in 0.017125 seconds
+  Import took 0.023147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.432440 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d3d680c180c07d527d279a4b4f272d') in 0.017944 seconds
+  Import took 0.022959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.677835 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c159276893c2fa517f29e5d71185bcd') in 0.021832 seconds
+  Import took 0.028338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.189663 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a4ab175a6368bf2a4d4973340536c') in 0.017887 seconds
+  Import took 0.023243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.099064 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cacb5945cbd654c18b75495d7a5344e') in 0.019840 seconds
+  Import took 0.026275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.803349 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c314b2f21f2326693dd72c5acd1dfd') in 0.013014 seconds
+  Import took 0.019126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.904829 seconds.
+  path: Assets/Scripts/NetworkPlayer.cs
+  artifactKey: Guid(0d21864ac8ab3034687a02f6befb28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NetworkPlayer.cs using Guid(0d21864ac8ab3034687a02f6befb28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa05a48fcfa7830bbd969004fc5f20d1') in 0.020543 seconds
+  Import took 0.027310 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.264900 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.924100 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.700114 seconds.
+  path: Assets/Scripts/NetworkPlayer.cs
+  artifactKey: Guid(0d21864ac8ab3034687a02f6befb28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NetworkPlayer.cs using Guid(0d21864ac8ab3034687a02f6befb28ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd025b88320fee9980b28362e6cff3988') in 0.010519 seconds
+  Import took 0.016572 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
