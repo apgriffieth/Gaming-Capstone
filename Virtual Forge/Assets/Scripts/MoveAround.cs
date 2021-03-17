@@ -4,22 +4,25 @@ using UnityEngine;
 
 public class MoveAround : MonoBehaviour
 {
-    
+    private Vector2 rotation;
+
+
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         
     }
 
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
-            transform.position += new Vector3(-3, 0, 0) * Time.deltaTime;
-        if (Input.GetKey(KeyCode.RightArrow))
-            transform.position += new Vector3(3, 0, 0) * Time.deltaTime;
-        if (Input.GetKey(KeyCode.UpArrow))
-            transform.position += new Vector3(0, 0, 3) * Time.deltaTime;
-        if (Input.GetKey(KeyCode.DownArrow))
-            transform.position += new Vector3(0, 0, -3) * Time.deltaTime;
+        transform.position += transform.right * Input.GetAxis("Horizontal") * 5 * Time.deltaTime;
+        transform.position += transform.forward * Input.GetAxis("Vertical") * 5 * Time.deltaTime;
+
+
+        rotation.y += Input.GetAxis("Mouse X");
+        Mathf.Clamp(rotation.y, -6, 6);
+        rotation.x += -Input.GetAxis("Mouse Y");
+        transform.eulerAngles = (Vector2)rotation * 10;
     }
 }
