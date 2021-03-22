@@ -23,8 +23,8 @@ public class CraftingManager : MonoBehaviour
     public GameObject playerCanvas;
 
     public Sprite[] sprites;
-    private float bounce = 0.1f;
-    private float bounceOffset = 0;
+    //private float bounce = 0.1f;
+    //private float bounceOffset = 0;
 
     public int uiState;
 
