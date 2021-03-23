@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AlanSampleScene.unity
+- path: Assets/Devion Games/Inventory System/Examples/Scenes/Main Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
