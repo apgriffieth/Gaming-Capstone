@@ -12,8 +12,9 @@ public class CraftingManager : MonoBehaviour
     private bool inShop;
     public Order order;
 
-    public float craftTime = 60;
+    public int craftTime;
     private float seconds;
+    private float value;
 
     public Text timer;
     public GameObject button;
@@ -23,13 +24,15 @@ public class CraftingManager : MonoBehaviour
     public GameObject playerCanvas;
 
     public Sprite[] sprites;
-    private float bounce = 0.1f;
+    private float bounce = 0.001f;
     private float bounceOffset = 0;
 
     public int uiState;
 
     public Transform player;
 
+    //grading specs
+    private float thickness;
 
     void Start()
     {
@@ -40,17 +43,9 @@ public class CraftingManager : MonoBehaviour
     
     void Update()
     {
-        /*
-        bounceOffset += bounce;
-        if (Mathf.Abs(bounceOffset) >= 3)
-        {
-            bounce = -bounce;
-            bounceOffset = 3;
-        }
-        print(bounceOffset);
 
-        orderCanvas.transform.position += new Vector3(0, bounce, 0);
-        */
+        Bounce();
+        
 
         if (inShop)
         {
@@ -73,6 +68,13 @@ public class CraftingManager : MonoBehaviour
                     isCrafting = true;
                 }
             }
+        }
+
+        if (!inShop && noOrder)
+        {
+            orderCanvas.transform.rotation = player.rotation;
+
+
         }
         
 
@@ -114,8 +116,7 @@ public class CraftingManager : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             inShop = true;
-            orderCanvas.SetActive(true);
-            print("In Shop");
+            //print("In Shop");
         }
         
     }
@@ -125,18 +126,29 @@ public class CraftingManager : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             inShop = false;
-            print("Out of shop");
-            orderCanvas.SetActive(false);
+            //print("Out of shop");
         }
     }
 
+    private void Bounce()
+    {
+        bounceOffset += bounce;
+        if (Mathf.Abs(bounceOffset) >= 0.3f)
+        {
+            bounce = -bounce;
+            bounceOffset = 0;
+        }
+        //print(bounceOffset);
+
+        orderCanvas.transform.position += new Vector3(0, bounce, 0);
+    }
 
     private void Timer()
     {
         seconds += Time.deltaTime;
 
-        int sec = (int)seconds;
-        timer.text = "Time: " + sec.ToString();
+        int sec = craftTime - (int)seconds;
+        timer.text = "Time Remaining: " + sec.ToString();
         
     }
     public enum Order
@@ -162,16 +174,27 @@ public class CraftingManager : MonoBehaviour
         {
             case Order.c_sword:
                 ticket = sprites[material];
-                //all the specs for the grading system go here?
+                craftTime = 80;
+                thickness = 0.1f;
+                value = 10;
                 break;
             case Order.i_sword:
                 ticket = sprites[material];
+                craftTime = 100;
+                thickness = 0.15f;
+                value = 30;
                 break;
             case Order.s_sword:
                 ticket = sprites[material];
+                craftTime = 120;
+                thickness = 0.15f;
+                value = 60;
                 break;
             case Order.t_sword:
                 ticket = sprites[material];
+                craftTime = 150;
+                thickness = 0.175f;
+                value = 100;
                 break;
             default:
                 ticket = null;
@@ -182,5 +205,23 @@ public class CraftingManager : MonoBehaviour
         ticketDisplay.gameObject.SetActive(true);
         button.SetActive(false);
         noOrder = false;
+    }
+
+    public float GradeItem(GameObject item, int matID)
+    {
+        isCrafting = false;
+
+        if (matID != (int)order)
+        {
+            return 0;
+        }
+
+        float margin = item.transform.localScale.y - thickness;
+        margin = 1 / Mathf.Abs(margin);
+        print(margin);
+
+        float grade = value * margin + seconds;
+
+        return grade;
     }
 }

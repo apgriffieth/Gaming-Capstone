@@ -15,12 +15,12 @@ C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49954
+55298
 Successfully changed project path to: C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1280.16 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.74 ms.
+Refreshing native plugins compatible for Editor in 1111.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 3.24 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
@@ -35,19 +35,322 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005800 seconds.
+Registered in 0.004816 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.88 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
+Refreshing native plugins compatible for Editor in 140.61 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.553 seconds
+- Completed reload, in  9.085 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.146753 seconds.
+Registered in 0.216774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.897 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 2117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2594.
+Total: 6.291000 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.206900 ms MarkObjects: 5.248600 ms  DeleteObjects: 0.241800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/Textures/titanium_sword_uvw.png
+  artifactKey: Guid(45b30f575ab2fea4eb404d1e6ae6d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/titanium_sword_uvw.png using Guid(45b30f575ab2fea4eb404d1e6ae6d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315f43a55ec0c52b7171a32926760987') in 0.269302 seconds
+  Import took 0.278445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/Models/Textures/steel_dagger.png
+  artifactKey: Guid(8d1b0d98e8bfae640ba8df963501bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/steel_dagger.png using Guid(8d1b0d98e8bfae640ba8df963501bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd709e47604b8f26abfa2b4ae02fa4010') in 0.060348 seconds
+  Import took 0.071001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Models/Textures/hammer.png
+  artifactKey: Guid(ad345c5a7cb33ed4cbf52eba498d46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/hammer.png using Guid(ad345c5a7cb33ed4cbf52eba498d46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1572b1db2f762c496560b7b2fb2bdf97') in 0.059336 seconds
+  Import took 0.068471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Models/Textures/knife.png
+  artifactKey: Guid(7fd9f879c8825ec45a2d34cd146b84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/knife.png using Guid(7fd9f879c8825ec45a2d34cd146b84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc96417e954d87b5e1d02fb4482104d') in 0.055013 seconds
+  Import took 0.064226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Models/Textures/titanium_dagger.png
+  artifactKey: Guid(6b2d8ba8d89ea5d49845ece60a292eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/titanium_dagger.png using Guid(6b2d8ba8d89ea5d49845ece60a292eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a02b96b9509f40fd0dccba78b6929c9') in 0.064245 seconds
+  Import took 0.074893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Models/Textures/iron_dagger.png
+  artifactKey: Guid(f3205fafcbe544740b3074003fe43c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/iron_dagger.png using Guid(f3205fafcbe544740b3074003fe43c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0691ff4707e66329dd70d1b52d2dee00') in 0.056170 seconds
+  Import took 0.065307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Models/Textures/steel_axe_texture.png
+  artifactKey: Guid(8fb9f48603ff9ce4fa3df653925ee660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/steel_axe_texture.png using Guid(8fb9f48603ff9ce4fa3df653925ee660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cf3e2099bb62b76472303f8914a2a5') in 0.069892 seconds
+  Import took 0.079271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Models/Textures/anvil texture.jpg
+  artifactKey: Guid(1266e4ecafc78d34dbe648f81a0f2af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/anvil texture.jpg using Guid(1266e4ecafc78d34dbe648f81a0f2af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b08460ce79f2b16d02205fdafda84') in 0.063935 seconds
+  Import took 0.075171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Models/UI/customer_ticket.png
+  artifactKey: Guid(84c85b36a1a585a46806dfd492b28636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UI/customer_ticket.png using Guid(84c85b36a1a585a46806dfd492b28636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850061b694bad96b6b06f2bff73538a5') in 0.056980 seconds
+  Import took 0.068379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Models/Textures/copper sword uvw.png
+  artifactKey: Guid(7937dcb87e3c09145a2ab47316d0c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/copper sword uvw.png using Guid(7937dcb87e3c09145a2ab47316d0c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d38de4c27b26916e3b503ab7520e1af') in 0.054975 seconds
+  Import took 0.067593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Models/UI/daniel.bold.otf
+  artifactKey: Guid(f6bb2935ff855474fa8682f11fd60f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UI/daniel.bold.otf using Guid(f6bb2935ff855474fa8682f11fd60f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fac8616641ee2fc6dfca093009b3fe8') in 0.254889 seconds
+  Import took 0.263050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Models/Textures/steel_sword_uvw.png
+  artifactKey: Guid(c5d50e14ca8cd3145b2823a882528810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/steel_sword_uvw.png using Guid(c5d50e14ca8cd3145b2823a882528810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc10b972bd1fcd5f3b59ce7b25798ac') in 0.055765 seconds
+  Import took 0.064567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Models/Textures/copper_dagger.png
+  artifactKey: Guid(6757d67bca300164eb0f4c81f1e37ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/copper_dagger.png using Guid(6757d67bca300164eb0f4c81f1e37ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdca85956371b20d78de34f5215b3f9f') in 0.056045 seconds
+  Import took 0.065346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Models/UI
+  artifactKey: Guid(43e24577483f3d14a8d3c0434491881e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UI using Guid(43e24577483f3d14a8d3c0434491881e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50768f872c5c1330ad5a8888ad3965d') in 0.026531 seconds
+  Import took 0.036490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Models/Textures/titanium_axe_texture.png
+  artifactKey: Guid(ed713c273d2ee9f489a017004a5c5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/titanium_axe_texture.png using Guid(ed713c273d2ee9f489a017004a5c5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf992ce1a3b73675f54f78bb1b9c8be3') in 0.061936 seconds
+  Import took 0.071929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Models/Textures/iron_axe_texture.png
+  artifactKey: Guid(af3ea017fe7def94f87e487e5c2684d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/iron_axe_texture.png using Guid(af3ea017fe7def94f87e487e5c2684d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8415a11bbe2b48e54191b0f31bfbc876') in 0.064188 seconds
+  Import took 0.073211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Models/Textures/saw.png
+  artifactKey: Guid(4838ac69639cba14c818447f8e8b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/saw.png using Guid(4838ac69639cba14c818447f8e8b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ff4871d4694629ae13a6acf4113d9') in 0.056028 seconds
+  Import took 0.065744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Models/Textures/copper_axe_texture.png
+  artifactKey: Guid(349b8c5945883ba41852c7d2fa18e447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/copper_axe_texture.png using Guid(349b8c5945883ba41852c7d2fa18e447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f898d16e7167404307ca1f67c089d6c6') in 0.052893 seconds
+  Import took 0.063602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Resources/Network Player.prefab
+  artifactKey: Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Network Player.prefab using Guid(ce50c64d51a01b34a85713ceaafa0da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff68251d0819622f815b2636d9c7f04') in 0.335672 seconds
+  Import took 0.347019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Models/Textures
+  artifactKey: Guid(3afa9b1e96ea9584eaef27ddeb18c553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures using Guid(3afa9b1e96ea9584eaef27ddeb18c553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fd0792f4a4cc439b3911044a2b9ec8') in 0.033876 seconds
+  Import took 0.042762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Models/Textures/iron_sword_uvw.png
+  artifactKey: Guid(6a239001e54fdf0488837146601551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/iron_sword_uvw.png using Guid(6a239001e54fdf0488837146601551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191a10afea95efc7d26304369d8d6869') in 0.056956 seconds
+  Import took 0.066710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Models/Textures/shovel.png
+  artifactKey: Guid(0d1adcfa67bd0f44a9a1394c6988bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/shovel.png using Guid(0d1adcfa67bd0f44a9a1394c6988bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4755ccbaf018d6cf0ee2bf92cf2de') in 0.036154 seconds
+  Import took 0.044473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.058132 seconds.
+  path: Assets/Models/UI/customer_ticket.png
+  artifactKey: Guid(84c85b36a1a585a46806dfd492b28636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UI/customer_ticket.png using Guid(84c85b36a1a585a46806dfd492b28636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ad1cae39996775fe564ca33c7183fa') in 0.165712 seconds
+  Import took 0.180789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.212 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 5.459700 ms (FindLiveObjects: 0.569100 ms CreateObjectMapping: 0.199300 ms MarkObjects: 4.625600 ms  DeleteObjects: 0.063200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.388 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.43 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 10.673500 ms (FindLiveObjects: 1.763700 ms CreateObjectMapping: 0.542000 ms MarkObjects: 8.312700 ms  DeleteObjects: 0.050800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\PackageCache\com.unity.xr.oculus@1.7.0\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.7.0/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.475 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.72 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 9.291300 ms (FindLiveObjects: 0.992000 ms CreateObjectMapping: 0.517800 ms MarkObjects: 7.700600 ms  DeleteObjects: 0.076500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
