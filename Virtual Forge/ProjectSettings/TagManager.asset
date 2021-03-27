@@ -9,6 +9,7 @@ TagManager:
   - Forgable
   - Grabbable
   - SmithingHammer
+  - Melee
   layers:
   - Default
   - TransparentFX
