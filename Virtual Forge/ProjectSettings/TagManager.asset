@@ -10,6 +10,7 @@ TagManager:
   - Grabbable
   - SmithingHammer
   - Melee
+  - UI Label
   layers:
   - Default
   - TransparentFX

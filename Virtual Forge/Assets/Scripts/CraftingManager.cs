@@ -30,6 +30,7 @@ public class CraftingManager : MonoBehaviour
     public int uiState;
 
     public Transform player;
+    private List<GameObject> labels;
 
     //grading specs
     private float thickness;
@@ -38,6 +39,19 @@ public class CraftingManager : MonoBehaviour
     {
         isCrafting = false;
         inShop = false;
+        
+
+        labels = new List<GameObject>(FindObjectsOfType<GameObject>(true));
+
+        foreach (GameObject gameObject in labels)
+        { 
+            if (!gameObject.CompareTag("UI Label"))
+            {
+                labels.Remove(gameObject);
+            }
+        }
+
+        
     }
 
     
@@ -103,10 +117,18 @@ public class CraftingManager : MonoBehaviour
             if (uiState == 0)
             {
                 playerCanvas.SetActive(false);
+                foreach(GameObject canvas in labels)
+                    canvas.SetActive(false);
             }
             else
                 playerCanvas.SetActive(true);
 
+            
+            if (uiState == 2)
+            {
+                foreach (GameObject canvas in labels)
+                    canvas.SetActive(true);
+            }
         }
     }
 
