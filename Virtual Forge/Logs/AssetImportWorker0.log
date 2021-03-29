@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 7069 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32688 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1128 +11,1180 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54615
-Successfully changed project path to: C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
-C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+51537
+Successfully changed project path to: C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 141.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/racho/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
     Vendor:   
-    VRAM:     3534 MB
-    Driver:   27.20.1034.6
+    VRAM:     1982 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005724 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004382 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 140.38 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.465 seconds
+- Completed reload, in  2.164 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014391 seconds.
+Registered in 0.003246 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000176A3C0E630 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file data-000001DDE0F1FBF0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A26C5E30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file data-000001DDE10E10C0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24E7850 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
+Symbol file data-000001DDE0ED72F0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A26C5E30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001DDE10E10C0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0898A20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
+Symbol file data-000001DDE0F39C10 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A26C5E30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
+Symbol file data-000001DFA24A3030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A094F8D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001DDE0F42A20 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24E7850 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001DFA2A779A0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0962CE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001DFA21CA030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A05F1030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
+Symbol file data-000001DDE1077020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25BD010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001DFA1D6E020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A257F020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001DFA1D8D430 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0962CE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file data-000001DFA21CA030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25BD010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001DFA21E7020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0962CE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001DFA21CA030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2A04A20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001DFA3572A20 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A26C5E30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file data-000001DFA1DABA40 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3DD7020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file data-000001DDE0E15030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBF040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
+Symbol file data-000001DFA24A3030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A202EA80 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file data-000001DDE11C2040 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0962CE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file data-000001DDE1593030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06B5FC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001DDE1229390 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBF040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file data-000001DFA24A3030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06B5FC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
+Symbol file data-000001DDE1229390 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A064F310 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file data-000001DDE0E9CDB0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2A14A30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
+Symbol file data-000001DFA24A3030 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3C1A860 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file data-000001DFA1DAFA50 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.651 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 169.1 MB.
+System memory in use before: 169.5 MB.
+System memory in use after: 169.6 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2304.
-Total: 5.096700 ms (FindLiveObjects: 0.562600 ms CreateObjectMapping: 0.166700 ms MarkObjects: 4.075400 ms  DeleteObjects: 0.288700 ms)
+Total: 1.899400 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.539800 ms  DeleteObjects: 0.112000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/UI/P1 UI Label.prefab
-  artifactKey: Guid(e432533832b4375428a12ec3f55aadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/UI/P1 UI Label.prefab using Guid(e432533832b4375428a12ec3f55aadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523f5919a585434a961e6c9bec127393') in 0.184668 seconds
-  Import took 0.195266 seconds .
+  path: Assets/Terrain/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Albedo.png
+  artifactKey: Guid(2111e868463b68941af27b5b33a429bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Albedo.png using Guid(2111e868463b68941af27b5b33a429bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c65ef416b71af797e4dda19f2ec97b') in 0.092253 seconds
+  Import took 0.095226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/TerrainSetting/NewLayer.terrainlayer
+  artifactKey: Guid(8703795c06e9aad45a82a1429cb44f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/TerrainSetting/NewLayer.terrainlayer using Guid(8703795c06e9aad45a82a1429cb44f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d567c53b74e4937c6489fbf19239869') in 0.087858 seconds
+  Import took 0.091423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png
+  artifactKey: Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png using Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29d4578e4a537102f8bf78af39b5831') in 0.010616 seconds
+  Import took 0.013650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Terrain/TerrainTexturesPackFree/TerrainTextures/GroundStones01.png
+  artifactKey: Guid(17405fba9d20b47408239b3e82d60232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainTexturesPackFree/TerrainTextures/GroundStones01.png using Guid(17405fba9d20b47408239b3e82d60232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bebee9f72e8b47f755b71e37257316d') in 0.041133 seconds
+  Import took 0.044917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018784 seconds.
+  path: Assets/Terrain/TerrainTexturesPackFree/TerrainTextures/GroundStones01.png
+  artifactKey: Guid(17405fba9d20b47408239b3e82d60232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainTexturesPackFree/TerrainTextures/GroundStones01.png using Guid(17405fba9d20b47408239b3e82d60232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bebee9f72e8b47f755b71e37257316d') in 0.029085 seconds
+  Import took 0.032805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 385.620501 seconds.
+  path: Assets/Models/Tools
+  artifactKey: Guid(6d11ae548460eb94f80c0d842e8e3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools using Guid(6d11ae548460eb94f80c0d842e8e3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a417e23e055eddd78a9a5a56e1951e1b') in 0.009058 seconds
+  Import took 0.013638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009850 seconds.
+  path: Assets/Models/Tools
+  artifactKey: Guid(6d11ae548460eb94f80c0d842e8e3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools using Guid(6d11ae548460eb94f80c0d842e8e3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a417e23e055eddd78a9a5a56e1951e1b') in 0.003963 seconds
+  Import took 0.006646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080220 seconds.
+  path: Assets/Models/Tools/anvil.fbx
+  artifactKey: Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/anvil.fbx using Guid(711dbbd4e3a20e74f81d4ea20163273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd980446fe4fb2fbdf867a3efe6a82f') in 0.087106 seconds
+  Import took 0.089866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Tools/knife.fbx
+  artifactKey: Guid(ac7603c6606f566418dd2dc99d532477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/knife.fbx using Guid(ac7603c6606f566418dd2dc99d532477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a8946ef157678b037f9d21467f3c8c') in 0.014633 seconds
+  Import took 0.017229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Models/Tools/smithing_hammer.fbx
+  artifactKey: Guid(abf5c301440d7584da0d47c97daa87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/smithing_hammer.fbx using Guid(abf5c301440d7584da0d47c97daa87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f766626c3fead85847932f09ac16e48') in 0.022238 seconds
+  Import took 0.024894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/Tools/saw.fbx
+  artifactKey: Guid(988b575a36022984ab7fdaa82d23060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/saw.fbx using Guid(988b575a36022984ab7fdaa82d23060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde04c6d4399c809de0dce87ca21433') in 0.018250 seconds
+  Import took 0.021126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/Tools/scythe.fbx
+  artifactKey: Guid(4ba18dcd0f9cde44e9889051933595eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/scythe.fbx using Guid(4ba18dcd0f9cde44e9889051933595eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe37cc7ae0b99e632efb792572663445') in 0.024420 seconds
+  Import took 0.027107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/Tools/shovel.fbx
+  artifactKey: Guid(8d93835962cccdb4fa55d289b998bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tools/shovel.fbx using Guid(8d93835962cccdb4fa55d289b998bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b3c60592cd959d84c99f695b29ceaf') in 0.018973 seconds
+  Import took 0.021750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.446560 seconds.
+  path: Assets/Models/Weapons
+  artifactKey: Guid(f93a53c29eb3fcb4d8672ff9881717da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons using Guid(f93a53c29eb3fcb4d8672ff9881717da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df460a7b0f43c4e588fdc02bc45bc2b6') in 0.010966 seconds
+  Import took 0.014063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008313 seconds.
+  path: Assets/Models/Weapons
+  artifactKey: Guid(f93a53c29eb3fcb4d8672ff9881717da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons using Guid(f93a53c29eb3fcb4d8672ff9881717da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df460a7b0f43c4e588fdc02bc45bc2b6') in 0.003874 seconds
+  Import took 0.006587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.902149 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Plugin
+  artifactKey: Guid(c9535d35dbbd5bf43a6254629876a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Plugin using Guid(c9535d35dbbd5bf43a6254629876a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c115b3afa14adeef101cda38b93512b') in 0.007503 seconds
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013027 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Plugin
+  artifactKey: Guid(c9535d35dbbd5bf43a6254629876a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Plugin using Guid(c9535d35dbbd5bf43a6254629876a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c115b3afa14adeef101cda38b93512b') in 0.004229 seconds
+  Import took 0.007544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.257882 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound
+  artifactKey: Guid(61cd0839b06c752489ac826361bb22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound using Guid(61cd0839b06c752489ac826361bb22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d63366a49562bd51fc9f859ca14e5') in 0.011523 seconds
+  Import took 0.014873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006954 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound
+  artifactKey: Guid(61cd0839b06c752489ac826361bb22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound using Guid(61cd0839b06c752489ac826361bb22b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d63366a49562bd51fc9f859ca14e5') in 0.003844 seconds
+  Import took 0.006637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.084569 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment
+  artifactKey: Guid(ec0b3651bfe6aea48b96fc0f5dd498ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment using Guid(ec0b3651bfe6aea48b96fc0f5dd498ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287976f82eee25e1434e54b71f76eb34') in 0.010170 seconds
+  Import took 0.013743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008645 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment
+  artifactKey: Guid(ec0b3651bfe6aea48b96fc0f5dd498ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment using Guid(ec0b3651bfe6aea48b96fc0f5dd498ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287976f82eee25e1434e54b71f76eb34') in 0.003726 seconds
+  Import took 0.006452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.733062 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items
+  artifactKey: Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items using Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381923e58dfb8da8c0e40a033f65b5a3') in 0.009615 seconds
+  Import took 0.013166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008380 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items
+  artifactKey: Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items using Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381923e58dfb8da8c0e40a033f65b5a3') in 0.003904 seconds
+  Import took 0.006683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.117951 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool
+  artifactKey: Guid(523e6777993417945ab95c95906aecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool using Guid(523e6777993417945ab95c95906aecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a635d0483c162ec5e5a799cedc063cb') in 0.009230 seconds
+  Import took 0.013415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009520 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool
+  artifactKey: Guid(523e6777993417945ab95c95906aecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool using Guid(523e6777993417945ab95c95906aecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a635d0483c162ec5e5a799cedc063cb') in 0.003711 seconds
+  Import took 0.006405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083843 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool/EA03_Prop_Tool_Pick_01a_PRE.prefab
+  artifactKey: Guid(091d14a26038cb34e8f8c03f3212574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Tool/EA03_Prop_Tool_Pick_01a_PRE.prefab using Guid(091d14a26038cb34e8f8c03f3212574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870526956eadb9f668e6340d3a8f8604') in 0.014322 seconds
+  Import took 0.022039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 505.868479 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c5360f2d60ca2073b7bd2e4fe5b4a9') in 0.008740 seconds
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.834484 seconds.
+  path: Assets/Scripts/Mining.cs
+  artifactKey: Guid(827499f341516d44bbcd6dcdfdb9e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mining.cs using Guid(827499f341516d44bbcd6dcdfdb9e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e1ac2dfaf57b03ba7063f3ebda6ef9') in 0.050299 seconds
+  Import took 0.053020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003310 seconds.
+  path: Assets/Scripts/Mining.cs
+  artifactKey: Guid(827499f341516d44bbcd6dcdfdb9e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mining.cs using Guid(827499f341516d44bbcd6dcdfdb9e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e1ac2dfaf57b03ba7063f3ebda6ef9') in 0.004159 seconds
+  Import took 0.006887 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008467 seconds.
+Registered in 0.003214 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file data-000001DFA44BA020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A068B2D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file data-000001DFA1F71A50 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04B7500 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
+Symbol file data-000001DFA2A99470 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A068B2D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001DFA1F71A50 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B798C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
+Symbol file data-000001DDE118D020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A39A5020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
+Symbol file data-000001DFA31A8A30 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3437030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001DFA34D9010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04C1F10 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001DFA2A99470 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B826D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001DFA34D9010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A344A440 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
+Symbol file data-000001DDE14D3010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2789020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001DFA2594010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A807C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001DFA34D9010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A807C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file data-000001DFA34D9010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A244ED30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001DFA1DC2020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A807C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001DFA34D9010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A807C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001DDE1616FE0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A94FD0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file data-000001DDE13A0E20 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0703410 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file data-000001DDF614B6E0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A391D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
+Symbol file data-000001DFA2A99470 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A046B070 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file data-000001DFA71E7EC0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3C0C630 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file data-000001DDE1715010 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3643E20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001DDE1195E30 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0545D30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file data-000001DDE1195E30 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A08AFC40 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
+Symbol file data-000001DDE1195E30 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0575130 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file data-000001DFA8368CB0 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A38BD020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
+Symbol file data-000001DDE1772020 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0573F00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file data-000001DFA889BC30 doesn't match image C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.692 seconds
+- Completed reload, in  0.830 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.7 MB.
+System memory in use before: 173.4 MB.
+System memory in use after: 173.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2309.
-Total: 6.490600 ms (FindLiveObjects: 0.627500 ms CreateObjectMapping: 0.330400 ms MarkObjects: 5.432500 ms  DeleteObjects: 0.095500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 1.642300 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.098200 ms MarkObjects: 1.285800 ms  DeleteObjects: 0.015700 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010272 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A3C0A480 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196700 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0686EB0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0919630 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2F47010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60AC030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2BB8A30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04F4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B94010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A48A8030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2789020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B94010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B94010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0944EC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B94010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B94010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60AC030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0703410 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A391D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2031810 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3442640 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A085BD10 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A391D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A085BD10 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3D39480 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24EAC50 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3426A20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.227 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2312.
-Total: 7.390500 ms (FindLiveObjects: 1.215600 ms CreateObjectMapping: 0.384500 ms MarkObjects: 5.728200 ms  DeleteObjects: 0.057400 ms)
+Received Import Request.
+  Time since last request: 161.825073 seconds.
+  path: Assets/Scenes/Multiplayer Forges Area.unity
+  artifactKey: Guid(f81eb8ad15f28604899d5c4328c5c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Multiplayer Forges Area.unity using Guid(f81eb8ad15f28604899d5c4328c5c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff83457884bc621641da96330db0aa3') in 0.029161 seconds
+  Import took 0.032421 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009506 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A2CD2010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196700 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DD2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196700 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2B507B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6336010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3578020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60900C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2789020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0944EC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A365D010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6336010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0703410 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24A7020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A05476D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3665020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3635C30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24A7020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3635C30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4240AB0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B898D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0573F00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 4.522700 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.242900 ms MarkObjects: 3.694800 ms  DeleteObjects: 0.045100 ms)
+Received Import Request.
+  Time since last request: 1.571081 seconds.
+  path: Assets/Scenes/MeshDeformation.unity
+  artifactKey: Guid(ddd0dd8364dd7224f99a590e3bc659b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MeshDeformation.unity using Guid(ddd0dd8364dd7224f99a590e3bc659b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a5729d697ebed712755eb7da5514c9') in 0.009981 seconds
+  Import took 0.013129 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009389 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A5610740 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A221A340 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5EBE030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A42C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5050030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6062010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60900C0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0979C90 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04B7500 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04B7500 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0944EC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04B7500 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A40BA020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5618950 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2D6F430 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2144010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0471620 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3F1E040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4FE4C30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04C2B10 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0A93E50 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A29C2370 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0573F00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.784 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 4.532800 ms (FindLiveObjects: 0.567800 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.768500 ms  DeleteObjects: 0.056200 ms)
+Received Import Request.
+  Time since last request: 0.014154 seconds.
+  path: Assets/Scenes/MeshDeformation.unity
+  artifactKey: Guid(ddd0dd8364dd7224f99a590e3bc659b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MeshDeformation.unity using Guid(ddd0dd8364dd7224f99a590e3bc659b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a5729d697ebed712755eb7da5514c9') in 0.004180 seconds
+  Import took 0.006901 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010780 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A2F4F020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196700 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DD2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196700 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3605030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2CD2010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A435D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A053DD20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A21DFE40 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A244ED30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3605030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B974D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A24A7020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04701E0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4804040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D800ABD0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D8002600 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.299 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2321.
-Total: 4.251500 ms (FindLiveObjects: 0.434100 ms CreateObjectMapping: 0.124300 ms MarkObjects: 3.643000 ms  DeleteObjects: 0.047600 ms)
+Received Import Request.
+  Time since last request: 1.000898 seconds.
+  path: Assets/Scenes/BryannaSampleScene.unity
+  artifactKey: Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BryannaSampleScene.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ffb6e33eaf844d169e8640af9ff328') in 0.009771 seconds
+  Import took 0.012545 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009724 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176C610A010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0AB5040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DD2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0AB5040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4043020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A095CEE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A435D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06ADFB0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F364F0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2789020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5048020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6282380 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6112220 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0645480 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A391D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6346FB0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3F1E040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06B5FC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D800ABD0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06B5FC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2441090 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B898D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.795 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 4.268400 ms (FindLiveObjects: 0.451300 ms CreateObjectMapping: 0.101800 ms MarkObjects: 3.665600 ms  DeleteObjects: 0.046400 ms)
+Received Import Request.
+  Time since last request: 0.015830 seconds.
+  path: Assets/Scenes/BryannaSampleScene.unity
+  artifactKey: Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BryannaSampleScene.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ffb6e33eaf844d169e8640af9ff328') in 0.004310 seconds
+  Import took 0.007022 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009834 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A3C11030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0AB5040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DD2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0AB5040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A416C040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A409A020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4FEA040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2655030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60A4020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2655030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2789020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2655030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A38BD020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A26C4020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A046C4B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4C78030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D800ABD0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5050810 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 4.085100 ms (FindLiveObjects: 0.423900 ms CreateObjectMapping: 0.110500 ms MarkObjects: 3.509100 ms  DeleteObjects: 0.039100 ms)
+Received Import Request.
+  Time since last request: 856.866989 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter
+  artifactKey: Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter using Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042ae9849b5a3d6f01b21874fa2f122b') in 0.005701 seconds
+  Import took 0.009017 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010412 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A34AC0E0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5618750 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A34AC0E0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A416C040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A47FC030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A435D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A063A010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4F10010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A06ADFB0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A053DD20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F364F0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A053DD20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25FAA20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C677A020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A09E55A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33C80D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D800ABD0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F22FE0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2330.
-Total: 4.331500 ms (FindLiveObjects: 0.533800 ms CreateObjectMapping: 0.124800 ms MarkObjects: 3.623400 ms  DeleteObjects: 0.046400 ms)
+Received Import Request.
+  Time since last request: 0.050774 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab
+  artifactKey: Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab using Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62af7ae51090ef3194b27020dcdd96a') in 0.212786 seconds
+  Import took 0.216174 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012383 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A0B4A030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A21CFF40 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DD2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A21CFF40 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A41BC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A409A020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3578030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4BB2030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A249F010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68A6010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F364F0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68A6010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50CB030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DA8470 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33C80D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4DAE080 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A08B2020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.034 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2333.
-Total: 4.366500 ms (FindLiveObjects: 0.705400 ms CreateObjectMapping: 0.241800 ms MarkObjects: 3.365900 ms  DeleteObjects: 0.050000 ms)
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA_Prop_Hunter_Animal_Trophy_01a_PRE.prefab
+  artifactKey: Guid(42401a433a5c1874f8f51bdcd68b2e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA_Prop_Hunter_Animal_Trophy_01a_PRE.prefab using Guid(42401a433a5c1874f8f51bdcd68b2e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f04683455f61ab3c0e4e15820662e') in 0.013115 seconds
+  Import took 0.015823 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007267 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A27C1060 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F5C030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A21C0040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C5F5C030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3570020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4F4E040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A47FC030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A41C4030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68FF010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A38B3020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68A6010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C66D4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4F4E040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25FAA20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A53C3C80 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0866EF0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A502E030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0545D30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2593DC0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2336.
-Total: 5.821700 ms (FindLiveObjects: 0.827800 ms CreateObjectMapping: 0.147700 ms MarkObjects: 4.757800 ms  DeleteObjects: 0.084200 ms)
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01c_PRE.prefab
+  artifactKey: Guid(08441e675aa177c45a27d34fb11c3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01c_PRE.prefab using Guid(08441e675aa177c45a27d34fb11c3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99970e8a05d25854b1e44a7605686110') in 0.014191 seconds
+  Import took 0.016868 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007378 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A27C1060 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A436B510 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2D68040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A436B510 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A41BC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C66EC040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5050030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5610740 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C680E100 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6672020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A38B3020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5610740 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C677A020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5610740 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68B0A20 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A391D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0AAE810 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A40A2030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0545D30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2196750 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A436B510 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C67A7A30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.141 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 6.229600 ms (FindLiveObjects: 0.743000 ms CreateObjectMapping: 0.159400 ms MarkObjects: 5.273900 ms  DeleteObjects: 0.049200 ms)
+Received Import Request.
+  Time since last request: 2.316049 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village
+  artifactKey: Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village using Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0107bca2ae82917f246b13f09f2ea26b') in 0.005332 seconds
+  Import took 0.008105 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008126 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A27C1060 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4FEA030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A21C0040 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4FEA030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A41BC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A47FC030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6C7E2A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C680E100 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68FF010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A41BC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68A6010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3623030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0B8CB00 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2F58480 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A54FEC80 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A54366A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C66F4050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0545D30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4A0C010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A38BD650 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.124 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2342.
-Total: 5.318700 ms (FindLiveObjects: 0.606800 ms CreateObjectMapping: 0.195300 ms MarkObjects: 4.461900 ms  DeleteObjects: 0.050600 ms)
+Received Import Request.
+  Time since last request: 0.043336 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab
+  artifactKey: Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab using Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899fd1182966fe63327626eec1b7ba4b') in 0.012866 seconds
+  Import took 0.015744 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008359 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000176A27C1060 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A34AC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A5618750 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A34AC020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A04B7500 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.InventorySystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Triggers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4C70030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A435D020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C610A010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A33E00D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.Graphs.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C68FF010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6062010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C610A010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C6C46270 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C610A010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C60800B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A2DBA0A0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4AB05F0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A53C3C80 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.ThirdPersonController.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174D801F5D0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A4172030 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A0545D30 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A3FF4010 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.UIWidgets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176C61286B0 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A50C9020 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\DevionGames.StatSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000176A25A5050 doesn't match image C:\Users\racho\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.418 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.7 MB.
-System memory in use after: 169.8 MB.
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_Village_Ladder_02a_PRE.prefab
+  artifactKey: Guid(2593a025ac8429948ab3f352f4c727ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_Village_Ladder_02a_PRE.prefab using Guid(2593a025ac8429948ab3f352f4c727ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea889bcbddba169ca5d62f19943459e') in 0.014015 seconds
+  Import took 0.016851 seconds .
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 4.119100 ms (FindLiveObjects: 0.504300 ms CreateObjectMapping: 0.087600 ms MarkObjects: 3.475200 ms  DeleteObjects: 0.049400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 32.135259 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Town
+  artifactKey: Guid(76c64672997c1d944bf0bbfb2d3e8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Town using Guid(76c64672997c1d944bf0bbfb2d3e8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4ade6051b6599d4500140b4065d1f9') in 0.005326 seconds
+  Import took 0.008220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.239294 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village
+  artifactKey: Guid(2b1752fecb78f454bb7cb51421e896c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village using Guid(2b1752fecb78f454bb7cb51421e896c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8142b409216a9cbfad261674edf90b4') in 0.010169 seconds
+  Import took 0.015400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618335 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements
+  artifactKey: Guid(9027be728d3b3b545a5b46a600a46677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements using Guid(9027be728d3b3b545a5b46a600a46677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7091d284d5b27a1d790c9a38ebdf940d') in 0.005718 seconds
+  Import took 0.008404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051540 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01a_PRE.prefab
+  artifactKey: Guid(174d295663532054f8354894503c8b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01a_PRE.prefab using Guid(174d295663532054f8354894503c8b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7843e982070078ac74a7fafaba8e69') in 0.012125 seconds
+  Import took 0.014927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01d_PRE.prefab
+  artifactKey: Guid(06a8d51f3d3b2824a924b5fd11f46453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01d_PRE.prefab using Guid(06a8d51f3d3b2824a924b5fd11f46453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fe2eaf69d1c05421c787187523263') in 0.012795 seconds
+  Import took 0.015535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01e_PRE.prefab
+  artifactKey: Guid(1476b9a23d1668b4b8a13d9478600734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01e_PRE.prefab using Guid(1476b9a23d1668b4b8a13d9478600734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f079af804a95d786440442596ab04a26') in 0.016890 seconds
+  Import took 0.019966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01c_PRE.prefab
+  artifactKey: Guid(957332e63e4a23d4a87eb37fba342585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01c_PRE.prefab using Guid(957332e63e4a23d4a87eb37fba342585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2023292faaac43468841e36764e3bb8c') in 0.017342 seconds
+  Import took 0.020171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613949 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery
+  artifactKey: Guid(e7b7ba6a35d2f6e488ecdbfab90f31be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery using Guid(e7b7ba6a35d2f6e488ecdbfab90f31be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0685e4a8c9158367541eece2bd7edba6') in 0.005513 seconds
+  Import took 0.008260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091267 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Bottle_01a_PRE.prefab
+  artifactKey: Guid(24a03f4ff6a389c4783be3862c88fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Bottle_01a_PRE.prefab using Guid(24a03f4ff6a389c4783be3862c88fc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231f8ca6f7d90a2fd615cb9738c40be0') in 0.013678 seconds
+  Import took 0.016493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_02a_PRE.prefab
+  artifactKey: Guid(6c46120f03f89d34a9d24ec626e0bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_02a_PRE.prefab using Guid(6c46120f03f89d34a9d24ec626e0bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b893f6bf4063bc38d99a2e9981f4d13') in 0.012450 seconds
+  Import took 0.015133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_02_PRE.prefab
+  artifactKey: Guid(f8868d156d26b1d49b08d99099e76ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_02_PRE.prefab using Guid(f8868d156d26b1d49b08d99099e76ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6e1387945893153bec81290eda061e') in 0.016047 seconds
+  Import took 0.019102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_03_PRE.prefab
+  artifactKey: Guid(399f4a63d0bc1d949aaee33c9bdad9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_03_PRE.prefab using Guid(399f4a63d0bc1d949aaee33c9bdad9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4276209037ca4b1428b112c3771e3a') in 0.048247 seconds
+  Import took 0.051417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_BredBoard_01a_PRE.prefab
+  artifactKey: Guid(dbe9353ac8cafe44c9705937e8c1c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_BredBoard_01a_PRE.prefab using Guid(dbe9353ac8cafe44c9705937e8c1c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcec660ea40b81a4af5e9cc6e1fb570') in 0.011854 seconds
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_01b_PRE.prefab
+  artifactKey: Guid(7eb1907a1a1e7d4468f1cd2f206f8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_01b_PRE.prefab using Guid(7eb1907a1a1e7d4468f1cd2f206f8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214e9b278da28ecb6f5d8beae62f0459') in 0.033464 seconds
+  Import took 0.036823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab
+  artifactKey: Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wooden_powder_02a_PRE.prefab using Guid(3f6657538fc1b5b40a92930900607b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60c47a47f6512364123f68e6c71ca77') in 0.015829 seconds
+  Import took 0.018665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_pan_empty_01a_PRE.prefab
+  artifactKey: Guid(0bf5ee6af77635741b78819524c9ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_pan_empty_01a_PRE.prefab using Guid(0bf5ee6af77635741b78819524c9ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b820267f9b0e367625623d0267c2a') in 0.016684 seconds
+  Import took 0.019439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_01a_PRE.prefab
+  artifactKey: Guid(77dd488734341a34f9117138d26bdc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_01a_PRE.prefab using Guid(77dd488734341a34f9117138d26bdc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa8edf771a1560ed46600e10264c3d6') in 0.016741 seconds
+  Import took 0.020133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_spoon_01a_PRE.prefab
+  artifactKey: Guid(37c5698a453a3b9489d364465122470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_spoon_01a_PRE.prefab using Guid(37c5698a453a3b9489d364465122470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cde35ce74cdaa20ffc68e936c990d5') in 0.017583 seconds
+  Import took 0.020491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_2_PRE.prefab
+  artifactKey: Guid(102fd982bf89df0479b0f7ae49aa713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_2_PRE.prefab using Guid(102fd982bf89df0479b0f7ae49aa713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90ab00f5ef7bb8d197188ef92176f2b') in 0.015738 seconds
+  Import took 0.018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_01d_PRE.prefab
+  artifactKey: Guid(f308fbc121b974b4fb8e1dad68940d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_01d_PRE.prefab using Guid(f308fbc121b974b4fb8e1dad68940d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4364b88943005ba51103cdbcda60083') in 0.017869 seconds
+  Import took 0.020686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_PRE.prefab
+  artifactKey: Guid(5951f971024a62945a70df5f4c2985e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_wod_PRE.prefab using Guid(5951f971024a62945a70df5f4c2985e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dfb5ce1b98da056ab2a882493b0402') in 0.015381 seconds
+  Import took 0.018190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_kettle_01a_PRE.prefab
+  artifactKey: Guid(60c864788d7efa2418bed99bbb835b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_kettle_01a_PRE.prefab using Guid(60c864788d7efa2418bed99bbb835b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d53f314a8e3cff6babbe7fb980f077') in 0.019255 seconds
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_soup_01a_PRE.prefab
+  artifactKey: Guid(f4b937c578a566a438aaa67e42a66e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_soup_01a_PRE.prefab using Guid(f4b937c578a566a438aaa67e42a66e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff94e46d24e6e06fb83a4cf53769a46c') in 0.015653 seconds
+  Import took 0.018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_kettle_empty_01a_PRE.prefab
+  artifactKey: Guid(7548e5eaf1631944f94444c4400f8c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_kettle_empty_01a_PRE.prefab using Guid(7548e5eaf1631944f94444c4400f8c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad39da4c737bdd054e0261390c181724') in 0.019256 seconds
+  Import took 0.022182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_04_PRE.prefab
+  artifactKey: Guid(eb104b5a58abb634f8bf172ea37f91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_04_PRE.prefab using Guid(eb104b5a58abb634f8bf172ea37f91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecad1533e1f5b3fa90a9ca86a107b404') in 0.015326 seconds
+  Import took 0.018108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Cup_01a_PRE.prefab
+  artifactKey: Guid(577f3886dcc589649a230e4523de4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Cup_01a_PRE.prefab using Guid(577f3886dcc589649a230e4523de4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5ffb7d87bf440d19636b9c441abeb9') in 0.019836 seconds
+  Import took 0.022761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab
+  artifactKey: Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab using Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f31431f928e761dd08e2e18069ca5f9') in 0.015646 seconds
+  Import took 0.019081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_PRE.prefab
+  artifactKey: Guid(383acf5e399e1874380ae8eb00a916d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_PRE.prefab using Guid(383acf5e399e1874380ae8eb00a916d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348d11fbf0510e7869cf0ed96a77e05f') in 0.017772 seconds
+  Import took 0.020639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab
+  artifactKey: Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA03_Items_House_Spoon_01a_PRE.prefab using Guid(49cb1db37d2f2bf40947e40e03f795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f31431f928e761dd08e2e18069ca5f9') in 0.010542 seconds
+  Import took 0.013353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_01a_PRE.prefab
+  artifactKey: Guid(e07011373948d8641ab8bbf508857332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_mug_01a_PRE.prefab using Guid(e07011373948d8641ab8bbf508857332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289049b02d6bcddc0db5338693227aab') in 0.027964 seconds
+  Import took 0.030891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_05_PRE.prefab
+  artifactKey: Guid(333fb13d0b193244a96f53a4fcebbb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_05_PRE.prefab using Guid(333fb13d0b193244a96f53a4fcebbb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6d68202d6908c3791e2e9c791e6a33') in 0.011956 seconds
+  Import took 0.017490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_metal_PRE.prefab
+  artifactKey: Guid(9bdc637fb8b469245bf2dcc990b26551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_bowl_metal_PRE.prefab using Guid(9bdc637fb8b469245bf2dcc990b26551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ca59a4c9ce5ab4f39563a7d2d606e') in 0.020673 seconds
+  Import took 0.024004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.687515 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Food
+  artifactKey: Guid(da7d3d261c7709143a751d5943ae670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Food using Guid(da7d3d261c7709143a751d5943ae670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6684bd40e3fa6540ae6bf0cd9933f05') in 0.005555 seconds
+  Import took 0.008658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075460 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab
+  artifactKey: Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab using Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c86089a368e6ae2ffe2658d71d3e5') in 0.137203 seconds
+  Import took 0.187497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.567153 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House
+  artifactKey: Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House using Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ae0bd014e8f8c8ee4a77497e4a99e9') in 0.005425 seconds
+  Import took 0.008096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046676 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab
+  artifactKey: Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab using Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c21c91e6a8e8445ada4285a8fcd83c') in 0.011839 seconds
+  Import took 0.014682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Tool_Basket_01_PRE.prefab
+  artifactKey: Guid(e10fb7bce671a6f4688d4e8966749b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Tool_Basket_01_PRE.prefab using Guid(e10fb7bce671a6f4688d4e8966749b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b49032fbf9d531e6284655590a59a3a') in 0.012271 seconds
+  Import took 0.014901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Shelf_01g_PRE.prefab
+  artifactKey: Guid(c5f50c13bb9173843b834b4ce5b30cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Shelf_01g_PRE.prefab using Guid(c5f50c13bb9173843b834b4ce5b30cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6cb556446aef0cfb66a881d6475756') in 0.015712 seconds
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab
+  artifactKey: Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Firewood_01a_PRE.prefab using Guid(9890d8d383f3c3c46ba75093f437b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99af648031b6d27236b3b5aaf66d69') in 0.012899 seconds
+  Import took 0.015815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Crate_Under_Ceiling_01b_PRE.prefab
+  artifactKey: Guid(14e945a4e854ac0458db514409bac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Crate_Under_Ceiling_01b_PRE.prefab using Guid(14e945a4e854ac0458db514409bac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f72fac6bdb566150cb2e738e2a67791') in 0.013859 seconds
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab
+  artifactKey: Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab using Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506ee07d3f255ee0a30395329a104e9f') in 0.021454 seconds
+  Import took 0.026752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Crate_Under_Ceiling_01b_PRE.prefab
+  artifactKey: Guid(14e945a4e854ac0458db514409bac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_Crate_Under_Ceiling_01b_PRE.prefab using Guid(14e945a4e854ac0458db514409bac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f72fac6bdb566150cb2e738e2a67791') in 0.013454 seconds
+  Import took 0.016682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005476 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab
+  artifactKey: Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab using Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506ee07d3f255ee0a30395329a104e9f') in 0.009911 seconds
+  Import took 0.012818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.412836 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Porch
+  artifactKey: Guid(9f559ea73f5326f4782638e82a31e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Porch using Guid(9f559ea73f5326f4782638e82a31e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1538b8ffb9e5ab3e77c258fdbb90759') in 0.005865 seconds
+  Import took 0.009118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.230558 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Porch/EA03_Village_HouseModule_Porch_R_03b_PRE.prefab
+  artifactKey: Guid(c2b9a4f9fc4f69f45b0f32b0a6615c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Porch/EA03_Village_HouseModule_Porch_R_03b_PRE.prefab using Guid(c2b9a4f9fc4f69f45b0f32b0a6615c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13418ac44599894d756fbd4326c3bbcd') in 0.018667 seconds
+  Import took 0.027046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350533 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Foundation
+  artifactKey: Guid(7943bbcd8ec5c194080de0f094962ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Foundation using Guid(7943bbcd8ec5c194080de0f094962ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266e6a954302833f7af609dc45ed7cff') in 0.005062 seconds
+  Import took 0.007734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054642 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Foundation/EA03_Town_Hut_Foundation_02b_PRE.prefab
+  artifactKey: Guid(e6ae1b2523142a94797ab44e46647cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Foundation/EA03_Town_Hut_Foundation_02b_PRE.prefab using Guid(e6ae1b2523142a94797ab44e46647cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f884c57c6c89cfd0f5702d45f4ee8') in 0.012663 seconds
+  Import took 0.015518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.443471 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Balcony
+  artifactKey: Guid(79e63ac07d1e05e44a926f23e00765c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Balcony using Guid(79e63ac07d1e05e44a926f23e00765c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce33ab99fde5080f90a86c3885c9c48') in 0.005320 seconds
+  Import took 0.008132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054976 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Balcony/EA03_Village_Balcony_R_01a_PRE.prefab
+  artifactKey: Guid(eb66b999a5299a9428c113820b096dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Compound/Balcony/EA03_Village_Balcony_R_01a_PRE.prefab using Guid(eb66b999a5299a9428c113820b096dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d783ff943e2e8b3c43950db910b6053') in 0.012497 seconds
+  Import took 0.015357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 428.084934 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees
+  artifactKey: Guid(4e76dcc3a830acc4797d7d7b17ab17e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees using Guid(4e76dcc3a830acc4797d7d7b17ab17e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e705bf1625a98383fa9cea7220dc7f6') in 0.006244 seconds
+  Import took 0.009560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.948522 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs
+  artifactKey: Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs using Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfcdb98e5aa4e6509e01906eb9d2c2d') in 0.004375 seconds
+  Import took 0.007109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003813 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs
+  artifactKey: Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs using Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfcdb98e5aa4e6509e01906eb9d2c2d') in 0.004046 seconds
+  Import took 0.006752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074982 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
+  artifactKey: Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab using Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dffe7589ae8974bb20a2ccf90cf489d') in 0.005129 seconds
+  Import took 0.007831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab
+  artifactKey: Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab using Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b0658033d542046ab9070b30bbf5fd') in 0.004998 seconds
+  Import took 0.007517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab
+  artifactKey: Guid(783807170dc366141aaaeb44eec96c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab using Guid(783807170dc366141aaaeb44eec96c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a711f9cecebee1e7e5129f29ef9bf6') in 0.004795 seconds
+  Import took 0.007288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab
+  artifactKey: Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab using Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23cc64a290b6eae207d6ccad7de4d46') in 0.005081 seconds
+  Import took 0.010348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.992617 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures
+  artifactKey: Guid(92bdf72aca8982345bca35908ec88847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Textures using Guid(92bdf72aca8982345bca35908ec88847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b62c9ac08db1fe5f26021b8aaed63e') in 0.004348 seconds
+  Import took 0.007086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239398 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga
+  artifactKey: Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga using Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb0ad7a6cf91d53cb26dfb222db5371') in 0.030164 seconds
+  Import took 0.033450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/ground_road.tga
+  artifactKey: Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Textures/ground_road.tga using Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6709f19de236254ba9d9f18dc23d60f0') in 0.004777 seconds
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/Plant.tga
+  artifactKey: Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Textures/Plant.tga using Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7180a4315f19fa2c495320452f7f5ecd') in 0.004914 seconds
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.471610 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(3a599af9811eba04691ed1653dfa1c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(3a599af9811eba04691ed1653dfa1c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb183a502ce21396fbf1db44f8b2887') in 0.005744 seconds
+  Import took 0.008483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237143 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(0863f3c2bd742ea40b04b888ab96943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_3d1cca0d6d0e9938.terrainlayer using Guid(0863f3c2bd742ea40b04b888ab96943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2965a1213e698c34bf4494f03b47b8') in 0.019724 seconds
+  Import took 0.023017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassUV01GrassUV01_Nd668f1e20ece139b.terrainlayer
+  artifactKey: Guid(de2682e2d8a67c9409400cef10872bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassUV01GrassUV01_Nd668f1e20ece139b.terrainlayer using Guid(de2682e2d8a67c9409400cef10872bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc012d08366c0cad0e04acf16585a5e') in 0.006660 seconds
+  Import took 0.009360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_d668f1e20ece139b.terrainlayer
+  artifactKey: Guid(d250214f95062de44afa4d193ecbf466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_d668f1e20ece139b.terrainlayer using Guid(d250214f95062de44afa4d193ecbf466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f7c1e748709f3ae6e71ef03278cb53') in 0.005863 seconds
+  Import took 0.008478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundStones01GroundStones01_N2023054508611406.terrainlayer
+  artifactKey: Guid(688de5135e7490c479b254c846200076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundStones01GroundStones01_N2023054508611406.terrainlayer using Guid(688de5135e7490c479b254c846200076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da0057116f0431e93128cc53c9a3f1e') in 0.044880 seconds
+  Import took 0.050178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(f9bb0a9176e3f8c4891e8e3b60ea4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer using Guid(f9bb0a9176e3f8c4891e8e3b60ea4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddea0e9d7e4672afc9b0d08150fbfc6') in 0.015048 seconds
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundCracked01GroundCracked01_N793646612c42751.terrainlayer
+  artifactKey: Guid(585f67d786a781d4db2be0730da84805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundCracked01GroundCracked01_N793646612c42751.terrainlayer using Guid(585f67d786a781d4db2be0730da84805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b61bc58ba807d1b2ed62dda0b54c64') in 0.020268 seconds
+  Import took 0.022917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer
+  artifactKey: Guid(02f4cbc3f17bcf04f9591da2c9118d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer using Guid(02f4cbc3f17bcf04f9591da2c9118d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0472abc33e6c024b0e727620659402c5') in 0.046571 seconds
+  Import took 0.051513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.513861 seconds.
+  path: Assets/Models/Textures/Copper Vein MAT.tif
+  artifactKey: Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/Copper Vein MAT.tif using Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5426f8f603b0eee9cef0f01715fea3c1') in 0.022553 seconds
+  Import took 0.025406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004447 seconds.
+  path: Assets/Models/Textures/Copper Vein MAT.tif
+  artifactKey: Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Textures/Copper Vein MAT.tif using Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5426f8f603b0eee9cef0f01715fea3c1') in 0.010786 seconds
+  Import took 0.013698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.674542 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Rock
+  artifactKey: Guid(975f4a13291a8ee408d113c3f6807f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Rock using Guid(975f4a13291a8ee408d113c3f6807f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1702bde99d5212f9672986aef857bcfd') in 0.005353 seconds
+  Import took 0.008668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237567 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Rock/EA03_Environment_Rock_Mini_Head_01a_PRE.prefab
+  artifactKey: Guid(feae48108558fbc49aa10a5c915abd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Rock/EA03_Environment_Rock_Mini_Head_01a_PRE.prefab using Guid(feae48108558fbc49aa10a5c915abd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf0f2f5e6d9cb1c62497b79d30fc822') in 0.020776 seconds
+  Import took 0.025435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.975101 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Stairs
+  artifactKey: Guid(857b2029f9fc3fd409b758318e9c8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Stairs using Guid(857b2029f9fc3fd409b758318e9c8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9564555ad2ba859bab6ffd18e25506') in 0.005976 seconds
+  Import took 0.008692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212341 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Stairs/EA03_Village_step_platform_Stair_R_03a_PRE.prefab
+  artifactKey: Guid(6846503cbdf6f2047bb7008195882b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Environment/Stairs/EA03_Village_step_platform_Stair_R_03a_PRE.prefab using Guid(6846503cbdf6f2047bb7008195882b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0234d2cb189e8276cf37ce10d8de93') in 0.037120 seconds
+  Import took 0.046666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074238 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence
+  artifactKey: Guid(eef0cab9244232e40a543436867279f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence using Guid(eef0cab9244232e40a543436867279f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ceb42f67c38e2434117f9f0e47dab6') in 0.005498 seconds
+  Import took 0.008230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940244 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2
+  artifactKey: Guid(08c82880b521f8f418d63fa5e5da0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2 using Guid(08c82880b521f8f418d63fa5e5da0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4602e726830bd6351c72d2efd5247734') in 0.011111 seconds
+  Import took 0.014814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046968 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02a_PRE.prefab
+  artifactKey: Guid(eb736a11e2ad7564eb316234731e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02a_PRE.prefab using Guid(eb736a11e2ad7564eb316234731e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03093c223ac01cfc9a9cd3acc3bab0d9') in 0.012309 seconds
+  Import took 0.015195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02b_PRE.prefab
+  artifactKey: Guid(020362122a092254db5d9023f1df2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02b_PRE.prefab using Guid(020362122a092254db5d9023f1df2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef82076b3d029fd736c222d8bc8feaa9') in 0.013310 seconds
+  Import took 0.016090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02c_PRE.prefab
+  artifactKey: Guid(5c1dd27df63891340b3e474164c30120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02c_PRE.prefab using Guid(5c1dd27df63891340b3e474164c30120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bb30d50408d5dc1fe803dfe06b6775') in 0.015068 seconds
+  Import took 0.018549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02d_PRE.prefab
+  artifactKey: Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/House Asset Pack/Slavic World Free/Prefabs/Fence/Plank2/EA03_Fence_Plank_02d_PRE.prefab using Guid(9a34b8623fe7e914c806ae497124e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d1e9a2d13262ae3e47537ecf722905') in 0.014548 seconds
+  Import took 0.017593 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

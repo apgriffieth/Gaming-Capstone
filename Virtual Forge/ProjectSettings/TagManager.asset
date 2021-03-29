@@ -11,6 +11,7 @@ TagManager:
   - SmithingHammer
   - Melee
   - UI Label
+  - Copper
   layers:
   - Default
   - TransparentFX

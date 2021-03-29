@@ -27,16 +27,18 @@ public class Mining : MonoBehaviour
         }
 
         collidingObject = other.gameObject;
-        if (collidingObject.tag == "Pickaxe")
+        if (collidingObject.tag == "Copper")
         {
             numHits++;
+            
+            if (numHits == 2)
+            {
+                numHits = 0;
+                //GetCopper();
+            }
         }
 
-        if (numHits == 2)
-        {
-            numHits = 0;
-            //GetCopper();
-        }
+        
     }
 
     /*private void GetCopper();
