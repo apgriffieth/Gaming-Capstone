@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Forging : MonoBehaviour
 {
-    private float xScaler = 0.05f;
-    private float zScaler = 0.005f;
+    private float xScaler = 0f;
+    private float zScaler = 0.05f;
     public AudioSource audioSource;
     private GameObject hammer;
     private Transform itemContainer;
@@ -31,13 +31,13 @@ public class Forging : MonoBehaviour
             {
                 if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable")
                 {
-                    DescaleObject(raycastHit.transform.gameObject);
+                    ScaleObject(raycastHit.transform.gameObject);
                 }
             }
         }
     }
 
-    private void DescaleObject(GameObject clickedObject)
+    private void ScaleObject(GameObject clickedObject)
     {
         float volume = clickedObject.transform.localScale.x * clickedObject.transform.localScale.y *
             clickedObject.transform.localScale.z;

@@ -49,9 +49,7 @@ public class GrabWithTongs : MonoBehaviour
         objectInTongs.transform.SetParent(tongs.transform);
         objectInTongs.GetComponent<Rigidbody>().useGravity = false;
         Vector3 curpos = objectInTongs.transform.localPosition;
-        objectInTongs.transform.localPosition = new Vector3(curpos.x, 0f, curpos.z);
-        //objectInTongs.transform.position = tongs.transform.position;
-        //objectInTongs.transform.localRotation = Quaternion.Euler(Vector3.zero);
+        objectInTongs.transform.localPosition = new Vector3(curpos.x, .1f, curpos.z);
     }
 
     private void DropObject()
