@@ -93,8 +93,8 @@ GameObject:
   - component: {fileID: 7038132726652238616}
   - component: {fileID: 7038132726652238617}
   m_Layer: 0
-  m_Name: UI Label Player 2
-  m_TagString: Untagged
+  m_Name: P2 UI Label
+  m_TagString: UI Label 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -13,11 +13,9 @@ public class CraftingManager : MonoBehaviour
     public Order order;
 
     public int craftTime;
-    private float seconds;
     private float value;
 
     public Text timer;
-    public GameObject button;
     private Sprite ticket;
     public Image ticketDisplay;
     public GameObject orderCanvas;
@@ -27,49 +25,52 @@ public class CraftingManager : MonoBehaviour
     private float bounce = 0.001f;
     private float bounceOffset = 0;
 
-    public int uiState;
-
     public Transform player;
-    private List<GameObject> labels;
+    public GameObject playerManager1;
+    public GameObject playerManager2;
 
     //grading specs
     private float thickness;
+    private float width;
+    public GameObject testItem;
 
     void Start()
     {
         isCrafting = false;
         inShop = false;
-        
 
-        labels = new List<GameObject>(FindObjectsOfType<GameObject>(true));
 
-        foreach (GameObject gameObject in labels)
-        { 
-            if (!gameObject.CompareTag("UI Label"))
-            {
-                labels.Remove(gameObject);
-            }
-        }
 
-        
+
+
     }
 
-    
+
     void Update()
     {
 
         Bounce();
-        
+
+        //FOR TESTING
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            NewOrder();
+        }
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            float grade = GradeItem(testItem, 0);
+            print("Grade: " + grade.ToString());
+        }
 
         if (inShop)
         {
-            orderCanvas.transform.rotation = player.rotation;
+            //orderCanvas.transform.rotation = player.rotation;
 
             if (noOrder)
             {
-                button.SetActive(true);
-                ticketDisplay.gameObject.SetActive(false);
                 
+                ticketDisplay.gameObject.SetActive(false);
+
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     NewOrder();
@@ -86,50 +87,12 @@ public class CraftingManager : MonoBehaviour
 
         if (!inShop && noOrder)
         {
-            orderCanvas.transform.rotation = player.rotation;
+            //orderCanvas.transform.rotation = player.rotation;
 
 
         }
-        
 
 
-        if (isCrafting)
-        {
-            Timer();
-            
-        }
-        else
-        {
-            timer.text = "";
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.RightShift))
-        {
-            //0 = none
-            //1 = timer and ticket
-            //2 = full (timer and ticket, labels on interactables, dimensions of model)
-
-            uiState++;
-            if (uiState == 3)
-                uiState = 0;
-
-            if (uiState == 0)
-            {
-                playerCanvas.SetActive(false);
-                foreach(GameObject canvas in labels)
-                    canvas.SetActive(false);
-            }
-            else
-                playerCanvas.SetActive(true);
-
-            
-            if (uiState == 2)
-            {
-                foreach (GameObject canvas in labels)
-                    canvas.SetActive(true);
-            }
-        }
     }
 
 
@@ -140,7 +103,7 @@ public class CraftingManager : MonoBehaviour
             inShop = true;
             //print("In Shop");
         }
-        
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -162,17 +125,9 @@ public class CraftingManager : MonoBehaviour
         }
         //print(bounceOffset);
 
-        orderCanvas.transform.position += new Vector3(0, bounce, 0);
+        //orderCanvas.transform.position += new Vector3(0, bounce, 0);
     }
 
-    private void Timer()
-    {
-        seconds += Time.deltaTime;
-
-        int sec = craftTime - (int)seconds;
-        timer.text = "Time Remaining: " + sec.ToString();
-        
-    }
     public enum Order
     {
         c_sword,
@@ -180,7 +135,7 @@ public class CraftingManager : MonoBehaviour
         s_sword,
         t_sword,
     }
-    
+
     public void NewOrder()
     {
         int material = Random.Range(0, unlockIndex);
@@ -188,44 +143,56 @@ public class CraftingManager : MonoBehaviour
         //int type = Random.Range(0, 0);
         //0 = sword, 1 = dagger, 2 = axe?
 
-        order = (Order) material;
+        order = (Order)material;
         print(order.ToString());
 
+        string name = "";
 
         switch (order)
         {
             case Order.c_sword:
-                ticket = sprites[material];
+                //ticket = sprites[material];
                 craftTime = 80;
-                thickness = 0.1f;
+                thickness = Random.Range(0.2f, 0.25f);
+                thickness = Mathf.Round(thickness * 100f) / 100f;
+                width = Random.Range(0.8f, 1.2f);
+                width = Mathf.Round(width * 100f) / 100f;
                 value = 10;
+                name = "Copper Sword";
                 break;
             case Order.i_sword:
-                ticket = sprites[material];
+                //ticket = sprites[material];
                 craftTime = 100;
                 thickness = 0.15f;
+                width = Random.Range(0.5f, 1);
                 value = 30;
+                name = "Iron Sword";
                 break;
             case Order.s_sword:
-                ticket = sprites[material];
+                //ticket = sprites[material];
                 craftTime = 120;
                 thickness = 0.15f;
+                width = Random.Range(0.5f, 1);
                 value = 60;
+                name = "Steel Sword";
                 break;
             case Order.t_sword:
-                ticket = sprites[material];
+                //ticket = sprites[material];
                 craftTime = 150;
                 thickness = 0.175f;
+                width = Random.Range(0.5f, 1);
                 value = 100;
+                name = "Titanium Sword";
                 break;
             default:
-                ticket = null;
+                //ticket = null;
                 break;
         }
 
-        ticketDisplay.sprite = ticket;
-        ticketDisplay.gameObject.SetActive(true);
-        button.SetActive(false);
+        GetComponentInChildren<PlayerUIManager>().UpdateOrder(name, thickness, width, value, craftTime);
+
+
+        //button.SetActive(false);
         noOrder = false;
     }
 
@@ -233,16 +200,25 @@ public class CraftingManager : MonoBehaviour
     {
         isCrafting = false;
 
+        float seconds = GetComponentInChildren<PlayerUIManager>().secondsLeft;
+        GetComponentInChildren<PlayerUIManager>().isCrafting = false;
+
         if (matID != (int)order)
         {
             return 0;
         }
 
-        float margin = item.transform.localScale.y - thickness;
-        margin = 1 / Mathf.Abs(margin);
-        print(margin);
+        float yMargin = item.transform.localScale.y - thickness;
+        yMargin = 1 / Mathf.Abs(yMargin);
+        print(yMargin);
 
-        float grade = value * margin + seconds;
+        float xMargin = item.transform.localScale.x - width;
+        xMargin = 1 / Mathf.Abs(xMargin);
+        print(xMargin);
+
+        float grade = 100 - (yMargin * xMargin);
+
+        timer.text = "Grade: " + grade;
 
         return grade;
     }

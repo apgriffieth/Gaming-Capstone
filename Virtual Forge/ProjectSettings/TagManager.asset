@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UI Label 1
+  - UI Label 2
   layers:
   - Default
   - TransparentFX
