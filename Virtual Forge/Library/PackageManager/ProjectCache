@@ -1,22 +1,22 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual
+    m_FilePath: C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual
       Forge/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637522576217760940
-    m_Hash: 4070978512
+      ticks: 637526626589444158
+    m_Hash: 266791268
   m_LockFileStatus:
-    m_FilePath: C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual
+    m_FilePath: C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual
       Forge/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637526019511024551
-    m_Hash: 1049041275
+      ticks: 637526626594495393
+    m_Hash: 1235488316
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -27,7 +27,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
@@ -123,7 +123,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
@@ -227,7 +227,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
@@ -309,7 +309,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
@@ -374,12 +374,143 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+    - packageId: com.unity.multiplayer-hlapi@1.0.8
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.8
+      source: 1
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
+        Forge\Library\PackageCache\com.unity.multiplayer-hlapi@1.0.8
+      assetPath: Packages/com.unity.multiplayer-hlapi
+      name: com.unity.multiplayer-hlapi
+      displayName: Multiplayer HLAPI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The high level API component of the Unity Multiplayer system.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.4-preview
+        - 0.2.5-preview
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.4
+        - 1.0.6
+        - 1.0.8
+        compatible:
+        - 0.2.4-preview
+        - 0.2.5-preview
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.4
+        - 1.0.6
+        - 1.0.8
+        verified: 
+      dependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      resolvedDependencies:
+      - name: nuget.mono-cecil
+        version: 0.1.6-preview
+      keywords:
+      - multiplayer
+      - networking
+      - hlapi
+      - high-level
+      - api
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637436636210000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.multiplayer-hlapi.git
+        revision: 0358096b3626d60d1345cfa6df97fcb2dc89152e
+        path: 
+    - packageId: com.unity.multiplayer.mlapi@https://github.com/Unity-Technologies/com.unity.multiplayer.mlapi.git?path=/com.unity.multiplayer.mlapi#0.1.0
+      testable: 0
+      isDirectDependency: 1
+      version: 0.1.0
+      source: 5
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
+        Forge\Library\PackageCache\com.unity.multiplayer.mlapi@17bd894dff
+      assetPath: Packages/com.unity.multiplayer.mlapi
+      name: com.unity.multiplayer.mlapi
+      displayName: MLAPI Networking Library
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: library
+      description: This the Core Unity Mid-level API that provides core SDK for multiplayer
+        games within unity
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.nuget.mono-cecil
+        version: 1.10.1-preview.1
+      resolvedDependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.nuget.mono-cecil
+        version: 1.10.1-preview.1
+      keywords:
+      - unity
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -471,7 +602,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
@@ -623,7 +754,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.7
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
@@ -2606,7 +2737,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
         Forge\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
@@ -2663,8 +2794,122 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.mono-cecil@1.10.1-preview.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.10.1-preview.1
+      source: 1
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
+        Forge\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1-preview.1
+      assetPath: Packages/com.unity.nuget.mono-cecil
+      name: com.unity.nuget.mono-cecil
+      displayName: Mono Cecil
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+        This
+        package is intended for internal Unity use only. Most Unity users will be
+        better suite using the existing community tooling.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Mono.Cecil.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.6-preview.2
+        - 1.0.0-preview.1
+        - 1.10.0-preview.1
+        - 1.10.1-preview.1
+        - 1.10.1
+        compatible:
+        - 0.1.6-preview.2
+        - 1.0.0-preview.1
+        - 1.10.0-preview.1
+        - 1.10.1-preview.1
+        - 1.10.1
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637414275090000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+        revision: a3a6bd3697f92f6872f64c08a98ef2331394cd16
+        path: 
+    - packageId: nuget.mono-cecil@0.1.6-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 0.1.6-preview
+      source: 1
+      resolvedPath: C:\Users\saipr\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
+        Forge\Library\PackageCache\nuget.mono-cecil@0.1.6-preview
+      assetPath: Packages/nuget.mono-cecil
+      name: nuget.mono-cecil
+      displayName: Mono Cecil
+      author:
+        name: 
+        email: 
+        url: 
+      category: Libraries
+      type: 
+      description: The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - mono cecil
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636898921610000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/nuget.mono-cecil.git
+        revision: d9e57e10c26ba36a62a828729ad08eb73d0386b6
+        path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual
-  Forge/Packages
+m_ProjectPath: C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
