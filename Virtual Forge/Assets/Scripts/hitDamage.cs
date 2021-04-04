@@ -4,21 +4,32 @@ using UnityEngine;
 
 public class hitDamage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform Spawnpoint;
+    public Rigidbody Ore;
+    public Rigidbody Sword;
+    private float currentTime = 0f;
+    public float startingTime = 10f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        currentTime -= 1 * Time.deltaTime;
     }
-
     private void OnTriggerEnter(Collider other)
     {
+        Rigidbody RigidPrefab;
         if (other.tag == "Melee")
-            Destroy(gameObject);
+            RigidPrefab = Instantiate(Ore, Spawnpoint.position, Spawnpoint.rotation)as Rigidbody;
+
+        if (other.tag == "Forgable")
+        {
+            RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
+            currentTime = startingTime;
+        }
+
+        //if (other.tag == "Forgable" && currentTime <= 0)
+        //{
+        //    RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
+        //}
     }
+    
 }
