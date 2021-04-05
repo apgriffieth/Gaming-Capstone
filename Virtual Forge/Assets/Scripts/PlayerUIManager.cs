@@ -18,6 +18,7 @@ public class PlayerUIManager : MonoBehaviour
     public Text orderName, orderThickness, orderWidth, orderValue;
 
     public GameObject playerCanvas;
+    public GameObject detailCanvas;
     private enum UIState { none, overlay, all, reset };
     private UIState uiState;
 
@@ -54,16 +55,19 @@ public class PlayerUIManager : MonoBehaviour
             {
                 case UIState.none:
                     playerCanvas.SetActive(false);
+                    detailCanvas.SetActive(false);
                     foreach (GameObject canvas in labels)
                         canvas.SetActive(false);
                     break;
                 case UIState.overlay:
                     playerCanvas.SetActive(true);
+                    detailCanvas.SetActive(false);
                     foreach (GameObject canvas in labels)
                         canvas.SetActive(false);
                     break;
                 case UIState.all:
                     playerCanvas.SetActive(true);
+                    detailCanvas.SetActive(true);
                     foreach (GameObject canvas in labels)
                         canvas.SetActive(true);
                     break;
@@ -101,6 +105,7 @@ public class PlayerUIManager : MonoBehaviour
         orderValue.text = "Value: " + value.ToString();
 
         craftTime = craftingTime;
+        seconds = 0;
 
         if (uiState == UIState.none)
         {

@@ -42,7 +42,7 @@ public class PickupController : MonoBehaviour
         equipped = true;
         slotFull = true;
 
-        transform.SetParent(itemContainer);
+        transform.SetParent(itemContainer, true);
         transform.localPosition = Vector3.zero;
         transform.localRotation = Quaternion.Euler(Vector3.zero);
         //transform.localScale = Vector3.one;
@@ -56,7 +56,7 @@ public class PickupController : MonoBehaviour
         equipped = false;
         slotFull = false;
 
-        transform.SetParent(null);
+        transform.SetParent(null, true);
 
         rb.isKinematic = false;
         coll.isTrigger = false;

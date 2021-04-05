@@ -87,7 +87,7 @@ public class CraftingManager : MonoBehaviour
 
         if (!inShop && noOrder)
         {
-            //orderCanvas.transform.rotation = player.rotation;
+            
 
 
         }
@@ -125,7 +125,7 @@ public class CraftingManager : MonoBehaviour
         }
         //print(bounceOffset);
 
-        //orderCanvas.transform.position += new Vector3(0, bounce, 0);
+        
     }
 
     public enum Order
@@ -220,6 +220,7 @@ public class CraftingManager : MonoBehaviour
 
         timer.text = "Grade: " + grade;
 
+        print("Grade: " + grade.ToString());
         return grade;
     }
 }
