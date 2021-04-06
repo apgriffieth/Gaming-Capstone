@@ -29,7 +29,7 @@ public class GrabWithTongs : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out raycastHit, 3f))
             {
-                if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable")
+                if (raycastHit.transform != null && (raycastHit.transform.gameObject.tag == "Forgable" || raycastHit.transform.gameObject.tag == "Melt" || raycastHit.transform.gameObject.tag == "Finished"))
                 {
                     PickupObject(raycastHit.transform.gameObject);
                 }
@@ -49,7 +49,9 @@ public class GrabWithTongs : MonoBehaviour
         objectInTongs.transform.SetParent(tongs.transform);
         objectInTongs.GetComponent<Rigidbody>().useGravity = false;
         Vector3 curpos = objectInTongs.transform.localPosition;
-        objectInTongs.transform.localPosition = new Vector3(curpos.x, .1f, curpos.z);
+        objectInTongs.transform.localPosition = tongs.transform.GetChild(0).transform.localPosition + new Vector3(0, 0, .1f);
+
+        objectInTongs.GetComponent<Rigidbody>().isKinematic = true;
     }
 
     private void DropObject()
@@ -59,6 +61,7 @@ public class GrabWithTongs : MonoBehaviour
             return;
         }
 
+        objectInTongs.GetComponent<Rigidbody>().isKinematic = false;
         objectInTongs.transform.SetParent(null);
         objectInTongs.GetComponent<Rigidbody>().useGravity = true;
         objectInTongs = null;
