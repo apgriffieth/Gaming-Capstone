@@ -45,6 +45,10 @@ public class GrabWithTongs : MonoBehaviour
 
     private void PickupObject(GameObject clickedObject)
     {
+	if (objectInTongs != null)
+	{
+	    return;
+	}
         objectInTongs = clickedObject;
         objectInTongs.transform.SetParent(tongs.transform);
         objectInTongs.GetComponent<Rigidbody>().useGravity = false;

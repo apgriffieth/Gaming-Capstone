@@ -7,6 +7,7 @@ public class Forging : MonoBehaviour
     public AudioSource audioSource;
     private GameObject hammer;
     private Transform itemContainer;
+    private float timer = 0f;
 
     void Start()
     {
@@ -23,13 +24,16 @@ public class Forging : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && hammer.activeSelf)
+	//timer += Time.deltaTime;
+
+        if (Input.GetMouseButton(0) && hammer.activeSelf)
         {
+	    timer += Time.deltaTime;
             RaycastHit raycastHit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out raycastHit, 3f))
             {
-                if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable")
+                if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable" && timer > 2f)
                 {
                     ScaleObject(raycastHit.transform.gameObject);
                 }
@@ -39,6 +43,7 @@ public class Forging : MonoBehaviour
 
     private void ScaleObject(GameObject clickedObject)
     {
+	timer = 0f;
         float volume = clickedObject.transform.localScale.x * clickedObject.transform.localScale.y *
             clickedObject.transform.localScale.z;
         float yScaler = volume / ((clickedObject.transform.localScale.x + xScaler) *

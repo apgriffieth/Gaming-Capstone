@@ -6,8 +6,8 @@ using System.Threading;
 public class Grinding : MonoBehaviour
 {
     private GameObject collidingObject;
-    private float zScaler = -0.0125f;
-    private float timer = 2f;
+    private float xScaler = -0.000656197f;
+    private float timer = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +17,16 @@ public class Grinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
+        //timer += Time.deltaTime;
 
-        if (collidingObject != null && collidingObject.tag == "Forgable" && timer > 2f)
+        if (collidingObject != null && collidingObject.tag == "Forgable")
         {
-            timer = 0f;
-            DescaleObject(collidingObject);
+	    timer += Time.deltaTime;
+	    if (timer > 2f)
+	    {
+		timer = 0f;
+		DescaleObject(collidingObject);
+	    }
         }
     }
 
@@ -58,9 +62,9 @@ public class Grinding : MonoBehaviour
 
     private void DescaleObject(GameObject other)
     {
-        if (other.transform.localScale.z > 0.0625f)
+        if (other.transform.localScale.x > 0.0625f)
         {
-            other.transform.localScale += new Vector3(0f, 0f, zScaler);
+            other.transform.localScale += new Vector3(xScaler, 0f, 0f);
         }
     }
 }

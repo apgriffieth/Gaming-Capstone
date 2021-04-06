@@ -6,25 +6,30 @@ public class Melting : MonoBehaviour
 {
     public Transform Spawnpoint;
     public Rigidbody Sword;
-    private float currentTime = 0f;
-    public float startingTime = 10f;
+    private float timer = 0f;
+    private GameObject collidingObject;
 
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
+	if (collidingObject != null && collidingObject.tag == "Melt") 
+	{
+	    timer += Time.deltaTime;
+	    if (timer > 5f)
+	    {
+		SpawnSword(collidingObject);
+	    }
+	}
     }
     private void OnTriggerEnter(Collider other)
     {
-        Rigidbody RigidPrefab;
+	collidingObject = other.gameObject;
+    }
 
-        if (other.tag == "Melt")
-        {
-            currentTime = startingTime;
-            RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
-
-
-            other.gameObject.SetActive(false);
-        }
-
+    private void SpawnSword(GameObject other)
+    {
+	Rigidbody RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
+	collidingObject = null;
+	other.SetActive(false);
+	timer = 0f;
     }
 }

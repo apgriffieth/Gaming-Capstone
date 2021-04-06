@@ -230,7 +230,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.32257557, y: 0.36955407, z: 0.31201363}
+  m_Size: {x: 0.32257557, y: 0.5, z: 0.31201363}
   m_Center: {x: 0.015141249, y: 0.17609979, z: 0.015284538}
 --- !u!114 &13232399
 MonoBehaviour:
@@ -247,6 +247,7 @@ MonoBehaviour:
   Spawnpoint: {fileID: 100292732}
   Sword: {fileID: 5646723400514971249, guid: 2689a93afe602f04d9296f089c388a85, type: 3}
   smoke: {fileID: 847836046}
+  smokeEmitter: {fileID: 490453511}
 --- !u!1001 &20315797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4346,6 +4347,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3822df6d434f941eeb4c22d3889ee1c7, type: 3}
+--- !u!198 &490453511 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198705542068714482, guid: b07739ad126c6ff46875821c2a3cd124,
+    type: 3}
+  m_PrefabInstance: {fileID: 1794401268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &499693135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8741,7 +8748,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spawnpoint: {fileID: 1077064121}
   Sword: {fileID: 5585117153903151699, guid: 3816f2e660ecb1141a64a9fec2b47c84, type: 3}
-  startingTime: 10
 --- !u!4 &1274256269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4368759963323274, guid: 98fab9660836e4763ae7ed8bf6765b90,
@@ -11983,6 +11989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: lengthInSec
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198705542068714482, guid: b07739ad126c6ff46875821c2a3cd124,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 199222212710944404, guid: b07739ad126c6ff46875821c2a3cd124,
         type: 3}
