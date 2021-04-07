@@ -16,7 +16,7 @@ public class GradingArea : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,13 +28,21 @@ public class GradingArea : MonoBehaviour
         if (itemIn && Input.GetKeyDown(KeyCode.Space))
         {
             manager.GetComponent<CraftingManager>().GradeItem(item, matID);
-            
+            item.SetActive(false);
+
+            item = null;
+            matID = 0;
+
+            prompt.text = gameObject.name;
+
+            itemIn = false;
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Forgable")) 
+
+        if (other.CompareTag("Finished") && manager.GetComponent<CraftingManager>().isCrafting) 
         {
             item = other.gameObject;
             prompt.text = "Grade " + item.name + "?\nPress Space to confirm" ;
@@ -49,7 +57,7 @@ public class GradingArea : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Forgable"))
+        if (other.CompareTag("Finished") && manager.GetComponent<CraftingManager>().isCrafting)
         {
             item = null;
             matID = 0;

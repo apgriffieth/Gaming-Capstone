@@ -8,15 +8,13 @@ public class CraftingManager : MonoBehaviour
     public static int unlockIndex = 0;
 
     public bool isCrafting;
-    private bool noOrder = true;
-    private bool inShop;
     public Order order;
 
     public int craftTime;
     private float value;
 
     public Text timer;
-    private Sprite ticket;
+    private Sprite itemSprite;
     public Image ticketDisplay;
     public GameObject orderCanvas;
     public GameObject playerCanvas;
@@ -37,10 +35,6 @@ public class CraftingManager : MonoBehaviour
     void Start()
     {
         isCrafting = false;
-        inShop = false;
-
-
-
 
 
     }
@@ -52,6 +46,7 @@ public class CraftingManager : MonoBehaviour
         Bounce();
 
         //FOR TESTING
+        /*
         if (Input.GetKeyDown(KeyCode.N))
         {
             NewOrder();
@@ -61,59 +56,12 @@ public class CraftingManager : MonoBehaviour
             float grade = GradeItem(testItem, 0);
             print("Grade: " + grade.ToString());
         }
+        */
 
-        if (inShop)
-        {
-            //orderCanvas.transform.rotation = player.rotation;
-
-            if (noOrder)
-            {
-                
-                ticketDisplay.gameObject.SetActive(false);
-
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    NewOrder();
-                }
-            }
-            else
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    isCrafting = true;
-                }
-            }
-        }
-
-        if (!inShop && noOrder)
-        {
-            
-
-
-        }
 
 
     }
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            inShop = true;
-            //print("In Shop");
-        }
-
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            inShop = false;
-            //print("Out of shop");
-        }
-    }
 
     private void Bounce()
     {
@@ -151,7 +99,7 @@ public class CraftingManager : MonoBehaviour
         switch (order)
         {
             case Order.c_sword:
-                //ticket = sprites[material];
+                itemSprite = sprites[material];
                 craftTime = 80;
                 thickness = Random.Range(0.2f, 0.25f);
                 thickness = Mathf.Round(thickness * 100f) / 100f;
@@ -161,7 +109,7 @@ public class CraftingManager : MonoBehaviour
                 name = "Copper Sword";
                 break;
             case Order.i_sword:
-                //ticket = sprites[material];
+                //itemSprite = sprites[material];
                 craftTime = 100;
                 thickness = 0.15f;
                 width = Random.Range(0.5f, 1);
@@ -169,7 +117,7 @@ public class CraftingManager : MonoBehaviour
                 name = "Iron Sword";
                 break;
             case Order.s_sword:
-                //ticket = sprites[material];
+                //itemSprite = sprites[material];
                 craftTime = 120;
                 thickness = 0.15f;
                 width = Random.Range(0.5f, 1);
@@ -177,7 +125,7 @@ public class CraftingManager : MonoBehaviour
                 name = "Steel Sword";
                 break;
             case Order.t_sword:
-                //ticket = sprites[material];
+                //itemSprite = sprites[material];
                 craftTime = 150;
                 thickness = 0.175f;
                 width = Random.Range(0.5f, 1);
@@ -185,15 +133,13 @@ public class CraftingManager : MonoBehaviour
                 name = "Titanium Sword";
                 break;
             default:
-                //ticket = null;
                 break;
         }
 
-        GetComponentInChildren<PlayerUIManager>().UpdateOrder(name, thickness, width, value, craftTime);
-
-
-        //button.SetActive(false);
-        noOrder = false;
+        GetComponentInChildren<PlayerUIManager>().UpdateOrder(name, thickness, width, value, craftTime, itemSprite);
+        isCrafting = true;
+        
+        //noOrder = false;
     }
 
     public float GradeItem(GameObject item, int matID)

@@ -13,7 +13,7 @@ public class PlayerUIManager : MonoBehaviour
     public float secondsLeft;
 
     public Text timer;
-    private Sprite itemImage;
+    public Image orderSprite;
     public Image ticketDisplay;
     public Text orderName, orderThickness, orderWidth, orderValue;
 
@@ -28,6 +28,8 @@ public class PlayerUIManager : MonoBehaviour
     void Start()
     {
         isCrafting = false;
+        timer.text = "Go inside for next order";
+        ticketDisplay.gameObject.SetActive(false);
 
         string tag = "UI Label " + playerIndex.ToString();
         labels = new List<GameObject>(GameObject.FindGameObjectsWithTag(tag));
@@ -79,10 +81,6 @@ public class PlayerUIManager : MonoBehaviour
             Timer();
 
         }
-        else
-        {
-            timer.text = "";
-        }
 
     }
 
@@ -95,14 +93,16 @@ public class PlayerUIManager : MonoBehaviour
 
     }
 
-    public void UpdateOrder(string itemName, float thickness, float width, float value, int craftingTime)
+    public void UpdateOrder(string itemName, float thickness, float width, float value, int craftingTime, Sprite image)
     {
         isCrafting = true;
+        ticketDisplay.gameObject.SetActive(true);
 
         orderName.text = itemName;
         orderThickness.text = "Thickness: " + thickness.ToString();
         orderWidth.text = "Width: " + width.ToString();
         orderValue.text = "Value: " + value.ToString();
+        orderSprite.sprite = image;
 
         craftTime = craftingTime;
         seconds = 0;

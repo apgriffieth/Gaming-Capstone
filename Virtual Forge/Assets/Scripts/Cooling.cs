@@ -26,7 +26,8 @@ public class Cooling : MonoBehaviour
         {
             cooled = false;
             RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
-	    smokeEmitter.enableEmission = false;
+            RigidPrefab.gameObject.name = "Finished Copper Sword";
+	        smokeEmitter.enableEmission = false;
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -36,8 +37,8 @@ public class Cooling : MonoBehaviour
         if (other.tag == "Forgable")
         {
             smoke.SetActive(true);
-	    smokeEmitter.enableEmission = true;
-	    smokeEmitter.Play();
+            smokeEmitter.enableEmission = true;
+	        smokeEmitter.Play();
             timer = 5;
             cooled = true;
             other.gameObject.SetActive(false);
