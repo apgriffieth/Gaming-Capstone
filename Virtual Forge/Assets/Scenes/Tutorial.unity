@@ -8770,7 +8770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50.099983, y: 189.40002}
+  m_AnchoredPosition: {x: 50.099983, y: 196.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223591434
@@ -8797,7 +8797,7 @@ MonoBehaviour:
     and press with cursor to forge)\n2. Switches to tongs (click and hold on forgable
     items to carry them around)\n3. Swithces to Pickaxe (hold left click to swing
     and mine)\nPress N to get new Order \nPress G when in grading bucket next to
-    anvil to grade"
+    anvil to grade\nPress Esc to leave to Main Menu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8824,8 +8824,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8860,7 +8860,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 287.16785, y: 0, z: -231.6304, w: -67.8527}
+  m_margin: {x: 287.16785, y: 0, z: -247.75708, w: -89.69613}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11940,7 +11940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280.90002, y: 187.80002}
+  m_AnchoredPosition: {x: -292.2, y: 196}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770915756
@@ -11966,7 +11966,8 @@ MonoBehaviour:
   m_text: "Tutorial:\n1. Go out back and mine a copper ore from the vein\n2. Bring
     copper ore back to forge and set in flames for 5 seconds\n3. Put cast of sword
     onto anvil and use hammer to adjust length\n4. Put to grindstone to adjust width\n5.
-    Put in water to cool and finalize \n6. Put finshed sword in bin to be graded "
+    Put in water to cool and finalize \n6. Put finshed sword in bin to be graded
+    \n*Hit esc to go back to main menu when you feel you learned enough"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11993,8 +11994,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
