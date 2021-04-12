@@ -12,6 +12,8 @@ public class Cooling : MonoBehaviour
     private Rigidbody RigidPrefab;
     public ParticleSystem smokeEmitter;
 
+    private Vector3 swordScale;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +27,9 @@ public class Cooling : MonoBehaviour
         if (timer <= 0 && cooled == true)
         {
             cooled = false;
-            RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
+            RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation);
             RigidPrefab.gameObject.name = "Finished Copper Sword";
+            RigidPrefab.transform.localScale = swordScale;
 	        smokeEmitter.enableEmission = false;
         }
     }
@@ -34,13 +37,15 @@ public class Cooling : MonoBehaviour
     {
         
 
-        if (other.tag == "Forgable")
+        if (other.CompareTag("Forgable"))
         {
             smoke.SetActive(true);
             smokeEmitter.enableEmission = true;
 	        smokeEmitter.Play();
             timer = 5;
             cooled = true;
+
+            swordScale = other.transform.lossyScale;
             other.gameObject.SetActive(false);
         }
 

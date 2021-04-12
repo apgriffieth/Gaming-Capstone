@@ -9,6 +9,7 @@ public class CraftingManager : MonoBehaviour
 
     public bool isCrafting;
     public Order order;
+    public int gold;
 
     public int craftTime;
     private float value;
@@ -29,7 +30,7 @@ public class CraftingManager : MonoBehaviour
 
     //grading specs
     private float thickness;
-    private float width;
+    private float length;
     public GameObject testItem;
 
     void Start()
@@ -43,8 +44,7 @@ public class CraftingManager : MonoBehaviour
     void Update()
     {
 
-        Bounce();
-
+        
         //FOR TESTING
         /*
         if (Input.GetKeyDown(KeyCode.N))
@@ -62,9 +62,10 @@ public class CraftingManager : MonoBehaviour
 
     }
 
-
+    /* CALL THIS IN UPDATE IF YOU WANT A UI ELEMENT TO BOUNCE UP AND DOWN
     private void Bounce()
     {
+
         bounceOffset += bounce;
         if (Mathf.Abs(bounceOffset) >= 0.3f)
         {
@@ -75,13 +76,14 @@ public class CraftingManager : MonoBehaviour
 
         
     }
+    */
 
     public enum Order
     {
         c_sword,
         i_sword,
-        s_sword,
         t_sword,
+        cap_sword,
     }
 
     public void NewOrder()
@@ -103,70 +105,111 @@ public class CraftingManager : MonoBehaviour
                 craftTime = 80;
                 thickness = Random.Range(0.2f, 0.25f);
                 thickness = Mathf.Round(thickness * 100f) / 100f;
-                width = Random.Range(0.8f, 1.2f);
-                width = Mathf.Round(width * 100f) / 100f;
+                length = Random.Range(1f, 1.5f);
+                length = Mathf.Round(length * 100f) / 100f;
                 value = 10;
                 name = "Copper Sword";
                 break;
             case Order.i_sword:
-                //itemSprite = sprites[material];
+                itemSprite = sprites[material];
                 craftTime = 100;
                 thickness = 0.15f;
-                width = Random.Range(0.5f, 1);
+                length = Random.Range(1f, 1.5f);
+                length = Mathf.Round(length * 100f) / 100f;
                 value = 30;
                 name = "Iron Sword";
                 break;
-            case Order.s_sword:
-                //itemSprite = sprites[material];
+            case Order.t_sword:
+                itemSprite = sprites[material];
                 craftTime = 120;
                 thickness = 0.15f;
-                width = Random.Range(0.5f, 1);
+                length = Random.Range(1f, 1.5f);
+                length = Mathf.Round(length * 100f) / 100f;
                 value = 60;
-                name = "Steel Sword";
+                name = "Titanium Sword";
                 break;
-            case Order.t_sword:
-                //itemSprite = sprites[material];
+            case Order.cap_sword:
+                itemSprite = sprites[material];
                 craftTime = 150;
                 thickness = 0.175f;
-                width = Random.Range(0.5f, 1);
+                length = Random.Range(1f, 1.5f);
+                length = Mathf.Round(length * 100f) / 100f;
                 value = 100;
-                name = "Titanium Sword";
+                name = "Capstonium Sword";
                 break;
             default:
                 break;
         }
 
-        GetComponentInChildren<PlayerUIManager>().UpdateOrder(name, thickness, width, value, craftTime, itemSprite);
+        GetComponentInChildren<PlayerUIManager>().UpdateOrder(name, thickness, length, value, craftTime, itemSprite);
         isCrafting = true;
-        
-        //noOrder = false;
     }
 
-    public float GradeItem(GameObject item, int matID)
+    public void GradeItem(GameObject item, int matID)
     {
         isCrafting = false;
 
         float seconds = GetComponentInChildren<PlayerUIManager>().secondsLeft;
         GetComponentInChildren<PlayerUIManager>().isCrafting = false;
 
-        if (matID != (int)order)
-        {
-            return 0;
-        }
-
         float yMargin = item.transform.localScale.y - thickness;
-        yMargin = 1 / Mathf.Abs(yMargin);
+        yMargin = Mathf.Abs(yMargin);
         print(yMargin);
 
-        float xMargin = item.transform.localScale.x - width;
-        xMargin = 1 / Mathf.Abs(xMargin);
+        float xMargin = item.transform.localScale.z - length;
+        xMargin = Mathf.Abs(xMargin);
         print(xMargin);
 
-        float grade = 100 - (yMargin * xMargin);
+        float grade = 100 - (yMargin * xMargin * 10);
+        grade = Mathf.Round(grade * 100f) / 100f;
+        string letter = "";
+        int addGold = 0;
 
-        timer.text = "Grade: " + grade;
+
+
+        if (matID != (int)order)
+        {
+            letter = "Wrong Item!";
+            grade = 0;
+            addGold = 0;
+        }
+        else if (grade < 60)
+        {
+            letter = "Fail";
+            addGold = 0;
+        }
+        else if (grade >= 60 && grade < 70)
+        {
+            letter = "D";
+            addGold = (int) (value * 0.75f);
+        }
+        else if (grade >= 70 && grade < 80)
+        {
+            letter = "C";
+            addGold = (int)(value * 0.9f);
+        }
+        else if (grade >= 80 && grade < 90)
+        {
+            letter = "B";
+            addGold = (int)(value * 1);
+        }
+        else if (grade >= 90 && grade < 100)
+        {
+            letter = "A";
+            addGold = (int)(value * 1.5f);
+        }
+        else if (grade >= 100)
+        {
+            letter = "A+";
+            addGold = (int)(value * 2);
+        }
+
+        gold += addGold;
+
+
+
+        timer.text = "Grade: " + grade + "%";
 
         print("Grade: " + grade.ToString());
-        return grade;
     }
 }
