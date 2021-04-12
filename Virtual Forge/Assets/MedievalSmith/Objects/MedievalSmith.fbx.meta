@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 8a9d84d71c9234344b563582d28d10af
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Apron
+    100002: Armature
+    100004: ball_l
+    100006: ball_l_end
+    100008: ball_r
+    100010: ball_r_end
+    100012: Belts
+    100014: BeltsPart
+    100016: Bone
+    100018: Bone_end
+    100020: Boots
+    100022: Bratd_and_Hair
+    100024: Button
+    100026: calf_l
+    100028: calf_r
+    100030: clavicle_l
+    100032: clavicle_r
+    100034: Cube
+    100036: Ed
+    100038: Ed:High-poly
+    100040: Ed:Male1591
+    100042: Eyebrows
+    100044: foot_l
+    100046: foot_r
+    100048: hand_l
+    100050: hand_r
+    100052: head
+    100054: head_end
+    100056: index_01_l
+    100058: index_01_r
+    100060: index_02_l
+    100062: index_02_r
+    100064: index_03_l
+    100066: index_03_l_end
+    100068: index_03_r
+    100070: index_03_r_end
+    100072: lowerarm_l
+    100074: lowerarm_r
+    100076: //RootNode
+    100078: middle_01_l
+    100080: middle_01_r
+    100082: middle_02_l
+    100084: middle_02_r
+    100086: middle_03_l
+    100088: middle_03_l_end
+    100090: middle_03_r
+    100092: middle_03_r_end
+    100094: neck_01
+    100096: Pants
+    100098: pelvis
+    100100: pinky_01_l
+    100102: pinky_01_r
+    100104: pinky_02_l
+    100106: pinky_02_r
+    100108: pinky_03_l
+    100110: pinky_03_l_end
+    100112: pinky_03_r
+    100114: pinky_03_r_end
+    100116: ring_01_l
+    100118: ring_01_r
+    100120: ring_02_l
+    100122: ring_02_r
+    100124: ring_03_l
+    100126: ring_03_l_end
+    100128: ring_03_r
+    100130: ring_03_r_end
+    100132: Root
+    100134: Shirt
+    100136: spine_01
+    100138: spine_02
+    100140: spine_03
+    100142: thigh_l
+    100144: thigh_r
+    100146: thumb_01_l
+    100148: thumb_01_r
+    100150: thumb_02_l
+    100152: thumb_02_r
+    100154: thumb_03_l
+    100156: thumb_03_l_end
+    100158: thumb_03_r
+    100160: thumb_03_r_end
+    100162: upperarm_l
+    100164: upperarm_r
+    400000: Apron
+    400002: Armature
+    400004: ball_l
+    400006: ball_l_end
+    400008: ball_r
+    400010: ball_r_end
+    400012: Belts
+    400014: BeltsPart
+    400016: Bone
+    400018: Bone_end
+    400020: Boots
+    400022: Bratd_and_Hair
+    400024: Button
+    400026: calf_l
+    400028: calf_r
+    400030: clavicle_l
+    400032: clavicle_r
+    400034: Cube
+    400036: Ed
+    400038: Ed:High-poly
+    400040: Ed:Male1591
+    400042: Eyebrows
+    400044: foot_l
+    400046: foot_r
+    400048: hand_l
+    400050: hand_r
+    400052: head
+    400054: head_end
+    400056: index_01_l
+    400058: index_01_r
+    400060: index_02_l
+    400062: index_02_r
+    400064: index_03_l
+    400066: index_03_l_end
+    400068: index_03_r
+    400070: index_03_r_end
+    400072: lowerarm_l
+    400074: lowerarm_r
+    400076: //RootNode
+    400078: middle_01_l
+    400080: middle_01_r
+    400082: middle_02_l
+    400084: middle_02_r
+    400086: middle_03_l
+    400088: middle_03_l_end
+    400090: middle_03_r
+    400092: middle_03_r_end
+    400094: neck_01
+    400096: Pants
+    400098: pelvis
+    400100: pinky_01_l
+    400102: pinky_01_r
+    400104: pinky_02_l
+    400106: pinky_02_r
+    400108: pinky_03_l
+    400110: pinky_03_l_end
+    400112: pinky_03_r
+    400114: pinky_03_r_end
+    400116: ring_01_l
+    400118: ring_01_r
+    400120: ring_02_l
+    400122: ring_02_r
+    400124: ring_03_l
+    400126: ring_03_l_end
+    400128: ring_03_r
+    400130: ring_03_r_end
+    400132: Root
+    400134: Shirt
+    400136: spine_01
+    400138: spine_02
+    400140: spine_03
+    400142: thigh_l
+    400144: thigh_r
+    400146: thumb_01_l
+    400148: thumb_01_r
+    400150: thumb_02_l
+    400152: thumb_02_r
+    400154: thumb_03_l
+    400156: thumb_03_l_end
+    400158: thumb_03_r
+    400160: thumb_03_r_end
+    400162: upperarm_l
+    400164: upperarm_r
+    2300000: BeltsPart
+    2300002: Button
+    2300004: Eyebrows
+    3300000: BeltsPart
+    3300002: Button
+    3300004: Eyebrows
+    4300000: BeltsPart
+    4300002: Button
+    4300004: Eyebrows
+    4300006: Cube
+    4300008: Boots
+    4300010: Pants
+    4300012: Apron
+    4300014: Ed:High-poly
+    4300016: Ed:Male1591
+    4300018: Shirt
+    4300020: Belts
+    4300022: Bratd_and_Hair
+    7400000: Ed|EdAction
+    7400002: Ed|T-Pose
+    9500000: //RootNode
+    13700000: Apron
+    13700002: Belts
+    13700004: Boots
+    13700006: Bratd_and_Hair
+    13700008: Cube
+    13700010: Ed:High-poly
+    13700012: Ed:Male1591
+    13700014: Pants
+    13700016: Shirt
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apron
+    second: {fileID: 2100000, guid: a78c030485280344480ccd0331d228fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beard
+    second: {fileID: 2100000, guid: d0d520d3ade979b44b0c30874ddf046f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt
+    second: {fileID: 2100000, guid: 7dbcf01dd3b46af478f74ec2cf48f707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 8e8911f99fbee464e98882e0a0a0ef7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boots
+    second: {fileID: 2100000, guid: b37536e2bc5f63942a2d86a58f2a8677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootsFur
+    second: {fileID: 2100000, guid: bd93d660292b7244580822f8696f2f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ed_High-poly_Eye_brown
+    second: {fileID: 2100000, guid: 4f35439bc0a899942baed0a6c175d773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyebrows
+    second: {fileID: 2100000, guid: def26bdbe52a7694e8e54a48b1b1aeea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 80ab38069eda4a54d9f54f70a455c9f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HammerMetal
+    second: {fileID: 2100000, guid: 3a69bf0b7debe8341a9e2b4258afe146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HummerHandle
+    second: {fileID: 2100000, guid: c3d7f9ca9db0e1d4cb27860645cb08e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: b310de077d3bb484f8bc061e7b9fa634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants
+    second: {fileID: 2100000, guid: 489d209a8cdc42943adf6b55c7e218fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: af5379b261037a14abd9db8f3185b015, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
