@@ -55,10 +55,12 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
+        /*
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
             Cursor.lockState = CursorLockMode.Confined;
         }
+        */
     }
 }

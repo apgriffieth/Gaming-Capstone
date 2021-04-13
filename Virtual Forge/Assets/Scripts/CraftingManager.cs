@@ -153,11 +153,11 @@ public class CraftingManager : MonoBehaviour
         GetComponentInChildren<PlayerUIManager>().isCrafting = false;
 
         float yMargin = item.transform.localScale.y - thickness;
-        yMargin = Mathf.Abs(yMargin);
+        yMargin = Mathf.Abs(yMargin) * 10;
         print(yMargin);
 
         float xMargin = item.transform.localScale.z - length;
-        xMargin = Mathf.Abs(xMargin);
+        xMargin = Mathf.Abs(xMargin) * 10;
         print(xMargin);
 
         float grade = 100 - (yMargin * xMargin * 10);

@@ -9,8 +9,10 @@ TagManager:
   - Forgable
   - Melee
   - Smoke
-  - Melt
   - Finished
+  - Melt
+  - UI Manager
+  - Transition
   layers:
   - Default
   - TransparentFX
