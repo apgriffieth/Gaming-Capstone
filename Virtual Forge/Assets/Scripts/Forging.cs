@@ -8,6 +8,10 @@ public class Forging : MonoBehaviour
     private GameObject hammer;
     private Transform itemContainer;
     private float timer = 0f;
+    public GameObject hitEffect;
+    public float timerEffect = 0;
+    public bool effect = false;
+    private GameObject effectObj;
 
     void Start()
     {
@@ -24,7 +28,8 @@ public class Forging : MonoBehaviour
 
     void Update()
     {
-	//timer += Time.deltaTime;
+        //timer += Time.deltaTime;
+        timerEffect -= Time.deltaTime;
 
         if (Input.GetMouseButton(0) && hammer.activeSelf)
         {
@@ -35,9 +40,16 @@ public class Forging : MonoBehaviour
             {
                 if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable" && timer > 2f)
                 {
+                    
                     ScaleObject(raycastHit.transform.gameObject);
                 }
             }
+        }
+
+        if (timerEffect <= 0)
+        {
+            Destroy(effectObj);
+            effect = false;
         }
     }
 
@@ -55,6 +67,12 @@ public class Forging : MonoBehaviour
             audioSource.Play();
             clickedObject.transform.localScale += scale;
             clickedObject.transform.localPosition += new Vector3(0f, scale.y * 0.5f, 0f);
+        }
+        if (effect == false)
+        {
+            effectObj = Instantiate(hitEffect, clickedObject.transform);
+            timerEffect = 1;
+            effect = true;
         }
 
     }

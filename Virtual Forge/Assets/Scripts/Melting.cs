@@ -28,9 +28,25 @@ public class Melting : MonoBehaviour
 
     private void SpawnSword(GameObject other, int mat)
     {
-	    Rigidbody RigidPrefab = Instantiate(Sword[0], Spawnpoint.position, Spawnpoint.rotation);
-		RigidPrefab.name = "Copper Sword";
-	    collidingObject = null;
+	    Rigidbody RigidPrefab = Instantiate(Sword[mat], Spawnpoint.position, Spawnpoint.rotation);
+		if (mat == 0)
+		{
+			RigidPrefab.name = "Copper Sword";
+		}
+		else if (mat == 1)
+		{
+			RigidPrefab.name = "Iron Sword";
+		}
+		else if (mat == 2)
+		{
+			RigidPrefab.name = "Titanium Sword";
+		}
+		else if (mat == 3)
+		{
+			RigidPrefab.name = "Capstonium Sword";
+		}
+
+		collidingObject = null;
 	    other.SetActive(false);
 	    timer = 0f;
     }

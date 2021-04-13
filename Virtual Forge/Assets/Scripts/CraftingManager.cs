@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CraftingManager : MonoBehaviour
 {
-    public static int unlockIndex = 0;
+    public static int unlockIndex = 4;
 
     public bool isCrafting;
     public Order order;
@@ -89,9 +89,8 @@ public class CraftingManager : MonoBehaviour
     public void NewOrder()
     {
         int material = Random.Range(0, unlockIndex);
-        //0 = copper, 1 = iron, 2 = steel, 3 = titanium?
+        //0 = copper, 1 = iron, 2 = titanium, 3 = capstonium
         //int type = Random.Range(0, 0);
-        //0 = sword, 1 = dagger, 2 = axe?
 
         order = (Order)material;
         print(order.ToString());

@@ -13,6 +13,11 @@ TagManager:
   - Melt
   - UI Manager
   - Transition
+  - Shop Counter
+  - cVein
+  - iVein
+  - tVein
+  - caVein
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,9 @@ public class Grinding : MonoBehaviour
     private GameObject collidingObject;
     private float xScaler = -0.000656197f;
     private float timer = 0f;
+
+    public ParticleSystem sparkEmitter;
+    public GameObject spark;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,9 @@ public class Grinding : MonoBehaviour
         }
 
         collidingObject = other.gameObject;
+        spark.SetActive(true);
+        sparkEmitter.enableEmission = true;
+        sparkEmitter.Play();
     }
 
     private void OnTriggerStay(Collider other)
@@ -48,6 +54,9 @@ public class Grinding : MonoBehaviour
         }
 
         collidingObject = other.gameObject;
+        spark.SetActive(true);
+        sparkEmitter.enableEmission = true;
+        sparkEmitter.Play();
     }
 
     private void OnTriggerExit(Collider other)
@@ -58,6 +67,8 @@ public class Grinding : MonoBehaviour
         }
 
         collidingObject = null;
+
+        sparkEmitter.enableEmission = false;
     }
 
     private void DescaleObject(GameObject other)

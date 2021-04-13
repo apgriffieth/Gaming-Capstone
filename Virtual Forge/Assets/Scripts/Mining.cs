@@ -5,6 +5,7 @@ using UnityEngine;
 public class Mining : MonoBehaviour
 {
     private int hit = 0;
+    public int maxHits;
     public Transform Spawnpoint;
     public Rigidbody Ore;
     public GameObject hitEffect;
@@ -35,7 +36,7 @@ public class Mining : MonoBehaviour
         Rigidbody RigidPrefab;
         if (other.tag == "Melee")
         {
-            if (hit >= 2)
+            if (hit >= maxHits)
             {
                 RigidPrefab = Instantiate(Ore, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
                 hit = 0;
