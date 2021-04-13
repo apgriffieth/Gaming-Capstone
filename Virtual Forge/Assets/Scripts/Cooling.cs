@@ -5,16 +5,14 @@ using UnityEngine;
 public class Cooling : MonoBehaviour
 {
     public Transform Spawnpoint;
-    public Rigidbody[] Sword;
+    public Rigidbody Sword;
     public GameObject smoke;
     private bool cooled = false;
     private float timer = 0;
     private Rigidbody RigidPrefab;
     public ParticleSystem smokeEmitter;
 
-    public int matID;
     private Vector3 swordScale;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +27,11 @@ public class Cooling : MonoBehaviour
         if (timer <= 0 && cooled == true)
         {
             cooled = false;
-            RigidPrefab = Instantiate(Sword[matID], Spawnpoint.position, Spawnpoint.rotation);
-            RigidPrefab.gameObject.name = "Copper Sword";
+            RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation);
+            RigidPrefab.gameObject.name = "Finished Copper Sword";
             RigidPrefab.transform.localScale = swordScale;
 	        smokeEmitter.enableEmission = false;
         }
-        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -48,15 +45,9 @@ public class Cooling : MonoBehaviour
             timer = 5;
             cooled = true;
 
-            matID = other.GetComponentInChildren<MaterialID>().matID;
             swordScale = other.transform.lossyScale;
             other.gameObject.SetActive(false);
         }
-        /*
-        if (other.CompareTag("UI Label 1") || other.CompareTag("UI Label 2")) 
-        {
-            matID = other.GetComponent<MaterialID>().matID;
-        }
-        */
+
     }
 }
