@@ -328,3 +328,43 @@ C# parse time         : 252ms
 candidates check time : 22ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 4/12/2021 11:56:29 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Unable to load types from C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual Forge\Library\ScriptAssemblies\Assembly-CSharp.dll
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x00131] in <d414d04359d84a90b572bdf3536c9eae>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<ParseTypesWithMovedFromAttributeAsync>d__2.MoveNext () [0x0014d] in <d414d04359d84a90b572bdf3536c9eae>:0 
+	Could not load file or assembly 'PhotonChat, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+	Could not load file or assembly 'PhotonRealtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 167.5533ms
+moved types parse time: 103ms
+candidates parse time : 3ms
+C# parse time         : 296ms
+candidates check time : 44ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 4/12/2021 11:57:44 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 99.7314ms
+moved types parse time: 93ms
+candidates parse time : 2ms
+C# parse time         : 389ms
+candidates check time : 58ms
+console write time    : 0ms
+
