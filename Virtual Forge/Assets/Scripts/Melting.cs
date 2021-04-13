@@ -5,31 +5,33 @@ using UnityEngine;
 public class Melting : MonoBehaviour
 {
     public Transform Spawnpoint;
-    public Rigidbody Sword;
+    public Rigidbody[] Sword;
     private float timer = 0f;
     private GameObject collidingObject;
 
     void Update()
     {
-	if (collidingObject != null && collidingObject.tag == "Melt") 
-	{
-	    timer += Time.deltaTime;
-	    if (timer > 5f)
+	    if (collidingObject != null && collidingObject.CompareTag("Melt")) 
 	    {
-		SpawnSword(collidingObject);
+	        timer += Time.deltaTime;
+			if (timer > 5f)
+			{
+				int matID = collidingObject.GetComponentInChildren<MaterialID>().matID;
+				SpawnSword(collidingObject, matID);
+			}
 	    }
 	}
-    }
     private void OnTriggerEnter(Collider other)
     {
-	collidingObject = other.gameObject;
+	    collidingObject = other.gameObject;
     }
 
-    private void SpawnSword(GameObject other)
+    private void SpawnSword(GameObject other, int mat)
     {
-	Rigidbody RigidPrefab = Instantiate(Sword, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
-	collidingObject = null;
-	other.SetActive(false);
-	timer = 0f;
+	    Rigidbody RigidPrefab = Instantiate(Sword[0], Spawnpoint.position, Spawnpoint.rotation);
+		RigidPrefab.name = "Copper Sword";
+	    collidingObject = null;
+	    other.SetActive(false);
+	    timer = 0f;
     }
 }

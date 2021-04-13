@@ -22,7 +22,7 @@ public class PlayerUIManager : MonoBehaviour
     private enum UIState { none, overlay, all, reset };
     private UIState uiState;
 
-    private List<GameObject> labels;
+    public List<GameObject> labels;
 
 
     void Start()
@@ -100,7 +100,7 @@ public class PlayerUIManager : MonoBehaviour
 
         orderName.text = itemName;
         orderThickness.text = "Thickness: " + thickness.ToString();
-        orderWidth.text = "Width: " + width.ToString();
+        orderWidth.text = "Length: " + width.ToString();
         orderValue.text = "Value: " + value.ToString();
         orderSprite.sprite = image;
 
