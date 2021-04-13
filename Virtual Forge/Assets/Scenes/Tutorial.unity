@@ -7958,8 +7958,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1525855, y: 0.60444725, z: 0.9544474}
-  m_Center: {x: -0.006789446, y: -0.000000022089994, z: 0.43246388}
+  m_Size: {x: 0.010917664, y: 0.49719295, z: 0.9544474}
+  m_Center: {x: 0.034769535, y: 0.011910086, z: 0.43246388}
 --- !u!4 &914781744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6929339097af8ce4bbd6c6d39728a5cc,
@@ -9967,11 +9967,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Controls:\nWASD to Move\n1. Switches to hammer (hold left click to swing
-    and press with cursor to forge)\n2. Switches to tongs (click and hold on forgable
-    items to carry them around)\n3. Swithces to Pickaxe (hold left click to swing
-    and mine)\nPress N to get new Order \nPress G when in grading bucket next to
-    anvil to grade\nPress Esc to leave to Main Menu"
+  m_text: "Controls:\nE to open pick up/open/get order\nWASD to Move\n1. Switches
+    to hammer (hold left click to swing and press with cursor to forge)\n2. Switches
+    to tongs (click and hold on forgable items to carry them around)\n3. Swithces
+    to Pickaxe (hold left click to swing and mine)\nPress N to get new Order \nPress
+    G when in grading bucket next to anvil to grade\nPress Esc to leave to Main Menu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13901,11 +13901,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tutorial:\n1. Go out back and mine a copper ore from the vein\n2. Bring
-    copper ore back to forge and set in flames for 5 seconds\n3. Put cast of sword
-    onto anvil and use hammer to adjust length\n4. Put to grindstone to adjust width\n5.
-    Put in water to cool and finalize \n6. Put finshed sword in bin to be graded
-    \n*Hit esc to go back to main menu when you feel you learned enough"
+  m_text: "Tutorial:\nGrab key off anvil and open up shop to get first order\n1.
+    Go out back and mine a copper ore from the vein\n2. Bring copper ore back to
+    forge and set in flames for 5 seconds\n3. Put cast of sword onto anvil and use
+    hammer to adjust length\n4. Put to grindstone to adjust width\n5. Put in water
+    to cool and finalize \n6. Put finshed sword in bin to be graded \n*Hit esc to
+    go back to main menu when you feel you learned enough"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
