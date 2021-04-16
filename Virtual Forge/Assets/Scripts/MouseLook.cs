@@ -1,30 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class MouseLook : MonoBehaviour
 {
-    public float mouseSensitivity = 100f;
+    [SerializeField] GameObject cameraHolder;
+    private float mouseSensitivity = 1f;
+    float verticalLookRotation;
+    private Transform player;
+    private PhotonView PV;
 
-    public Transform playerBody;
-
-    float xRotation = 0f;
+    void Awake()
+    {
+	PV = GetComponent<PhotonView>();
+    }
 
     void Start()
     {
+	player = this.gameObject.transform;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * mouseX);
+        if (!PV.IsMine)
+	{
+	    return;
+	}
+	Look();
     }
+
+    void Look()
+    {
+	transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * mouseSensitivity);
+
+	verticalLookRotation += Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
+	verticalLookRotation = Mathf.Clamp(verticalLookRotation, -90f, 90f);
+
+	cameraHolder.transform.localEulerAngles = Vector3.left * verticalLookRotation;
+   }
 }

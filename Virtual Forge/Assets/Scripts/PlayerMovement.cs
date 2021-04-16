@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    private PhotonView PV;
 
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -20,10 +22,25 @@ public class PlayerMovement : MonoBehaviour
 
     bool isGrounded;
 
-    
+    void Awake()
+    {
+	PV = GetComponent<PhotonView>();
+    }
+
+    void Start()
+    {
+	if (!PV.IsMine)
+	{
+	    Destroy(GetComponentInChildren<Camera>().gameObject);
+	}
+    }
 
     void Update()
     {
+	if (!PV.IsMine) 
+	{
+	    return;
+	}
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -55,12 +72,10 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
             Cursor.lockState = CursorLockMode.Confined;
         }
-        
     }
 }

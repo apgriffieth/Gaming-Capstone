@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32688 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16262 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,540 +11,96 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60172
-Successfully changed project path to: C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
-C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+50262
+Successfully changed project path to: C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
+C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 137.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
+[Subsystems] Discovering subsystems at path C:/Users/apgri/Desktop/School/Spring 2021/CPI 441/Gaming-Capstone/Virtual Forge/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
     Vendor:   
-    VRAM:     1982 MB
-    Driver:   27.21.14.5671
+    VRAM:     8131 MB
+    Driver:   24.20.100.6194
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004513 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Registered in 0.003077 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 119.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.244 seconds
+- Completed reload, in  2.166 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006158 seconds.
+Registered in 0.012058 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  1.277 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.1 MB.
-System memory in use after: 196.2 MB.
+Unloading 2106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.0 MB.
+System memory in use after: 194.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2710.
-Total: 2.162200 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.094600 ms MarkObjects: 1.691300 ms  DeleteObjects: 0.183600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Particle Effect Stuff/SmokeTrail.mat
-  artifactKey: Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effect Stuff/SmokeTrail.mat using Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c3a81f97ce78fc66cdc804c66a9daa') in 0.099338 seconds
-  Import took 0.102886 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 2.795600 ms (FindLiveObjects: 0.390700 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.010500 ms  DeleteObjects: 0.223900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Particle Effect Stuff/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effect Stuff/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675bcbbd4df54fdc87dcfdf68a12e2d7') in 0.008993 seconds
-  Import took 0.012263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da9bf607ab418f664d01848d43e4e2b') in 0.045908 seconds
-  Import took 0.049812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.319485 seconds.
-  path: Assets/Scenes/Tutorial.unity
-  artifactKey: Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfca1a4f1360782b7963a0dab6b5339') in 0.004797 seconds
-  Import took 0.008735 seconds .
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(49862ead303f01545844703623fc7bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(49862ead303f01545844703623fc7bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3dd2019fed705d2b93a034a452e919') in 0.041063 seconds
+  Import took 0.046105 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006176 seconds.
+Registered in 0.010193 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  1.747 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.5 MB.
-System memory in use after: 196.7 MB.
+Unloading 2054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2754.
-Total: 1.972800 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.120300 ms MarkObjects: 1.610900 ms  DeleteObjects: 0.017100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007751 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.5 MB.
-System memory in use after: 196.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2757.
-Total: 1.966000 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.120600 ms MarkObjects: 1.587000 ms  DeleteObjects: 0.017300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010484 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.6 MB.
-System memory in use after: 196.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2760.
-Total: 2.410500 ms (FindLiveObjects: 0.336300 ms CreateObjectMapping: 0.188500 ms MarkObjects: 1.864200 ms  DeleteObjects: 0.019900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009433 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.6 MB.
-System memory in use after: 196.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2763.
-Total: 3.314000 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.930300 ms  DeleteObjects: 0.028500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006339 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.5 MB.
-System memory in use after: 196.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2766.
-Total: 1.847500 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.126900 ms MarkObjects: 1.439800 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2523.440569 seconds.
-  path: Assets/Scripts/Grinding.cs
-  artifactKey: Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Grinding.cs using Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50203182cc0d9f9f520fcd4cb2b4ffbc') in 0.014705 seconds
-  Import took 0.019396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 214.846821 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(4dc71212292c941d68c6ecf334538b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(4dc71212292c941d68c6ecf334538b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd193840b475a557ec4daa7c8e9a52a') in 0.005908 seconds
-  Import took 0.010120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.176538 seconds.
-  path: Assets/Materials/Capstonium.mat
-  artifactKey: Guid(96f8de9d6c4614d56b3991cb77e09cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Capstonium.mat using Guid(96f8de9d6c4614d56b3991cb77e09cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd7f58fce8537f5daee6b10c59173d') in 0.054933 seconds
-  Import took 0.058591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Materials/Hot Metal.mat
-  artifactKey: Guid(bccb583bb0238d042ab7dff6b769198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Hot Metal.mat using Guid(bccb583bb0238d042ab7dff6b769198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d8dbf4ce0dc9f9431a3ca26accd893') in 0.010966 seconds
-  Import took 0.014403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Materials/Iron.mat
-  artifactKey: Guid(9e92684cbcf1cdc4a8ee66c0446ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Iron.mat using Guid(9e92684cbcf1cdc4a8ee66c0446ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39597e50d109fdd0ba10072079667ab3') in 0.011217 seconds
-  Import took 0.014504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Materials/Titanium.mat
-  artifactKey: Guid(65b3a0d534d493d44bbc10afc754ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Titanium.mat using Guid(65b3a0d534d493d44bbc10afc754ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236ef1b1dbb6a1facd088d3494e831cf') in 0.014487 seconds
-  Import took 0.018025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.172612 seconds.
-  path: Assets/Models/Dresser.obj
-  artifactKey: Guid(0806ece75d2a83b4c992b4b7b15deade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Dresser.obj using Guid(0806ece75d2a83b4c992b4b7b15deade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7abb5884536d9ff4232e1e851f31601') in 0.076806 seconds
-  Import took 0.080329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Models/playermodel.fbx
-  artifactKey: Guid(2569b3265a839af46a10ec2c557d2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/playermodel.fbx using Guid(2569b3265a839af46a10ec2c557d2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37646a23e85f5da59c7f14b77b479f67') in 0.019017 seconds
-  Import took 0.022343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Models/Material Vein Paint.fbx
-  artifactKey: Guid(78a298aabfe61744e97ce4f9879f25cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Material Vein Paint.fbx using Guid(78a298aabfe61744e97ce4f9879f25cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd54cda1f96390384ebd404f540d2ac') in 0.041560 seconds
-  Import took 0.045806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Models/Temp Dresser.mat
-  artifactKey: Guid(46ab2b0b041140c499199d227ddee5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Temp Dresser.mat using Guid(46ab2b0b041140c499199d227ddee5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c765593fcc1aa23be8aa321893810b0a') in 0.011286 seconds
-  Import took 0.015355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Models/Temp Anvil Mat.mat
-  artifactKey: Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Temp Anvil Mat.mat using Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b872bc8bd4dd92ad8bbb94c58a1aff') in 0.025727 seconds
-  Import took 0.029206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.798659 seconds.
-  path: Assets/Models/Materials
-  artifactKey: Guid(85792e029b1acd346b8dbf68a7f4bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials using Guid(85792e029b1acd346b8dbf68a7f4bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4404af67ca230843e4ae4e8cd9ad767') in 0.004708 seconds
-  Import took 0.009187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065852 seconds.
-  path: Assets/Models/Materials/anvil texture.mat
-  artifactKey: Guid(2d22b194e8962ad4c9b45b6fa68a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/anvil texture.mat using Guid(2d22b194e8962ad4c9b45b6fa68a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6887a5bcf502780351fd428625ee5f3') in 0.010957 seconds
-  Import took 0.014421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Models/Materials/Titanium Sword.mat
-  artifactKey: Guid(811db325570f317488aac796285614c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Titanium Sword.mat using Guid(811db325570f317488aac796285614c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03da8d465632477f171fbe9b41fcfe8') in 0.011798 seconds
-  Import took 0.015016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Models/Materials/copper_dagger.mat
-  artifactKey: Guid(c4a23841974a026449341002c32f1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/copper_dagger.mat using Guid(c4a23841974a026449341002c32f1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b158e8f9ab08a74425558f8e4934df6c') in 0.020401 seconds
-  Import took 0.024793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Models/Materials/Capstonium Vein.mat
-  artifactKey: Guid(6f940530bb22ff14da4a9e0617ef495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Capstonium Vein.mat using Guid(6f940530bb22ff14da4a9e0617ef495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2093f0fce761fdbc80d0cf5a2ad6ba7') in 0.026004 seconds
-  Import took 0.029599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Models/Materials/Iron Sword.mat
-  artifactKey: Guid(f55f722fc3930e244a423f233d9aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Iron Sword.mat using Guid(f55f722fc3930e244a423f233d9aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59147f1cdf892971c46450e42fa06a3d') in 0.011134 seconds
-  Import took 0.015150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Models/Materials/hammer.mat
-  artifactKey: Guid(adcc691a04df9164b99922f41fe322fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/hammer.mat using Guid(adcc691a04df9164b99922f41fe322fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02328bcf39f54f20b2b4da53003fe8f2') in 0.029059 seconds
-  Import took 0.032533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Models/Materials/Titanium Vein.mat
-  artifactKey: Guid(43ea60b8f9b1018418543a8be7162351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Titanium Vein.mat using Guid(43ea60b8f9b1018418543a8be7162351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beac2aca30d193ffb7545c404344ac8') in 0.018659 seconds
-  Import took 0.022092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Models/Materials/copper sword uvw.mat
-  artifactKey: Guid(e7fd0cfd93004974ead4f6e015c551c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/copper sword uvw.mat using Guid(e7fd0cfd93004974ead4f6e015c551c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4938c534c552520bdd66148d293af696') in 0.019421 seconds
-  Import took 0.022849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Models/Materials/Iron Ore.mat
-  artifactKey: Guid(ae77b42c749ec3f4ea9927571e2fa1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Iron Ore.mat using Guid(ae77b42c749ec3f4ea9927571e2fa1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703ffb04efb9e16e6547a90df8fb733a') in 0.016317 seconds
-  Import took 0.020427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Models/Materials/Copper Vein MAT.mat
-  artifactKey: Guid(d1600edde6cfc2c4aa9ed21962ccc827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Copper Vein MAT.mat using Guid(d1600edde6cfc2c4aa9ed21962ccc827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8cf1b27f4ec3d6ae8588c04e21c256') in 0.021947 seconds
-  Import took 0.025382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Models/Materials/knife.mat
-  artifactKey: Guid(de83362fb05725b418ccfbd8da50db05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/knife.mat using Guid(de83362fb05725b418ccfbd8da50db05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d4c7655e5c4c408715ec65d3830126') in 0.016815 seconds
-  Import took 0.020604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Models/Materials/Capstonium Sword MAT.mat
-  artifactKey: Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Capstonium Sword MAT.mat using Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e5ea2fdf3042d91a9ffa131c9d37f5') in 0.022744 seconds
-  Import took 0.026153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002658 seconds.
-  path: Assets/Models/Materials/Capstonium Sword MAT.mat
-  artifactKey: Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Capstonium Sword MAT.mat using Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e5ea2fdf3042d91a9ffa131c9d37f5') in 0.012190 seconds
-  Import took 0.016622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.823592 seconds.
-  path: Assets/Prefabs/FPSPlayer.prefab
-  artifactKey: Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FPSPlayer.prefab using Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ad9e6cf6597d03a1ef478e8fccc70b') in 0.036185 seconds
-  Import took 0.039824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.139042 seconds.
-  path: Assets/Models/Textures/Capstonium Sword MAT.png
-  artifactKey: Guid(45b30f575ab2fea4eb404d1e6ae6d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Capstonium Sword MAT.png using Guid(45b30f575ab2fea4eb404d1e6ae6d8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23d168ad7d97c44de51cc0e993bd9ca') in 0.023588 seconds
-  Import took 0.027060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Models/Textures/Titanium Vein.tif
-  artifactKey: Guid(c9f9cc2ec34966148a1d2133d5b0af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Titanium Vein.tif using Guid(c9f9cc2ec34966148a1d2133d5b0af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc19c86c86a10dc8c601a8c5cbff3bb') in 0.013738 seconds
-  Import took 0.017115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Models/Textures/capstonium_dagger.png
-  artifactKey: Guid(6844deecce691a94b841e6c57c65e03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/capstonium_dagger.png using Guid(6844deecce691a94b841e6c57c65e03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c80a1c3af6d721513666708db2e8a2') in 0.029604 seconds
-  Import took 0.032852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Models/Textures/capstonium_axe_texture.png
-  artifactKey: Guid(fc7e3c87f3ec7774a9a82a30163f894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/capstonium_axe_texture.png using Guid(fc7e3c87f3ec7774a9a82a30163f894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12755ef33b690569eddbb971f8e9615') in 0.014216 seconds
-  Import took 0.017372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Models/Textures/Capstonium Vein.tif
-  artifactKey: Guid(9b0b235f2142df546b8628be0f4732a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Capstonium Vein.tif using Guid(9b0b235f2142df546b8628be0f4732a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7e556093c9598fde1b7e6348089c1e') in 0.013489 seconds
-  Import took 0.017493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Models/Textures/Titanium Sword MAT.png
-  artifactKey: Guid(c5d50e14ca8cd3145b2823a882528810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Titanium Sword MAT.png using Guid(c5d50e14ca8cd3145b2823a882528810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e33383fbaedde27b2103cc70fe7e6e') in 0.019254 seconds
-  Import took 0.022701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Models/Textures/capstonium_sword_uvw.png
-  artifactKey: Guid(8837dc157d705a24cb7e4a3b22d5531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/capstonium_sword_uvw.png using Guid(8837dc157d705a24cb7e4a3b22d5531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c855a4765ad2418025a138b44d8d008') in 0.012934 seconds
-  Import took 0.017572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Models/Textures/Iron Ore.tif
-  artifactKey: Guid(2826f25981a69dc4c8ceb2044d791607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Iron Ore.tif using Guid(2826f25981a69dc4c8ceb2044d791607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e254721783c946e7608a5a9b5cf266') in 0.022105 seconds
-  Import took 0.025968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Models/Textures/Copper Vein MAT.tif
-  artifactKey: Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Textures/Copper Vein MAT.tif using Guid(f7b92bdf355cc804383916d09cae5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d24cb5849db57d51d01c311cbd78dee') in 0.011398 seconds
-  Import took 0.014954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.323004 seconds.
-  path: Assets/Prefabs/Capstonium Sword.prefab
-  artifactKey: Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Capstonium Sword.prefab using Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d2f41aef46c8c3ff098806c856a7d4') in 0.020952 seconds
-  Import took 0.024475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.792344 seconds.
-  path: Assets/Models/Materials/Capstonium Sword MAT.mat
-  artifactKey: Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Materials/Capstonium Sword MAT.mat using Guid(b08ac92178a5b9043b7579460e27c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a721e0d4ca8bab67515f6e49ce9b69') in 0.023330 seconds
-  Import took 0.027224 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.569600 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.125400 ms  DeleteObjects: 0.034300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,4 +1,5 @@
 using UnityEngine;
+using Photon.Pun;
 
 public class Forging : MonoBehaviour
 {
@@ -12,10 +13,18 @@ public class Forging : MonoBehaviour
     public float timerEffect = 0;
     public bool effect = false;
     private GameObject effectObj;
+    private Transform player;
+    private PhotonView PV;
+
+    void Awake()
+    {
+	PV = GetComponent<PhotonView>();
+    }
 
     void Start()
     {
-        itemContainer = GameObject.Find("itemContainer").transform;
+	player = this.gameObject.transform;
+        itemContainer = player.Find("itemContainer").transform;
         Transform[] childrenTransforms = itemContainer.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in childrenTransforms)
         {
@@ -28,7 +37,11 @@ public class Forging : MonoBehaviour
 
     void Update()
     {
-        //timer += Time.deltaTime;
+	if (!PV.IsMine)
+	{
+	    return;
+	}
+
         timerEffect -= Time.deltaTime;
 
         if (Input.GetMouseButton(0) && hammer.activeSelf)

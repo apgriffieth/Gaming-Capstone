@@ -1,15 +1,24 @@
 using UnityEngine;
+using Photon.Pun;
 
 public class GrabWithTongs : MonoBehaviour
 {
     private GameObject tongs;
     private GameObject objectInTongs;
     private Transform itemContainer;
+    private Transform player;
+    private PhotonView PV;
+
+    void Awake()
+    {
+	PV = GetComponent<PhotonView>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        itemContainer = GameObject.Find("itemContainer").transform;
+	player = this.gameObject.transform;
+        itemContainer = player.Find("itemContainer").transform;
         Transform[] childrenTransforms = itemContainer.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in childrenTransforms)
         {
@@ -23,6 +32,11 @@ public class GrabWithTongs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+	if (!PV.IsMine)
+	{
+	    return;
+	}
+
         if (Input.GetMouseButton(0) && tongs.activeSelf)
         {
             RaycastHit raycastHit;
