@@ -38,6 +38,7 @@ public class QuickplayTimer : MonoBehaviour
         if (secondsLeft <= 0)
         {
             minutesLeft -= 1;
+            secondsLeft = 59;
         }
 
         if (minutesLeft < 0)

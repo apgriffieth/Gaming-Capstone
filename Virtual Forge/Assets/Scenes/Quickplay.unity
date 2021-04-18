@@ -4480,8 +4480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 908575002}
-  secondsLeft: 5
-  minutesLeft: 0
+  secondsLeft: 59
+  minutesLeft: 4
   takingAway: 0
   finalGold: {fileID: 905779726}
 --- !u!4 &633405149 stripped
