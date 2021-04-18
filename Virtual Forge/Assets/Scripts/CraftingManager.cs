@@ -10,6 +10,7 @@ public class CraftingManager : MonoBehaviour
     public bool isCrafting;
     public Order order;
     public int gold;
+    public Text currentGold;
 
     public int craftTime;
     private float value;
@@ -36,7 +37,7 @@ public class CraftingManager : MonoBehaviour
     void Start()
     {
         isCrafting = false;
-
+        currentGold.text = "Gold: 0";
 
     }
 
@@ -205,7 +206,7 @@ public class CraftingManager : MonoBehaviour
 
         gold += addGold;
 
-
+        currentGold.text = "Gold: " + gold;
 
         timer.text = "Grade: " + grade + "%";
 

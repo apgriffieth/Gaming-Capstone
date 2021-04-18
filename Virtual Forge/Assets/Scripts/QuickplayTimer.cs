@@ -8,12 +8,14 @@ public class QuickplayTimer : MonoBehaviour
 {
 
     public GameObject textDisplay;
-    public int secondsLeft = 30;
+    public int secondsLeft = 59;
+    public int minutesLeft = 5;
     public bool takingAway = false;
+    public Text finalGold;
 
     void Start()
     {
-        textDisplay.GetComponent<Text>().text = "Shop closes in: 00:" + secondsLeft;
+        textDisplay.GetComponent<Text>().text = "Shop closes in: " + minutesLeft + ": " + secondsLeft;
     }
 
     void Update()
@@ -23,10 +25,9 @@ public class QuickplayTimer : MonoBehaviour
             StartCoroutine(TimerTake());
         }
 
-        if (secondsLeft <= 0)
-        {
-            SceneManager.LoadScene(0);
-        }
+       
+
+        
     }
 
     IEnumerator TimerTake()
@@ -34,7 +35,21 @@ public class QuickplayTimer : MonoBehaviour
         takingAway = true;
         yield return new WaitForSeconds(1);
         secondsLeft -= 1;
-        textDisplay.GetComponent<Text>().text = "Shop closes in: 00:" + secondsLeft;
+        if (secondsLeft <= 0)
+        {
+            minutesLeft -= 1;
+        }
+
+        if (minutesLeft < 0)
+        {
+            finalGold.GetComponent<Text>().text = "Final Gold: " + gameObject.GetComponent<CraftingManager>().gold;
+            yield return new WaitForSeconds(5);
+            SceneManager.LoadScene(0);
+        }
+
+
+        textDisplay.GetComponent<Text>().text = "Shop closes in: " + minutesLeft + ": " + secondsLeft;
         takingAway = false;
     }
+
 }
