@@ -11,6 +11,7 @@ public class PlayerToolControl : MonoBehaviour
     private Transform pickaxe;
     public Texture2D cursorPic;
     private Transform player;
+    private Transform cameraHolder;
     private PhotonView PV;
 
     void Awake()
@@ -22,8 +23,8 @@ public class PlayerToolControl : MonoBehaviour
     void Start()
     {
 	player = this.gameObject.transform;
-	//Transform FPSCamera = player.Find("FPSCamera");
-        playerItems = player.Find("itemContainer").gameObject;
+	cameraHolder = player.Find("CameraHolder");
+        playerItems = cameraHolder.Find("itemContainer").gameObject;
 	Transform playerItemsTransform = playerItems.transform;
 	hammer = playerItemsTransform.Find("smithing_hammer");
 	tongs = playerItemsTransform.Find("tongs");

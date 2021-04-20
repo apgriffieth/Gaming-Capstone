@@ -23,7 +23,6 @@ public class PlayerManager : MonoBehaviour
 
     void CreateController()
     {
-	Debug.Log("Instantiated Player Controller");
 	PhotonNetwork.Instantiate("FPSPlayer", transform.position, transform.rotation);
     }
 }

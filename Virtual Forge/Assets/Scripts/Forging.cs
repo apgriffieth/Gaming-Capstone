@@ -14,6 +14,7 @@ public class Forging : MonoBehaviour
     public bool effect = false;
     private GameObject effectObj;
     private Transform player;
+    private Transform cameraHolder;
     private PhotonView PV;
 
     void Awake()
@@ -24,7 +25,8 @@ public class Forging : MonoBehaviour
     void Start()
     {
 	player = this.gameObject.transform;
-        itemContainer = player.Find("itemContainer").transform;
+	cameraHolder = player.Find("CameraHolder").transform;
+        itemContainer = cameraHolder.Find("itemContainer").transform;
         Transform[] childrenTransforms = itemContainer.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in childrenTransforms)
         {

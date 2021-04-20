@@ -7,6 +7,7 @@ public class GrabWithTongs : MonoBehaviour
     private GameObject objectInTongs = null;
     private Transform itemContainer;
     private Transform player;
+    private Transform cameraHolder;
     private PhotonView PV;
 
     void Awake()
@@ -18,7 +19,8 @@ public class GrabWithTongs : MonoBehaviour
     void Start()
     {
 	player = this.gameObject.transform;
-        itemContainer = player.Find("itemContainer").transform;
+	cameraHolder = player.Find("CameraHolder").transform;
+        itemContainer = cameraHolder.Find("itemContainer").transform;
         Transform[] childrenTransforms = itemContainer.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in childrenTransforms)
         {
@@ -63,6 +65,7 @@ public class GrabWithTongs : MonoBehaviour
 	{
 	    return;
 	}
+
         objectInTongs = clickedObject;
         objectInTongs.transform.SetParent(tongs.transform);
         objectInTongs.GetComponent<Rigidbody>().useGravity = false;
