@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8506076004417860533}
   - component: {fileID: 8506076004417860534}
   - component: {fileID: 1565265837091340708}
+  - component: {fileID: 2530864707067199814}
   m_Layer: 0
   m_Name: Copper Ore
   m_TagString: Melt
@@ -113,6 +114,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2530864707067199814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8506076004417860535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97194ee74d7204f951abb30ace6c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matID: 0
 --- !u!1001 &5876060661771092267
 PrefabInstance:
   m_ObjectHideFlags: 0

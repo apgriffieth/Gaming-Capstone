@@ -37,7 +37,7 @@ public class MaterialID : MonoBehaviour
             item = transform.parent.transform;
             label.text = transform.parent.gameObject.name;
 
-            //transform.SetParent(null, true);
+            transform.SetParent(null, true);
             transform.localScale = new Vector3(0.001f, 0.001f, 1);
         }
 
@@ -54,21 +54,4 @@ public class MaterialID : MonoBehaviour
 
         scaler.text = "Length: " + length + ", Thickness: " + thick;
     }
-
-    /*
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Transition"))
-        {
-            transform.SetParent(item);
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Transition"))
-        {
-            transform.SetParent(null);
-        }
-    }
-    */
 }

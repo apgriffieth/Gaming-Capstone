@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 513839740603962030}
   - component: {fileID: 5585117153903151699}
   - component: {fileID: 65925422444422432}
+  - component: {fileID: -6608066580855623732}
   m_Layer: 0
   m_Name: Capstonium Sword Forgeable
   m_TagString: Forgable
@@ -114,6 +115,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.70380604, y: 0.78543586, z: 1.0056467}
   m_Center: {x: 0, y: 0, z: 0.50282335}
+--- !u!114 &-6608066580855623732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027036503141659515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97194ee74d7204f951abb30ace6c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matID: 3
 --- !u!1 &3934150345295659730
 GameObject:
   m_ObjectHideFlags: 0

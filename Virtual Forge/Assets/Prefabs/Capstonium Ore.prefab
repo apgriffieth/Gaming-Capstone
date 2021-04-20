@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 365313116710967323}
   - component: {fileID: 365313116710967320}
   - component: {fileID: 7395629305226045962}
+  - component: {fileID: 8996853930144842995}
   m_Layer: 0
   m_Name: Capstonium Ore
   m_TagString: Melt
@@ -113,6 +114,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8996853930144842995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365313116710967321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97194ee74d7204f951abb30ace6c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matID: 3
 --- !u!1001 &2490925300680403589
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -38,7 +38,8 @@ public class Mining : MonoBehaviour
         {
             if (hit >= maxHits)
             {
-                RigidPrefab = Instantiate(Ore, Spawnpoint.position, Spawnpoint.rotation) as Rigidbody;
+                RigidPrefab = Instantiate(Ore, Spawnpoint.position, Spawnpoint.rotation);
+                RigidPrefab.name = Ore.name;
                 hit = 0;
             }
             if (effect == false)

@@ -22,8 +22,6 @@ public class CraftingManager : MonoBehaviour
     public GameObject playerCanvas;
 
     public Sprite[] sprites;
-    private float bounce = 0.001f;
-    private float bounceOffset = 0;
 
     public Transform player;
     public GameObject playerManager1;
@@ -108,21 +106,6 @@ public class CraftingManager : MonoBehaviour
 
     }
 
-    /* CALL THIS IN UPDATE IF YOU WANT A UI ELEMENT TO BOUNCE UP AND DOWN
-    private void Bounce()
-    {
-
-        bounceOffset += bounce;
-        if (Mathf.Abs(bounceOffset) >= 0.3f)
-        {
-            bounce = -bounce;
-            bounceOffset = 0;
-        }
-        //print(bounceOffset);
-
-        
-    }
-    */
 
     public enum Order
     {
@@ -252,6 +235,8 @@ public class CraftingManager : MonoBehaviour
         gold += addGold;
 
         currentGold.text = "Gold: " + gold;
+        print((int)order);
+        print(letter);
 
         timer.text = "Grade: " + grade + "%";
 

@@ -16,7 +16,7 @@ public class Melting : MonoBehaviour
 	        timer += Time.deltaTime;
 			if (timer > 5f)
 			{
-				int matID = collidingObject.GetComponentInChildren<MaterialID>().matID;
+				int matID = collidingObject.GetComponent<MaterialTracker>().matID;
 				SpawnSword(collidingObject, matID);
 			}
 	    }
@@ -29,22 +29,7 @@ public class Melting : MonoBehaviour
     private void SpawnSword(GameObject other, int mat)
     {
 	    Rigidbody RigidPrefab = Instantiate(Sword[mat], Spawnpoint.position, Spawnpoint.rotation);
-		if (mat == 0)
-		{
-			RigidPrefab.name = "Copper Sword";
-		}
-		else if (mat == 1)
-		{
-			RigidPrefab.name = "Iron Sword";
-		}
-		else if (mat == 2)
-		{
-			RigidPrefab.name = "Titanium Sword";
-		}
-		else if (mat == 3)
-		{
-			RigidPrefab.name = "Capstonium Sword";
-		}
+		RigidPrefab.name = Sword[mat].name;
 
 		collidingObject = null;
 	    other.SetActive(false);

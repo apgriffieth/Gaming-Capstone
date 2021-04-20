@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7782485230120482597}
   - component: {fileID: 7782485230120482598}
   - component: {fileID: 1131431438678263092}
+  - component: {fileID: -5616024806394525548}
   m_Layer: 0
   m_Name: Iron Ore
   m_TagString: Melt
@@ -113,6 +114,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5616024806394525548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782485230120482599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97194ee74d7204f951abb30ace6c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matID: 1
 --- !u!1001 &5440524341773174203
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -47,9 +47,9 @@ public class GradingArea : MonoBehaviour
             item = other.gameObject;
             prompt.text = "Grade " + item.name + "?\nPress Space to confirm" ;
 
+            matID = other.GetComponent<MaterialTracker>().matID;
             itemIn = true;
 
-            matID = 0;
         }
 
 
@@ -60,7 +60,7 @@ public class GradingArea : MonoBehaviour
         if (other.CompareTag("Finished") && manager.GetComponent<CraftingManager>().isCrafting)
         {
             item = null;
-            matID = other.GetComponent<MaterialID>().matID;
+            
 
             prompt.text = gameObject.name;
 

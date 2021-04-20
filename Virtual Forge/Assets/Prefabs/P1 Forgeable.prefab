@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -330}
+  m_AnchoredPosition: {x: 0, y: -150}
   m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &826679863797986182
@@ -92,7 +92,6 @@ GameObject:
   - component: {fileID: 5789248436654520667}
   - component: {fileID: 5789248436654520644}
   - component: {fileID: 803503768914186167}
-  - component: {fileID: 3174424502361305471}
   m_Layer: 0
   m_Name: P1 Forgeable
   m_TagString: UI Label 1
@@ -197,23 +196,10 @@ MonoBehaviour:
   playerIndex: 1
   player: {fileID: 0}
   manager: []
-  displacement: {x: 0, y: 1, z: 0}
+  displacement: {x: 0, y: 0.5, z: 0}
   label: {fileID: 5789248436705582787}
   scaler: {fileID: 6795853391107957904}
   matID: 0
---- !u!65 &3174424502361305471
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5789248436654520647}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5789248436705582797
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 359977855195528844}
   - component: {fileID: 5646723400514971249}
   - component: {fileID: 231185121858128130}
+  - component: {fileID: 6526443843002189829}
   m_Layer: 0
   m_Name: Titanium Sword
   m_TagString: Finished
@@ -113,6 +114,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.70380604, y: 0.78543586, z: 1.0056467}
   m_Center: {x: 0, y: 0, z: 0.50282335}
+--- !u!114 &6526443843002189829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305308112095027033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97194ee74d7204f951abb30ace6c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matID: 2
 --- !u!1001 &2986389036204186998
 PrefabInstance:
   m_ObjectHideFlags: 0

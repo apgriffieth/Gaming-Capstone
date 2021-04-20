@@ -30,7 +30,7 @@ public class Cooling : MonoBehaviour
         {
             cooled = false;
             RigidPrefab = Instantiate(Sword[matID], Spawnpoint.position, Spawnpoint.rotation);
-            RigidPrefab.gameObject.name = "Copper Sword";
+            RigidPrefab.name = Sword[matID].name;
             RigidPrefab.transform.localScale = swordScale;
 	        smokeEmitter.enableEmission = false;
         }
@@ -48,15 +48,9 @@ public class Cooling : MonoBehaviour
             timer = 5;
             cooled = true;
 
-            matID = other.GetComponentInChildren<MaterialID>().matID;
+            matID = other.GetComponent<MaterialTracker>().matID;
             swordScale = other.transform.lossyScale;
             other.gameObject.SetActive(false);
         }
-        /*
-        if (other.CompareTag("UI Label 1") || other.CompareTag("UI Label 2")) 
-        {
-            matID = other.GetComponent<MaterialID>().matID;
-        }
-        */
     }
 }
