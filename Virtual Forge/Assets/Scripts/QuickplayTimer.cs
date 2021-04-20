@@ -16,6 +16,7 @@ public class QuickplayTimer : MonoBehaviour
     void Start()
     {
         textDisplay.GetComponent<Text>().text = "Shop closes in: " + minutesLeft + ": " + secondsLeft;
+        textDisplay.SetActive(true);
     }
 
     void Update()

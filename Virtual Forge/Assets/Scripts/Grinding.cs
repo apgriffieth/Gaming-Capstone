@@ -20,7 +20,7 @@ public class Grinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //timer += Time.deltaTime;
+        timer += Time.deltaTime;
 
         if (collidingObject != null && collidingObject.tag == "Forgable")
         {

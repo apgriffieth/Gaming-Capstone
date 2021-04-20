@@ -34,6 +34,21 @@ public class CraftingManager : MonoBehaviour
     private float length;
     public GameObject testItem;
 
+    //to check if quickplay or tutorial
+    public GameObject quickplayManager;
+    public GameObject tutorial;
+    public GameObject controls;
+
+    void Awake()
+    {
+        if (GameObject.Find("Quickplay/Tutorial").GetComponent<Quickplay_TutorialCheck>().isQuickplay)
+        {
+            quickplayManager.SetActive(true);
+            tutorial.SetActive(false);
+            controls.SetActive(false);
+        }
+    }
+
     void Start()
     {
         isCrafting = false;
