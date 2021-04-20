@@ -39,6 +39,9 @@ public class CraftingManager : MonoBehaviour
     public GameObject tutorial;
     public GameObject controls;
 
+    public bool showControl = true;
+    public bool showTutorial = true;
+
     void Awake()
     {
         if (GameObject.Find("Quickplay/Tutorial").GetComponent<Quickplay_TutorialCheck>().isQuickplay)
@@ -60,7 +63,34 @@ public class CraftingManager : MonoBehaviour
     void Update()
     {
 
-        
+        if (showControl)
+        {
+            controls.SetActive(true);
+        }
+        else
+        {
+            controls.SetActive(false);
+        }
+
+        if (showTutorial && GameObject.Find("Quickplay/Tutorial").GetComponent<Quickplay_TutorialCheck>().isQuickplay == false)
+        {
+            tutorial.SetActive(true);
+        }
+        else
+        {
+            tutorial.SetActive(false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            showTutorial = !showTutorial;
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            showControl = !showControl;
+        }
+
         //FOR TESTING
         /*
         if (Input.GetKeyDown(KeyCode.N))

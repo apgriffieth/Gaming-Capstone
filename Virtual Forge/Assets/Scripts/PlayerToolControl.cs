@@ -41,27 +41,29 @@ public class PlayerToolControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	if (!PV.IsMine) 
-	{
-	    return;
-	}
+	    if (!PV.IsMine) 
+	    {
+	        return;
+	    }
 
-	if (Input.GetKeyDown(KeyCode.Alpha1))
-	{
+	    if (Input.GetKeyDown(KeyCode.Alpha1))
+	    {
+            gameObject.GetComponent<GrabWithTongs>().DropObject();
 	        hammer.gameObject.SetActive(true);
 	        tongs.gameObject.SetActive(false);
-		pickaxe.gameObject.SetActive(false);
+		    pickaxe.gameObject.SetActive(false);
         }
 
-	else if (Input.GetKeyDown(KeyCode.Alpha2))
-	{
-	    hammer.gameObject.SetActive(false);
-	    tongs.gameObject.SetActive(true);
-	    pickaxe.gameObject.SetActive(false);
+	    else if (Input.GetKeyDown(KeyCode.Alpha2))
+	    {
+	        hammer.gameObject.SetActive(false);
+	        tongs.gameObject.SetActive(true);
+	        pickaxe.gameObject.SetActive(false);
         }
 
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
+            gameObject.GetComponent<GrabWithTongs>().DropObject();
             hammer.gameObject.SetActive(false);
             tongs.gameObject.SetActive(false);
             pickaxe.gameObject.SetActive(true);

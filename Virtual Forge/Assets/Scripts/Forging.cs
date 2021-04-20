@@ -53,7 +53,13 @@ public class Forging : MonoBehaviour
             {
                 if (raycastHit.transform != null && raycastHit.transform.gameObject.tag == "Forgable" && timer > 2f)
                 {
-                    
+                    if (effect == false)
+                    {
+                        Transform[] effectTransforms = hammer.GetComponentsInChildren<Transform>(true);
+                        effectObj = Instantiate(hitEffect, effectTransforms[0]);
+                        timerEffect = 1;
+                        effect = true;
+                    }
                     ScaleObject(raycastHit.transform.gameObject);
                 }
             }
@@ -80,12 +86,6 @@ public class Forging : MonoBehaviour
             audioSource.Play();
             clickedObject.transform.localScale += scale;
             clickedObject.transform.localPosition += new Vector3(0f, scale.y * 0.5f, 0f);
-        }
-        if (effect == false)
-        {
-            effectObj = Instantiate(hitEffect, clickedObject.transform);
-            timerEffect = 1;
-            effect = true;
         }
 
     }

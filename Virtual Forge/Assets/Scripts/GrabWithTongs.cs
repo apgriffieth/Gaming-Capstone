@@ -4,7 +4,7 @@ using Photon.Pun;
 public class GrabWithTongs : MonoBehaviour
 {
     private GameObject tongs;
-    private GameObject objectInTongs;
+    private GameObject objectInTongs = null;
     private Transform itemContainer;
     private Transform player;
     private PhotonView PV;
@@ -41,7 +41,7 @@ public class GrabWithTongs : MonoBehaviour
         {
             RaycastHit raycastHit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out raycastHit, 3f))
+            if (Physics.Raycast(ray, out raycastHit, 5f))
             {
                 if (raycastHit.transform != null && (raycastHit.transform.gameObject.tag == "Forgable" || raycastHit.transform.gameObject.tag == "Melt" || raycastHit.transform.gameObject.tag == "Finished"))
                 {
@@ -72,7 +72,7 @@ public class GrabWithTongs : MonoBehaviour
         objectInTongs.GetComponent<Rigidbody>().isKinematic = true;
     }
 
-    private void DropObject()
+    public void DropObject()
     {
         if (objectInTongs == null)
         {

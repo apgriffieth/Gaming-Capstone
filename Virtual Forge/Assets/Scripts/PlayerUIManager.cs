@@ -91,6 +91,13 @@ public class PlayerUIManager : MonoBehaviour
         secondsLeft = craftTime - (int)seconds;
         timer.text = "Time Remaining: " + secondsLeft.ToString();
 
+        if (secondsLeft <= 0)
+        {
+            timer.text = "Time's Up!";
+            ticketDisplay.gameObject.SetActive(false);
+            isCrafting = false;
+        }
+
     }
 
     public void UpdateOrder(string itemName, float thickness, float width, float value, int craftingTime, Sprite image)
