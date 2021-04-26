@@ -24,12 +24,12 @@ public class Grinding : MonoBehaviour
 
         if (collidingObject != null && collidingObject.tag == "Forgable")
         {
-	    timer += Time.deltaTime;
-	    if (timer > 2f)
-	    {
-		timer = 0f;
-		DescaleObject(collidingObject);
-	    }
+	        timer += Time.deltaTime;
+	        if (timer > 2f)
+	        {
+		        timer = 0f;
+		        DescaleObject(collidingObject);
+	        }
         }
     }
 
