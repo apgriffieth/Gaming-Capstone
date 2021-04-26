@@ -761,9 +761,8 @@ MonoBehaviour:
   m_text: "Tutorial (Toggle with T):\nGrab key off anvil and open up shop and get
     first order at counter\n1. Go out back and mine an ore from the matching vein
     as the ticket\n2. Bring ore back to forge and set in flames for 5 seconds\n3.
-    Put cast of sword onto anvil and use hammer to adjust length\n4. Put to grindstone
-    to adjust width\n5. Put in water to cool and finalize \n6. Take to shop counter
-    to get graded"
+    Put cast of sword onto anvil and use hammer to adjust length\n5. Put in water
+    to cool and finalize \n6. Take to shop counter to get graded"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6439,6 +6438,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627691140409714715, guid: bd13ab56337f0a44c9f6560a324ec8b1,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4627691140409714715, guid: bd13ab56337f0a44c9f6560a324ec8b1,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10173,7 +10177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1274989352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15540,7 +15544,7 @@ MonoBehaviour:
   currentGold: {fileID: 1804961010}
   craftTime: 0
   timer: {fileID: 200609400}
-  ticketDisplay: {fileID: 0}
+  ticketDisplay: {fileID: 1420003395}
   orderCanvas: {fileID: 0}
   playerCanvas: {fileID: 654081799}
   sprites:
@@ -16660,7 +16664,7 @@ PrefabInstance:
     - target: {fileID: 1798590857071225013, guid: 2b34bca5d404b6d4f82a58459e6f87bf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.95
+      value: 6.31
       objectReference: {fileID: 0}
     - target: {fileID: 1798590857071225013, guid: 2b34bca5d404b6d4f82a58459e6f87bf,
         type: 3}
@@ -16670,7 +16674,7 @@ PrefabInstance:
     - target: {fileID: 1798590857071225013, guid: 2b34bca5d404b6d4f82a58459e6f87bf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.18
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 1798590857071225013, guid: 2b34bca5d404b6d4f82a58459e6f87bf,
         type: 3}

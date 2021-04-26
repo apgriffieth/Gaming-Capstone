@@ -48,6 +48,12 @@ public class CraftingManager : MonoBehaviour
             tutorial.SetActive(false);
             controls.SetActive(false);
         }
+        else
+        {
+            quickplayManager.SetActive(false);
+            tutorial.SetActive(true);
+            controls.SetActive(false);
+        }
     }
 
     void Start()

@@ -14653,9 +14653,8 @@ MonoBehaviour:
   m_text: "Tutorial (Toggle with T):\nGrab key off anvil and open up shop and get
     first order at counter\n1. Go out back and mine an ore from the matching vein
     as the ticket\n2. Bring ore back to forge and set in flames for 5 seconds\n3.
-    Put cast of sword onto anvil and use hammer to adjust length\n4. Put to grindstone
-    to adjust width\n5. Put in water to cool and finalize \n6. Take to shop counter
-    to get graded"
+    Put cast of sword onto anvil and use hammer to adjust length\n4. Put in water
+    to cool and finalize \n5. Take to shop counter to get graded"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
