@@ -1,7 +1,7 @@
 Using pre-set license
 <<<<<<< HEAD
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32688 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16244 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -21,36 +21,41 @@ C:\Program Files\Unity\Editor\Unity.exe
 AssetImportWorker0
 -projectPath
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+=======
+C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+>>>>>>> parent of ab07fe416 (UI Fixes)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51098
-Successfully changed project path to: C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
-C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+62794
+Successfully changed project path to: C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
+C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Bryanna/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
+[Subsystems] Discovering subsystems at path C:/Users/saipr/OneDrive/Documents/GitHub/Gaming-Capstone/Virtual Forge/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   
-    VRAM:     1982 MB
-    Driver:   27.21.14.5671
+    VRAM:     4018 MB
+    Driver:   27.21.14.6611
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
 Registered in 0.004558 seconds.
@@ -98,971 +103,809 @@ Refreshing native plugins compatible for Editor in 77.91 ms, found 0 plugins.
 =======
 Refreshing native plugins compatible for Editor in 49.10 ms, found 0 plugins.
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+Registered in 0.002863 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.25 ms, found 0 plugins.
+>>>>>>> parent of ab07fe416 (UI Fixes)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Completed reload, in  2.614 seconds
+=======
+- Completed reload, in  1.319 seconds
+>>>>>>> parent of ab07fe416 (UI Fixes)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006926 seconds.
+Registered in 0.005086 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
+- Completed reload, in  0.922 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.7 MB.
-System memory in use after: 196.6 MB.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.8 MB.
+System memory in use after: 193.9 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2611.
-Total: 2.176900 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.630200 ms  DeleteObjects: 0.270900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Particle Effect Stuff/SmokeTrail.mat
-  artifactKey: Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effect Stuff/SmokeTrail.mat using Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c3a81f97ce78fc66cdc804c66a9daa') in 0.119937 seconds
-  Import took 0.123551 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.503100 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.219300 ms MarkObjects: 1.574300 ms  DeleteObjects: 0.188400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000466 seconds.
   path: Assets/Particle Effect Stuff/uploads_files_179010_Worn_Key.fbx
   artifactKey: Guid(7a58f0dee43cbcb4089d6fb48a82004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effect Stuff/uploads_files_179010_Worn_Key.fbx using Guid(7a58f0dee43cbcb4089d6fb48a82004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303f995d0306a8050b0e2d073d8eb08b') in 0.076565 seconds
-  Import took 0.079883 seconds .
+Start importing Assets/Particle Effect Stuff/uploads_files_179010_Worn_Key.fbx using Guid(7a58f0dee43cbcb4089d6fb48a82004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef03f8189b99e68cc0e1c50e8cfbef2') in 0.204621 seconds
+  Import took 0.209045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 415.866913 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16680eac3b876546d405add482e7a718') in 0.054292 seconds
-  Import took 0.058564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
+  Time since last request: 0.000624 seconds.
   path: Assets/old_wooden_door.FBX
   artifactKey: Guid(c6ac02a7d4d08fc4aba89978681e688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/old_wooden_door.FBX using Guid(c6ac02a7d4d08fc4aba89978681e688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da5e462a4c19c839f087fd0253df20') in 0.017729 seconds
-  Import took 0.020984 seconds .
+Start importing Assets/old_wooden_door.FBX using Guid(c6ac02a7d4d08fc4aba89978681e688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6aca57e44a87f0ab24184db5abd07f') in 0.022229 seconds
+  Import took 0.025934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.425971 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(c18d0a3901a8e483999e525bae2ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(c18d0a3901a8e483999e525bae2ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd010efed954dfdea791b9452065330df') in 0.003993 seconds
-  Import took 0.007228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005707 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(c18d0a3901a8e483999e525bae2ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(c18d0a3901a8e483999e525bae2ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd010efed954dfdea791b9452065330df') in 0.004730 seconds
-  Import took 0.008580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055318 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(058c0608ac15c42cdb5d0fda427db27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(058c0608ac15c42cdb5d0fda427db27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875dc223489a0bafe4cb0884817057f3') in 0.014061 seconds
-  Import took 0.017404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(e25f56a64e1134e17a67ad8b0aab3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(e25f56a64e1134e17a67ad8b0aab3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c676a2df44a5f5cf01aa7a6f9b0a8ef') in 0.022096 seconds
-  Import took 0.025962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(d4cbe0214e0fa409e9317b25c2c15a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(d4cbe0214e0fa409e9317b25c2c15a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded1062c164dfe5a3bb64a5f3e27eaeb') in 0.010922 seconds
-  Import took 0.014811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefabs/FPSPlayer.prefab
-  artifactKey: Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FPSPlayer.prefab using Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c394821773f086e313325961534523f') in 0.012993 seconds
-  Import took 0.016404 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Particle Effect Stuff/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Effect Stuff/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675bcbbd4df54fdc87dcfdf68a12e2d7') in 0.012326 seconds
+  Import took 0.016642 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007258 seconds.
+Registered in 0.005607 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
+- Completed reload, in  0.843 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.2 MB.
-System memory in use after: 197.1 MB.
+Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.5 MB.
+System memory in use after: 194.6 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2662.
-Total: 2.078700 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.588000 ms  DeleteObjects: 0.246400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 3.391200 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.177500 ms MarkObjects: 2.739300 ms  DeleteObjects: 0.021300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 269.665057 seconds.
-  path: Assets/Scenes/BaseCharacter.asset
-  artifactKey: Guid(10393df9ae23c454eadea16ba145b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BaseCharacter.asset using Guid(10393df9ae23c454eadea16ba145b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71915c96ed8043dce34f7ca1aa453daa') in 0.048599 seconds
-  Import took 0.052575 seconds .
+  Time since last request: 869.186771 seconds.
+  path: Assets/Scenes/Character Triangl High Poly.fbx
+  artifactKey: Guid(68ba8cebfd410e64b96491e6572b6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Character Triangl High Poly.fbx using Guid(68ba8cebfd410e64b96491e6572b6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe35cccbc85243075c7ace4bc52c91a7') in 0.945565 seconds
+  Import took 0.974071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.009573 seconds.
-  path: Assets/Models/Dresser.obj
-  artifactKey: Guid(0806ece75d2a83b4c992b4b7b15deade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Dresser.obj using Guid(0806ece75d2a83b4c992b4b7b15deade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a0b33b67690b85f4bff0e300079325') in 0.080253 seconds
-  Import took 0.083943 seconds .
+  Time since last request: 485.270309 seconds.
+  path: Assets/Devion Games/Graphs
+  artifactKey: Guid(af43795b59eadf8479ad5f126d8816ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Graphs using Guid(af43795b59eadf8479ad5f126d8816ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378d456ab177016a1e9d61ad1979d401') in 0.010114 seconds
+  Import took 0.017064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Models/playermodel.fbx
-  artifactKey: Guid(2569b3265a839af46a10ec2c557d2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/playermodel.fbx using Guid(2569b3265a839af46a10ec2c557d2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f359b567a5407ef8cd15c4918994e5') in 0.018585 seconds
-  Import took 0.021699 seconds .
+  Time since last request: 1.627264 seconds.
+  path: Assets/Devion Games/Stat System
+  artifactKey: Guid(69407ab4344c9d14898138e5ef4c98e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Stat System using Guid(69407ab4344c9d14898138e5ef4c98e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59a41ac73fb7222ecb7c5bf347f755a') in 0.007798 seconds
+  Import took 0.013542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Models/Material Vein Paint.fbx
-  artifactKey: Guid(78a298aabfe61744e97ce4f9879f25cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Material Vein Paint.fbx using Guid(78a298aabfe61744e97ce4f9879f25cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cbb64a930f2d66e81e38a2ba9f919d') in 0.021167 seconds
-  Import took 0.024488 seconds .
+  Time since last request: 18.516372 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(058c0608ac15c42cdb5d0fda427db27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(058c0608ac15c42cdb5d0fda427db27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57e3306b9bf300d73fec49ee8a04f5d') in 0.027199 seconds
+  Import took 0.031644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Models/Temp Dresser.mat
-  artifactKey: Guid(46ab2b0b041140c499199d227ddee5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Temp Dresser.mat using Guid(46ab2b0b041140c499199d227ddee5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c765593fcc1aa23be8aa321893810b0a') in 0.014561 seconds
-  Import took 0.018099 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Prefabs/Capstonium Sword.prefab
+  artifactKey: Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Sword.prefab using Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07752b9c10d80f747f1dcc75b90fa682') in 0.026215 seconds
+  Import took 0.030405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Models/Temp Anvil Mat.mat
-  artifactKey: Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Temp Anvil Mat.mat using Guid(a81d79f068be6ea4fb0264f51b55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b872bc8bd4dd92ad8bbb94c58a1aff') in 0.011250 seconds
-  Import took 0.014582 seconds .
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Copper Ore.prefab
+  artifactKey: Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Ore.prefab using Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540d82577fce517aafcbd42decf6c9c3') in 0.021037 seconds
+  Import took 0.025244 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.746186 seconds.
-  path: Assets/Tafi
-  artifactKey: Guid(26bcf94a4db882e419cf263c18a9f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi using Guid(26bcf94a4db882e419cf263c18a9f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d24db61b2c524b578061a7cf3aa1ed') in 0.007651 seconds
-  Import took 0.011126 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/Prefabs/Titanium Sword Forgeable.prefab
+  artifactKey: Guid(58b16bd89f0887c4aba587315fbe949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Sword Forgeable.prefab using Guid(58b16bd89f0887c4aba587315fbe949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a665fc52d15eed8fd8b4ffcb11a41ba0') in 0.018993 seconds
+  Import took 0.024746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.708671 seconds.
-  path: Assets/Tafi/Characters
-  artifactKey: Guid(6a5f80ba4a107474ea0d13f1e5b03475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters using Guid(6a5f80ba4a107474ea0d13f1e5b03475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9f98c37b7471ae9a25ddfe074f100') in 0.005258 seconds
-  Import took 0.009539 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefabs/P1 Forgeable.prefab
+  artifactKey: Guid(865a710c2677f404cac3cd613c69af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/P1 Forgeable.prefab using Guid(865a710c2677f404cac3cd613c69af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505caa9075e423fd948c554cebf3564a') in 0.009382 seconds
+  Import took 0.013206 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.379067 seconds.
-  path: Assets/Tafi/Characters/Male
-  artifactKey: Guid(569fe390de0a3ee4a8130647ae82a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male using Guid(569fe390de0a3ee4a8130647ae82a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18812355590d99c0f3ff86144eb60d66') in 0.005289 seconds
-  Import took 0.008806 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Prefabs/Copper Sword.prefab
+  artifactKey: Guid(2689a93afe602f04d9296f089c388a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Sword.prefab using Guid(2689a93afe602f04d9296f089c388a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a48687ea677300ccf71fa2efb20a6f6') in 0.020725 seconds
+  Import took 0.024576 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.875147 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle
-  artifactKey: Guid(5259aaf444c762243ac44c6ac24d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle using Guid(5259aaf444c762243ac44c6ac24d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e4f27efda4ff131db449b62a0d891c') in 0.004271 seconds
-  Import took 0.009027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159567 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Character.asset
-  artifactKey: Guid(6f16f00778128464994d7633303eba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Character.asset using Guid(6f16f00778128464994d7633303eba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72e4d93076845ca4f62688d939ca9fc') in 0.099998 seconds
-  Import took 0.104420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.863931 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Example.asset
-  artifactKey: Guid(fff5f6a803e2bf243bb45c6774832418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Example.asset using Guid(fff5f6a803e2bf243bb45c6774832418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb104ad0604c689520f4deea480f248a') in 1.116226 seconds
-  Import took 1.122214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Morph.asset
-  artifactKey: Guid(8f52cc52c82304f4ebc53b9e9f8e1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Morph.asset using Guid(8f52cc52c82304f4ebc53b9e9f8e1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c080a78a23531ec7e62cbe0073e57a') in 0.091847 seconds
-  Import took 0.095793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SebHD.fbx
-  artifactKey: Guid(7085f6fc3ee904649932e3bea50bd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SebHD.fbx using Guid(7085f6fc3ee904649932e3bea50bd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426226a3adf94728ed308adc9972d9b5') in 0.120232 seconds
-  Import took 0.124433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair
-  artifactKey: Guid(69f584381099d464da6a97c247ac6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair using Guid(69f584381099d464da6a97c247ac6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6517a30d44bb0db81789b7bf6c2327ec') in 0.004004 seconds
-  Import took 0.007233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.849089 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb
-  artifactKey: Guid(abca126418b1b5140a084d0b6a665f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb using Guid(abca126418b1b5140a084d0b6a665f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777e1457731d542bc0083ba040b20d1') in 0.005103 seconds
-  Import took 0.009167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072268 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Arms.mat
-  artifactKey: Guid(d48ebab8f1a3c9840b62a5b9dc093e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Arms.mat using Guid(d48ebab8f1a3c9840b62a5b9dc093e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6022a53d1a7906acb3a2ecceb00ef932') in 0.009841 seconds
-  Import took 0.013233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Irises.mat
-  artifactKey: Guid(2657142f876fe8441b12a8a37c611882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Irises.mat using Guid(2657142f876fe8441b12a8a37c611882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ac61ad755d80bcecd56b5069781893') in 0.008590 seconds
-  Import took 0.011838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFace_1001.jpg
-  artifactKey: Guid(d1ee372f4763dcd4d95db7e86d207b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFace_1001.jpg using Guid(d1ee372f4763dcd4d95db7e86d207b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930b510312d46f5bd04eb2b6d9416563') in 0.027506 seconds
-  Import took 0.032160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsB_1004.jpg
-  artifactKey: Guid(1c5b73971f9d6954ba220e5c569ab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsB_1004.jpg using Guid(1c5b73971f9d6954ba220e5c569ab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ccb7a08e3a164e129c6339f0b3a07d') in 0.016305 seconds
-  Import took 0.019916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesN_1006.jpg
-  artifactKey: Guid(ff2761092013ae5499685aa97ed3d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesN_1006.jpg using Guid(ff2761092013ae5499685aa97ed3d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcb8860caf93cc9fe7602783346083a') in 0.015624 seconds
-  Import took 0.019722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Fingernails.mat
-  artifactKey: Guid(49413201f4814e64aa0522e169d688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Fingernails.mat using Guid(49413201f4814e64aa0522e169d688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cf9fcc7ca18adf6b994fccdc3f1bb3') in 0.008759 seconds
-  Import took 0.014291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Mouth.mat
-  artifactKey: Guid(39ded4c2db97d2148b009eb5d92fbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Mouth.mat using Guid(39ded4c2db97d2148b009eb5d92fbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdf8b559c8546080e05c24a70232a35') in 0.020647 seconds
-  Import took 0.024687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsS_1004.jpg
-  artifactKey: Guid(4f4b024fb2c6cbc43b0ea0a188254413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsS_1004.jpg using Guid(4f4b024fb2c6cbc43b0ea0a188254413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81a0831f60ee30879a83fe6f4d83990') in 0.010052 seconds
-  Import took 0.013323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Sclera.mat
-  artifactKey: Guid(3921159b8d0ef5f4184c63fe4a3d42d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Sclera.mat using Guid(3921159b8d0ef5f4184c63fe4a3d42d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a699a90cafe52d5e8e0587a64a7f4f20') in 0.009354 seconds
-  Import took 0.012830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceS_1001.jpg
-  artifactKey: Guid(78436372860c56546b05d3b32ac9cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceS_1001.jpg using Guid(78436372860c56546b05d3b32ac9cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e1385b668d2eb402df4b95f074b02') in 0.012944 seconds
-  Import took 0.017811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Legs.mat
-  artifactKey: Guid(409a5305e26741c428fbbc60a26e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Legs.mat using Guid(409a5305e26741c428fbbc60a26e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07023cea2c89b92c18effb5d6e7f4b48') in 0.008673 seconds
-  Import took 0.012009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Pupils.mat
-  artifactKey: Guid(0feed1eac475c164ba859489d4b2fd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Pupils.mat using Guid(0feed1eac475c164ba859489d4b2fd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700f1c00c7a9de3611d71ae7cb6b7ad1') in 0.008948 seconds
-  Import took 0.012373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Lips.mat
-  artifactKey: Guid(fc6f8c2f2273e0a458e23afbb1a21e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Lips.mat using Guid(fc6f8c2f2273e0a458e23afbb1a21e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf89700d9ed3e69ec0af07aa25185f13') in 0.010169 seconds
-  Import took 0.014826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsN_1004.tif
-  artifactKey: Guid(b765dfa8be1021a4fbbfd7c535e9b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsN_1004.tif using Guid(b765dfa8be1021a4fbbfd7c535e9b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39daa4bb4f0c57779ba55b77c7c2590') in 0.019674 seconds
-  Import took 0.023163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Ears.mat
-  artifactKey: Guid(6ea00e83a8e8e5642858d861da533f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Ears.mat using Guid(6ea00e83a8e8e5642858d861da533f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7a3b5b2a5f69cab2771b44be6a08e9') in 0.009099 seconds
-  Import took 0.012400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeMoisture.mat
-  artifactKey: Guid(177c40f0afcf9804bb56e7723dca8487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeMoisture.mat using Guid(177c40f0afcf9804bb56e7723dca8487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2398643e08f87e4449450cb6ab6c266c') in 0.010502 seconds
-  Import took 0.015042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceN_1001.tif
-  artifactKey: Guid(f54b15f602ba6cc4aba5d8617a11e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceN_1001.tif using Guid(f54b15f602ba6cc4aba5d8617a11e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdc24ce48ba31a5212c4f1275e11a39') in 0.015983 seconds
-  Import took 0.019565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesSocketTR_1001.jpg
-  artifactKey: Guid(09f4a81a1b06e504db8ff39916e8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesSocketTR_1001.jpg using Guid(09f4a81a1b06e504db8ff39916e8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b847286fc7476b7a570d4f08f152b5') in 0.008530 seconds
-  Import took 0.012112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceMicro_1001.jpg
-  artifactKey: Guid(d9f760c46f9b0034aa031ef628c12cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceMicro_1001.jpg using Guid(d9f760c46f9b0034aa031ef628c12cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef5877963f0d8d595d6f7db0c806e9b') in 0.011698 seconds
-  Import took 0.015095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Face.mat
-  artifactKey: Guid(f5b2756f9890c8e44acdf2cf4961045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Face.mat using Guid(f5b2756f9890c8e44acdf2cf4961045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653f32bf536023833ef8ac1b6bfa40e2') in 0.013030 seconds
-  Import took 0.016860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyes01_1006.jpg
-  artifactKey: Guid(7bc6f28178c633745a453225cbce1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyes01_1006.jpg using Guid(7bc6f28178c633745a453225cbce1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167274b9f81d8007133d92811c84a379') in 0.010963 seconds
-  Import took 0.014336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Cornea.mat
-  artifactKey: Guid(03ac301425a644b409de9d3441514582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Cornea.mat using Guid(03ac301425a644b409de9d3441514582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0589eb2252fed4752f23325c0ee76b68') in 0.009320 seconds
-  Import took 0.012580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesB_1006.jpg
-  artifactKey: Guid(d277dcbb4be083647b0852a2a22a5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesB_1006.jpg using Guid(d277dcbb4be083647b0852a2a22a5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fe7b3e923c428e20d7656140c1b56f') in 0.012099 seconds
-  Import took 0.016833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeSocket.mat
-  artifactKey: Guid(b6b145113e8aded40aeacf96099168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeSocket.mat using Guid(b6b145113e8aded40aeacf96099168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e200ddd7c5eebb5c52e75790299dfa52') in 0.014127 seconds
-  Import took 0.017528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceB_1001.jpg
-  artifactKey: Guid(d7a86d73b26e0064c9b7e73d317d168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceB_1001.jpg using Guid(d7a86d73b26e0064c9b7e73d317d168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9a939075e1bec6fe0447ed7dc948b') in 0.010342 seconds
-  Import took 0.013604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArms_1004.jpg
-  artifactKey: Guid(a53a14ad351ebfd479dff66e4b79081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArms_1004.jpg using Guid(a53a14ad351ebfd479dff66e4b79081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261978160fb0239538c7190163c07b91') in 0.011560 seconds
-  Import took 0.015128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.836369 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegs_1003.jpg
-  artifactKey: Guid(b86bd988a7260e24da5c4953fb3b885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegs_1003.jpg using Guid(b86bd988a7260e24da5c4953fb3b885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dbd528baa88b7570f92fd4fa0b17d2') in 0.010320 seconds
-  Import took 0.014317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsB_1003.jpg
-  artifactKey: Guid(ff10085101bf27f4b932e6b95b58b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsB_1003.jpg using Guid(ff10085101bf27f4b932e6b95b58b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a8f395679ece26cd88cd0df76b20f0') in 0.009782 seconds
-  Import took 0.013129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouth_1005.jpg
-  artifactKey: Guid(d79197a9f9b1b7f4397971e3ada201bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouth_1005.jpg using Guid(d79197a9f9b1b7f4397971e3ada201bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fd4d2c28a3607e16d468711c4ed74b') in 0.009563 seconds
-  Import took 0.012851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsN_1003.tif
-  artifactKey: Guid(7939dde489a47ec48b39d006b791916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsN_1003.tif using Guid(7939dde489a47ec48b39d006b791916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c366f402cef87dcb40a6adaa20929e3') in 0.013262 seconds
-  Import took 0.017901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsS_1003.jpg
-  artifactKey: Guid(9ce91c8f52c0d6c4d98c0e2418856dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsS_1003.jpg using Guid(9ce91c8f52c0d6c4d98c0e2418856dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a46c600e9794c8bc301b6732ee178') in 0.016538 seconds
-  Import took 0.020098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024130 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouthB_1005.jpg
-  artifactKey: Guid(4e928c292bfd0bb4198ffd438c5f7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouthB_1005.jpg using Guid(4e928c292bfd0bb4198ffd438c5f7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a18a7f1be9e8194ca7e3140391c510') in 0.012472 seconds
-  Import took 0.016512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoS_1002.jpg
-  artifactKey: Guid(7492a71121235904e9833f706846d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoS_1002.jpg using Guid(7492a71121235904e9833f706846d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d8f60df04737e40a69eeb0ac95c518') in 0.014654 seconds
-  Import took 0.018099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Toenails.mat
-  artifactKey: Guid(a1762fe9f1821a44eacf6cbb487737c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Toenails.mat using Guid(a1762fe9f1821a44eacf6cbb487737c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995de7163543ea706f35f1c2ea5b971b') in 0.009680 seconds
-  Import took 0.013005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Teeth.mat
-  artifactKey: Guid(a9d45c91f7e5a5a44b3c93d5427130e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Teeth.mat using Guid(a9d45c91f7e5a5a44b3c93d5427130e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d47da6046000b182657d262252c2d96') in 0.008990 seconds
-  Import took 0.014285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoB_1002.jpg
-  artifactKey: Guid(f9dc6d38a41a38141a30c8c29267ce54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoB_1002.jpg using Guid(f9dc6d38a41a38141a30c8c29267ce54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255cf28865555e1d8afd44f4e0a638c0') in 0.012069 seconds
-  Import took 0.017051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorso_1002.jpg
-  artifactKey: Guid(ceaf96e2b31043349bfdb6196d7e42b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorso_1002.jpg using Guid(ceaf96e2b31043349bfdb6196d7e42b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984c8123eeaf7dbce1eed47742eba21') in 0.010010 seconds
-  Import took 0.013232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoN_1002.tif
-  artifactKey: Guid(26cbf30c7629bf0429015ef281a18913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoN_1002.tif using Guid(26cbf30c7629bf0429015ef281a18913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7c6f26dc9f040e0dad7addb8d036d1') in 0.009537 seconds
-  Import took 0.012861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Torso.mat
-  artifactKey: Guid(8f50827102011d14faeae46eb64d0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Torso.mat using Guid(8f50827102011d14faeae46eb64d0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af760093502f6d78a4f74ba86b6aad21') in 0.010817 seconds
-  Import took 0.015432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.653390 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi
-  artifactKey: Guid(caf8c25570183b64d8b6c209cad1531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi using Guid(caf8c25570183b64d8b6c209cad1531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b35e032057b4b16bd21bdc8f845482') in 0.004687 seconds
-  Import took 0.008840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064802 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerOutfit - Example Outfit.asset
-  artifactKey: Guid(f186e69d4e71d0647961524cfb476fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerOutfit - Example Outfit.asset using Guid(f186e69d4e71d0647961524cfb476fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fe0ee539fcb155b32cc61d2a40af09') in 0.285043 seconds
-  Import took 0.289865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.124464 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots
-  artifactKey: Guid(fb18365d3a8110247b96b826e0228685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots using Guid(fb18365d3a8110247b96b826e0228685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b081b617a6ab327891117ef8b79f2b') in 0.007289 seconds
-  Import took 0.011747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092333 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots  - For Men - SClothing.asset
-  artifactKey: Guid(8e7d5961006774649bea706ead45a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots  - For Men - SClothing.asset using Guid(8e7d5961006774649bea706ead45a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2358de82b16ead2f2dced11d77b7d88a') in 0.149978 seconds
-  Import took 0.154147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots - SPrefab.prefab
-  artifactKey: Guid(482a3fcb8e1face44a0b521d259e696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots - SPrefab.prefab using Guid(482a3fcb8e1face44a0b521d259e696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0986cc0f8813cd2d8ba753b5b1dc7821') in 0.019860 seconds
-  Import took 0.023545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots.fbx
-  artifactKey: Guid(cd07aa50282a4a84ebd1c26bf4af1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/SciFiSettlerBoots.fbx using Guid(cd07aa50282a4a84ebd1c26bf4af1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b035c2a10aa8f5a9b066dfee87b3248b') in 0.088339 seconds
-  Import took 0.091811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.231940 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Textures
-  artifactKey: Guid(2da749951c71d3e498d5a8b812b01f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Textures using Guid(2da749951c71d3e498d5a8b812b01f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8721d624eecc8e184c2ad03580660a9d') in 0.006076 seconds
-  Import took 0.009476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076267 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Textures/SFS Boots Base Color 01.png
-  artifactKey: Guid(a3280fe805fa24244b2e65c84eb1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Textures/SFS Boots Base Color 01.png using Guid(a3280fe805fa24244b2e65c84eb1632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30f7ab8ab48d6688ab0e0f8ea865e9d') in 0.013236 seconds
-  Import took 0.016765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.570055 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male
-  artifactKey: Guid(ba960cee5e9600d459ad4b84c3ff07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male using Guid(ba960cee5e9600d459ad4b84c3ff07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38c14eb955f4523bfe8d56b4e7c83ef') in 0.007026 seconds
-  Import took 0.011301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065387 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/Hair.asset
-  artifactKey: Guid(2d6031bd482874b4094fcd4611247c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/Hair.asset using Guid(2d6031bd482874b4094fcd4611247c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884905986bcbc8802c6ee48112535353') in 0.578620 seconds
-  Import took 0.583320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/NikanHairGenesis8Male.fbx
-  artifactKey: Guid(8647e6b89eecf864ca3e75ce6770487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/NikanHairGenesis8Male.fbx using Guid(8647e6b89eecf864ca3e75ce6770487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9806a12082f2ed25717b669cb26e70b') in 0.076140 seconds
-  Import took 0.079541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/NikanHairGenesis8Male - SPrefab.prefab
-  artifactKey: Guid(c34db8300b88c86469866d84447d7d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanHairGenesis8Male/NikanHairGenesis8Male - SPrefab.prefab using Guid(c34db8300b88c86469866d84447d7d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6846dfadcaf7aaae026bab503fa0f014') in 0.022589 seconds
-  Import took 0.026090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.696169 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male
-  artifactKey: Guid(8982cbf60330f464fabcf09525cb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male using Guid(8982cbf60330f464fabcf09525cb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19f2ad97cf8832a641295803af33049') in 0.004209 seconds
-  Import took 0.008926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067481 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/Beard.asset
-  artifactKey: Guid(1e7de1459589f5b4d9fd41799e8bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/Beard.asset using Guid(1e7de1459589f5b4d9fd41799e8bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e250486d50d26d1d38cdb32077f2f7') in 0.267634 seconds
-  Import took 0.271768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male.fbx
-  artifactKey: Guid(b25553984a597a243be94bf9980cc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male.fbx using Guid(b25553984a597a243be94bf9980cc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbf165a3c25d54aeca3bcab6a12a32f') in 0.056379 seconds
-  Import took 0.059855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male - SPrefab.prefab
-  artifactKey: Guid(2168de17ca25bb343b9db9ebd9d8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male - SPrefab.prefab using Guid(2168de17ca25bb343b9db9ebd9d8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846dd95cdff7ca4400850ca7411574d5') in 0.017591 seconds
-  Import took 0.021040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.346689 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male_Prefab
-  artifactKey: Guid(7a1149074b935134482e33451a134d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male_Prefab using Guid(7a1149074b935134482e33451a134d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362273df89a2493fd05bff6a90d63eec') in 0.005974 seconds
-  Import took 0.010072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070218 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male_Prefab/Daz3D_NikanBeardGenesis8Male.prefab
-  artifactKey: Guid(51d7e48d2cbaba94d86c3e6f93e53aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male_Prefab/Daz3D_NikanBeardGenesis8Male.prefab using Guid(51d7e48d2cbaba94d86c3e6f93e53aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab0d6cc0ddfcf90ac113865a82f0b2d') in 0.007928 seconds
-  Import took 0.011348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.041792 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots
-  artifactKey: Guid(1428ea2d0fdb5e14eb285f73fe629259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots using Guid(1428ea2d0fdb5e14eb285f73fe629259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10eb8d30d8070a067d00fcd411fc04') in 0.006052 seconds
-  Import took 0.009357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075710 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Body.mat
-  artifactKey: Guid(fa3ccb7f8adc9814193a5bc3af833587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Body.mat using Guid(fa3ccb7f8adc9814193a5bc3af833587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c806759a1ba4ad5fec592b75da7265be') in 0.021278 seconds
-  Import took 0.024652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Strap.mat
-  artifactKey: Guid(4c26af68884910e4397f32dfd3489177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Strap.mat using Guid(4c26af68884910e4397f32dfd3489177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8a8e715bc5e6c73d9d638d0655f251') in 0.015613 seconds
-  Import took 0.018957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Toe.mat
-  artifactKey: Guid(c9fc3eefce8b0b64884e08f5b75cf5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Toe.mat using Guid(c9fc3eefce8b0b64884e08f5b75cf5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d14a3222a6e74bd62c31a724d648b6') in 0.012484 seconds
-  Import took 0.016125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Hardware.mat
-  artifactKey: Guid(ae9996705cc2d154484866e0feb24f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Hardware.mat using Guid(ae9996705cc2d154484866e0feb24f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3275ffb3c7599cc46ec4c60328ea40b0') in 0.043004 seconds
-  Import took 0.046507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Metallic_01.png
-  artifactKey: Guid(4e6c73dca3c327b47845ce9935cb727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Metallic_01.png using Guid(4e6c73dca3c327b47845ce9935cb727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5699b154b5aaf760f346c28175a2ad') in 0.011470 seconds
-  Import took 0.014828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Sole.mat
-  artifactKey: Guid(6ebc7a0971eeae34aad008aaad6c873d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Sole.mat using Guid(6ebc7a0971eeae34aad008aaad6c873d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fc9c28a42392f08bcf95f814ee7af7') in 0.010373 seconds
-  Import took 0.013583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Foot.mat
-  artifactKey: Guid(a95b8776fd12a27478a996dcb6e07e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Foot.mat using Guid(a95b8776fd12a27478a996dcb6e07e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b30e79d25161f8813c13ff201fba5bd') in 0.010103 seconds
-  Import took 0.013301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Laces.mat
-  artifactKey: Guid(e3e9b15becfc0214a92d62a7a03e29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Laces.mat using Guid(e3e9b15becfc0214a92d62a7a03e29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf106df504c14a0fd3b6953cfd2da10') in 0.012291 seconds
-  Import took 0.015725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Height_01.png
-  artifactKey: Guid(aaa160be72f41a44b9db621a4775b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Height_01.png using Guid(aaa160be72f41a44b9db621a4775b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7385b40a8557d13c5e910b7ee5986c4c') in 0.013027 seconds
-  Import took 0.016276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Base_Color_01.png
-  artifactKey: Guid(b0d5e0f26ca45544c8edb8ec52d18fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Base_Color_01.png using Guid(b0d5e0f26ca45544c8edb8ec52d18fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6ef8231f844591b510225c4667112c') in 0.011062 seconds
-  Import took 0.014283 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Capstonium Ore.prefab
+  artifactKey: Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Ore.prefab using Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c349f3a44c2b31f7569a40aa9e093') in 0.014539 seconds
+  Import took 0.018481 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000241 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Roughness_01.png
-  artifactKey: Guid(a37a28549e000aa409d5bc1e33ccd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Roughness_01.png using Guid(a37a28549e000aa409d5bc1e33ccd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3049d760995c3b66214437f4fd0e1') in 0.020317 seconds
-  Import took 0.023662 seconds .
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e25f56a64e1134e17a67ad8b0aab3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e25f56a64e1134e17a67ad8b0aab3f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466ffc266e5ff5b91557fba435bd8ff8') in 0.020583 seconds
+  Import took 0.024191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Rivots.mat
-  artifactKey: Guid(a12c72a0febc1c34299f2404aab92cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Rivots.mat using Guid(a12c72a0febc1c34299f2404aab92cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d26e2ff3420092f48b26aad6b5f6db') in 0.010045 seconds
-  Import took 0.013323 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Iron Sword Forgeable.prefab
+  artifactKey: Guid(d84f15dd6dbd9494cadbe4a267271ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Sword Forgeable.prefab using Guid(d84f15dd6dbd9494cadbe4a267271ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cb6b1ba3df2693465555f0f8c6ccaf') in 0.014151 seconds
+  Import took 0.017795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Heel.mat
-  artifactKey: Guid(6e64c5d3ed557e540ba2ee01c23f5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Heel.mat using Guid(6e64c5d3ed557e540ba2ee01c23f5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115f8fa5d4c32b71b8b61e827649f71a') in 0.010988 seconds
-  Import took 0.014248 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/Copper Sword Forgeable.prefab
+  artifactKey: Guid(3816f2e660ecb1141a64a9fec2b47c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Sword Forgeable.prefab using Guid(3816f2e660ecb1141a64a9fec2b47c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc862ec3dfcee13db457411b093b635') in 0.012873 seconds
+  Import took 0.016199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Normal_01.png
-  artifactKey: Guid(30144934a41653e4e9c0161ffa6d0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/SFS_Boots_Normal_01.png using Guid(30144934a41653e4e9c0161ffa6d0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d390bb86adb57c9c0f0171bd11feba') in 0.013753 seconds
-  Import took 0.017030 seconds .
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Iron Sword.prefab
+  artifactKey: Guid(b9f4ad87894ce8843a02699c1bd41d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Sword.prefab using Guid(b9f4ad87894ce8843a02699c1bd41d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4714f504344b2fe5caf6f0da727f5329') in 0.017574 seconds
+  Import took 0.021042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Flap.mat
-  artifactKey: Guid(d69760c6501759648a677659e903acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerBoots/Sci-Fi_Settler_Boots/Flap.mat using Guid(d69760c6501759648a677659e903acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc76651388131c42a96ae6191c6dac9') in 0.010140 seconds
-  Import took 0.013373 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(d4cbe0214e0fa409e9317b25c2c15a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(d4cbe0214e0fa409e9317b25c2c15a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aa068fcead7bfbfc12763be549d481') in 0.014570 seconds
+  Import took 0.017927 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.628434 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps
-  artifactKey: Guid(f5804996c2bbdb945a2b2fb719496f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps using Guid(f5804996c2bbdb945a2b2fb719496f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70ca61f7c0f22ea85517bcbfea72a6b') in 0.006322 seconds
-  Import took 0.009836 seconds .
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Iron Ore.prefab
+  artifactKey: Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Ore.prefab using Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e990326a415231f586415e5f0fc0643') in 0.012661 seconds
+  Import took 0.016068 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063962 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps  - For Men - SClothing.asset
-  artifactKey: Guid(7f685d1467a9ee348bd3f84a41db8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps  - For Men - SClothing.asset using Guid(7f685d1467a9ee348bd3f84a41db8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbefa1ee82301d4d794df6e2104e349e') in 0.103873 seconds
-  Import took 0.107913 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/Titanium Sword.prefab
+  artifactKey: Guid(9575cbec4a76215458889609b2fbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Sword.prefab using Guid(9575cbec4a76215458889609b2fbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd837802ec5ab3b788c2024c35e74b9') in 0.012803 seconds
+  Import took 0.016458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps.fbx
-  artifactKey: Guid(2c74b96e949ef8a4db0e8b14c57a7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps.fbx using Guid(2c74b96e949ef8a4db0e8b14c57a7be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae11f979dcc3495708271a58043d4e3') in 0.039404 seconds
-  Import took 0.043029 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Prefabs/Capstonium Sword Forgeable.prefab
+  artifactKey: Guid(02dfb142c906a434386fbc84864e1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Sword Forgeable.prefab using Guid(02dfb142c906a434386fbc84864e1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17862905d705159f0953143756db2f13') in 0.014744 seconds
+  Import took 0.018433 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps - SPrefab.prefab
-  artifactKey: Guid(eae584da2a4173a48abf6f5443235e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerChaps/SciFiSettlerChaps - SPrefab.prefab using Guid(eae584da2a4173a48abf6f5443235e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701bb6bd9c69e696fb0298cf2e19b3fb') in 0.016998 seconds
-  Import took 0.020791 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Titanium Ore.prefab
+  artifactKey: Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Ore.prefab using Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3128999e3181757eae840cc57a71992d') in 0.016148 seconds
+  Import took 0.020157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.194379 seconds.
-  path: Assets/Scenes/MultiplayerScene.unity
-  artifactKey: Guid(faea6a1550744b344a78508a15b1b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MultiplayerScene.unity using Guid(faea6a1550744b344a78508a15b1b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ef78661e6c55fa63662c0786d2de1d') in 0.006736 seconds
-  Import took 0.010830 seconds .
+  Time since last request: 7.072421 seconds.
+  path: Assets/MedievalSmith/Prefab
+  artifactKey: Guid(3c4480bbf830a434eaa358ff24e3f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalSmith/Prefab using Guid(3c4480bbf830a434eaa358ff24e3f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509eed9ddb5f50e5f0ce3d5a6b6c2c5b') in 0.006694 seconds
+  Import took 0.010217 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.455639 seconds.
+  Time since last request: 0.000964 seconds.
+  path: Assets/MedievalSmith/Prefab
+  artifactKey: Guid(3c4480bbf830a434eaa358ff24e3f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalSmith/Prefab using Guid(3c4480bbf830a434eaa358ff24e3f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509eed9ddb5f50e5f0ce3d5a6b6c2c5b') in 0.004292 seconds
+  Import took 0.007649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066362 seconds.
+  path: Assets/MedievalSmith/Prefab/MedievalSmith_LowPoly.prefab
+  artifactKey: Guid(2c120d8217300464699e8503de09df88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalSmith/Prefab/MedievalSmith_LowPoly.prefab using Guid(2c120d8217300464699e8503de09df88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b84b06c625e75d9d0c44e7babf8b2') in 0.187517 seconds
+  Import took 0.192551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.704355 seconds.
+  path: Assets/MedievalSmith/Scene/main.unity
+  artifactKey: Guid(de4feb74f84879d4daf5c0164afeef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalSmith/Scene/main.unity using Guid(de4feb74f84879d4daf5c0164afeef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115209cdb444a8e545dce820686043d9') in 0.008945 seconds
+  Import took 0.013285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001633 seconds.
+  path: Assets/MedievalSmith/Scene/main.unity
+  artifactKey: Guid(de4feb74f84879d4daf5c0164afeef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalSmith/Scene/main.unity using Guid(de4feb74f84879d4daf5c0164afeef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115209cdb444a8e545dce820686043d9') in 0.002566 seconds
+  Import took 0.006462 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.2 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2663.
+Total: 2.423100 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.083600 ms MarkObjects: 1.430100 ms  DeleteObjects: 0.725700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 706.568761 seconds.
   path: Assets/Scenes/Tutorial.unity
   artifactKey: Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690b86574af5baa4cee86c106206a4bd') in 0.007688 seconds
-  Import took 0.011920 seconds .
+Start importing Assets/Scenes/Tutorial.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1a5b1c0f466ff0f1a4ae4e4080d5a7') in 0.064981 seconds
+  Import took 0.068694 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.445448 seconds.
-  path: Assets/Scripts/NetworkPlayerSpawner.cs
-  artifactKey: Guid(9a5db7888e2417841b1301197e7af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkPlayerSpawner.cs using Guid(9a5db7888e2417841b1301197e7af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aa2b5368da6421dd96b46f4a3d409d') in 0.017635 seconds
-  Import took 0.021649 seconds .
+  Time since last request: 18.971804 seconds.
+  path: Assets/Tafi/Characters
+  artifactKey: Guid(6a5f80ba4a107474ea0d13f1e5b03475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters using Guid(6a5f80ba4a107474ea0d13f1e5b03475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f57a5e35bd04e6686c357beb0bd0e81') in 0.009141 seconds
+  Import took 0.014552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.313154 seconds.
-  path: Assets/Photon
-  artifactKey: Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon using Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5784eb7e9b50cc1ef600116287982379') in 0.007333 seconds
-  Import took 0.011770 seconds .
+  Time since last request: 1.278104 seconds.
+  path: Assets/Tafi/Characters/Male
+  artifactKey: Guid(569fe390de0a3ee4a8130647ae82a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male using Guid(569fe390de0a3ee4a8130647ae82a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b59fad3cff6e4cead55e0bd0b6aebe') in 0.009941 seconds
+  Import took 0.014680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 59.917873 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(de0ac675c519ece4d8b85595b889d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(de0ac675c519ece4d8b85595b889d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd641ca7eed4e7cc14a4197462ca63b2e') in 0.005293 seconds
-  Import took 0.009124 seconds .
+  Time since last request: 0.816569 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle
+  artifactKey: Guid(5259aaf444c762243ac44c6ac24d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle using Guid(5259aaf444c762243ac44c6ac24d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f5679b4d362008f90a642de53ec001') in 0.009323 seconds
+  Import took 0.015079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001061 seconds.
-  path: Assets/Scripts/NetworkManager.cs
-  artifactKey: Guid(de0ac675c519ece4d8b85595b889d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkManager.cs using Guid(de0ac675c519ece4d8b85595b889d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd641ca7eed4e7cc14a4197462ca63b2e') in 0.004223 seconds
-  Import took 0.007615 seconds .
+  Time since last request: 0.144147 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Character.asset
+  artifactKey: Guid(6f16f00778128464994d7633303eba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Character.asset using Guid(6f16f00778128464994d7633303eba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60fc6235ef459901555356ba02e8b2d') in 0.094385 seconds
+  Import took 0.107801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.165448 seconds.
-  path: Assets/Scripts/PlayerManager.cs
-  artifactKey: Guid(4f5cda4e3c386ee419dc42ba02301397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerManager.cs using Guid(4f5cda4e3c386ee419dc42ba02301397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b877e6ba086cb7e37a9931f527ced6') in 0.007639 seconds
-  Import took 0.011907 seconds .
+  Time since last request: 0.832526 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Example.asset
+  artifactKey: Guid(fff5f6a803e2bf243bb45c6774832418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Example.asset using Guid(fff5f6a803e2bf243bb45c6774832418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f719892ed5f01c9d4cfb49c8852b47') in 1.046544 seconds
+  Import took 1.057241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002061 seconds.
-  path: Assets/Scripts/PlayerManager.cs
-  artifactKey: Guid(4f5cda4e3c386ee419dc42ba02301397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerManager.cs using Guid(4f5cda4e3c386ee419dc42ba02301397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b877e6ba086cb7e37a9931f527ced6') in 0.003952 seconds
-  Import took 0.007678 seconds .
+  Time since last request: 0.000392 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair
+  artifactKey: Guid(69f584381099d464da6a97c247ac6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair using Guid(69f584381099d464da6a97c247ac6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ecc63ac684da160ba5327748fce69e') in 0.008777 seconds
+  Import took 0.013928 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1393.253728 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(fa8b20a5a2b7ef84da72c90f170cbe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(fa8b20a5a2b7ef84da72c90f170cbe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d7a589c9ab28af5b1e7836b60bbfbf') in 0.008738 seconds
-  Import took 0.014348 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb - Morph.asset
+  artifactKey: Guid(8f52cc52c82304f4ebc53b9e9f8e1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb - Morph.asset using Guid(8f52cc52c82304f4ebc53b9e9f8e1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ee8f92528de899cf7656f30e24fa6e') in 0.116648 seconds
+  Import took 0.122200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/SebHD.fbx
+  artifactKey: Guid(7085f6fc3ee904649932e3bea50bd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/SebHD.fbx using Guid(7085f6fc3ee904649932e3bea50bd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7854566a096e95c56515a08500634522') in 0.177547 seconds
+  Import took 0.182268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.000697 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb
+  artifactKey: Guid(abca126418b1b5140a084d0b6a665f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb using Guid(abca126418b1b5140a084d0b6a665f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9aedd54ca672c3b6266b7e8d30de36') in 0.010293 seconds
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064387 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Arms.mat
+  artifactKey: Guid(d48ebab8f1a3c9840b62a5b9dc093e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Arms.mat using Guid(d48ebab8f1a3c9840b62a5b9dc093e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdc8337c08651d8114f96f2319297b0') in 0.020081 seconds
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Irises.mat
+  artifactKey: Guid(2657142f876fe8441b12a8a37c611882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Irises.mat using Guid(2657142f876fe8441b12a8a37c611882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d46c667e54e203ebaa38e50ae1c2267') in 0.009619 seconds
+  Import took 0.013136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFace_1001.jpg
+  artifactKey: Guid(d1ee372f4763dcd4d95db7e86d207b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFace_1001.jpg using Guid(d1ee372f4763dcd4d95db7e86d207b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e03d1410d2b05c0b7ed7b76844f05a') in 0.039745 seconds
+  Import took 0.042905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegs_1003.jpg
+  artifactKey: Guid(b86bd988a7260e24da5c4953fb3b885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegs_1003.jpg using Guid(b86bd988a7260e24da5c4953fb3b885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcc51292fb06db3b605c342b22a93d9') in 0.013154 seconds
+  Import took 0.016352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsB_1004.jpg
+  artifactKey: Guid(1c5b73971f9d6954ba220e5c569ab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsB_1004.jpg using Guid(1c5b73971f9d6954ba220e5c569ab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63790ae0a839811926d6176b3cc5dec') in 0.019044 seconds
+  Import took 0.023195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesN_1006.jpg
+  artifactKey: Guid(ff2761092013ae5499685aa97ed3d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesN_1006.jpg using Guid(ff2761092013ae5499685aa97ed3d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5343d54d573b5aedc717f70dce1227a') in 0.025264 seconds
+  Import took 0.028897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Torso.mat
+  artifactKey: Guid(8f50827102011d14faeae46eb64d0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Torso.mat using Guid(8f50827102011d14faeae46eb64d0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c2779c1eabd0496e3a94e3be785ee6') in 0.011139 seconds
+  Import took 0.014862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Fingernails.mat
+  artifactKey: Guid(49413201f4814e64aa0522e169d688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Fingernails.mat using Guid(49413201f4814e64aa0522e169d688fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f4d9a1cbcc8f19a903e643a5994ee6') in 0.010745 seconds
+  Import took 0.015490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Mouth.mat
+  artifactKey: Guid(39ded4c2db97d2148b009eb5d92fbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Mouth.mat using Guid(39ded4c2db97d2148b009eb5d92fbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cbc5a2596b0d8b46157f4b7c406da3') in 0.016649 seconds
+  Import took 0.021125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsS_1004.jpg
+  artifactKey: Guid(4f4b024fb2c6cbc43b0ea0a188254413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsS_1004.jpg using Guid(4f4b024fb2c6cbc43b0ea0a188254413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10bfcc0648940afe616bd3e83583938') in 0.012730 seconds
+  Import took 0.016386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Sclera.mat
+  artifactKey: Guid(3921159b8d0ef5f4184c63fe4a3d42d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Sclera.mat using Guid(3921159b8d0ef5f4184c63fe4a3d42d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c069a053b3eb0aee3b164cf797035578') in 0.010361 seconds
+  Import took 0.013700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceS_1001.jpg
+  artifactKey: Guid(78436372860c56546b05d3b32ac9cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceS_1001.jpg using Guid(78436372860c56546b05d3b32ac9cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552d7a425b32705b7990e2be1e6d54a0') in 0.015433 seconds
+  Import took 0.018950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsB_1003.jpg
+  artifactKey: Guid(ff10085101bf27f4b932e6b95b58b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsB_1003.jpg using Guid(ff10085101bf27f4b932e6b95b58b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142d68af41432bee679ece44d76d98ed') in 0.012786 seconds
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Legs.mat
+  artifactKey: Guid(409a5305e26741c428fbbc60a26e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Legs.mat using Guid(409a5305e26741c428fbbc60a26e7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01f2189f300c39de6497411561c4a3b') in 0.010452 seconds
+  Import took 0.014212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouth_1005.jpg
+  artifactKey: Guid(d79197a9f9b1b7f4397971e3ada201bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouth_1005.jpg using Guid(d79197a9f9b1b7f4397971e3ada201bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5172ad30a4cdc263db13a1f3111561') in 0.011952 seconds
+  Import took 0.016412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Teeth.mat
+  artifactKey: Guid(a9d45c91f7e5a5a44b3c93d5427130e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Teeth.mat using Guid(a9d45c91f7e5a5a44b3c93d5427130e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8994fdec32ee8f2c56d50544f55c96') in 0.015046 seconds
+  Import took 0.020646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoS_1002.jpg
+  artifactKey: Guid(7492a71121235904e9833f706846d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoS_1002.jpg using Guid(7492a71121235904e9833f706846d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a568b107253f306aee3ab3dc87722b') in 0.013481 seconds
+  Import took 0.018132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Toenails.mat
+  artifactKey: Guid(a1762fe9f1821a44eacf6cbb487737c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Toenails.mat using Guid(a1762fe9f1821a44eacf6cbb487737c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a8cf77938022eb7c18283d3bcbd23') in 0.011610 seconds
+  Import took 0.017136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Pupils.mat
+  artifactKey: Guid(0feed1eac475c164ba859489d4b2fd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Pupils.mat using Guid(0feed1eac475c164ba859489d4b2fd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54bfc40bb313faf7d98e3537cef62ba') in 0.015245 seconds
+  Import took 0.019685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Lips.mat
+  artifactKey: Guid(fc6f8c2f2273e0a458e23afbb1a21e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Lips.mat using Guid(fc6f8c2f2273e0a458e23afbb1a21e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2662df56f559cddd218adc0e5b78b5f') in 0.011999 seconds
+  Import took 0.015548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsN_1004.tif
+  artifactKey: Guid(b765dfa8be1021a4fbbfd7c535e9b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArmsN_1004.tif using Guid(b765dfa8be1021a4fbbfd7c535e9b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040ef64325d69ca6557128e2da614e40') in 0.018397 seconds
+  Import took 0.022317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsN_1003.tif
+  artifactKey: Guid(7939dde489a47ec48b39d006b791916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsN_1003.tif using Guid(7939dde489a47ec48b39d006b791916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873f964bbe33951d619c4441ebae619') in 0.017504 seconds
+  Import took 0.021204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Ears.mat
+  artifactKey: Guid(6ea00e83a8e8e5642858d861da533f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Ears.mat using Guid(6ea00e83a8e8e5642858d861da533f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849542d28d87c06752c5cf61362b219d') in 0.012258 seconds
+  Import took 0.016681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeMoisture.mat
+  artifactKey: Guid(177c40f0afcf9804bb56e7723dca8487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeMoisture.mat using Guid(177c40f0afcf9804bb56e7723dca8487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efac2689a381e4f3f95435f15c9296f') in 0.011124 seconds
+  Import took 0.015529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceN_1001.tif
+  artifactKey: Guid(f54b15f602ba6cc4aba5d8617a11e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceN_1001.tif using Guid(f54b15f602ba6cc4aba5d8617a11e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65944175bc91be9ad42cd6c836778ba') in 0.016816 seconds
+  Import took 0.020790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorso_1002.jpg
+  artifactKey: Guid(ceaf96e2b31043349bfdb6196d7e42b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorso_1002.jpg using Guid(ceaf96e2b31043349bfdb6196d7e42b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c5c0a8c9f91fd8d2ab7df53c19b5e1') in 0.014023 seconds
+  Import took 0.018286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesSocketTR_1001.jpg
+  artifactKey: Guid(09f4a81a1b06e504db8ff39916e8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesSocketTR_1001.jpg using Guid(09f4a81a1b06e504db8ff39916e8ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f3375503c19320a748a454d0fcd8a2') in 0.012014 seconds
+  Import took 0.015684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceMicro_1001.jpg
+  artifactKey: Guid(d9f760c46f9b0034aa031ef628c12cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceMicro_1001.jpg using Guid(d9f760c46f9b0034aa031ef628c12cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d4bcb0811be60e3759805ba6776c68') in 0.017408 seconds
+  Import took 0.021263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Face.mat
+  artifactKey: Guid(f5b2756f9890c8e44acdf2cf4961045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Face.mat using Guid(f5b2756f9890c8e44acdf2cf4961045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78c13eac01446f9c342784d0ef3f395') in 0.011940 seconds
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoB_1002.jpg
+  artifactKey: Guid(f9dc6d38a41a38141a30c8c29267ce54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoB_1002.jpg using Guid(f9dc6d38a41a38141a30c8c29267ce54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa95e41db9c669081a2b57a32966694a') in 0.013257 seconds
+  Import took 0.016849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouthB_1005.jpg
+  artifactKey: Guid(4e928c292bfd0bb4198ffd438c5f7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebMouthB_1005.jpg using Guid(4e928c292bfd0bb4198ffd438c5f7936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324a75ba115b9273fa037fd80226f506') in 0.012646 seconds
+  Import took 0.016654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoN_1002.tif
+  artifactKey: Guid(26cbf30c7629bf0429015ef281a18913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebTorsoN_1002.tif using Guid(26cbf30c7629bf0429015ef281a18913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e368b5f323fce8d652f04e453364db4d') in 0.017463 seconds
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyes01_1006.jpg
+  artifactKey: Guid(7bc6f28178c633745a453225cbce1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyes01_1006.jpg using Guid(7bc6f28178c633745a453225cbce1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175b9797e12414e653e50ee14a66389c') in 0.013789 seconds
+  Import took 0.017448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsS_1003.jpg
+  artifactKey: Guid(9ce91c8f52c0d6c4d98c0e2418856dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebLegsS_1003.jpg using Guid(9ce91c8f52c0d6c4d98c0e2418856dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7655a5536e836169c5711589aa166686') in 0.010836 seconds
+  Import took 0.014189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/Cornea.mat
+  artifactKey: Guid(03ac301425a644b409de9d3441514582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/Cornea.mat using Guid(03ac301425a644b409de9d3441514582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d7a33774ab82737ebd71d550368d53') in 0.014514 seconds
+  Import took 0.018908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesB_1006.jpg
+  artifactKey: Guid(d277dcbb4be083647b0852a2a22a5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebEyesB_1006.jpg using Guid(d277dcbb4be083647b0852a2a22a5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab36b3c4cad238c7f44e4c90842b092') in 0.012153 seconds
+  Import took 0.015573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeSocket.mat
+  artifactKey: Guid(b6b145113e8aded40aeacf96099168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/EyeSocket.mat using Guid(b6b145113e8aded40aeacf96099168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a71a9e0d5ce73dc82da206037a5755') in 0.011122 seconds
+  Import took 0.014786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceB_1001.jpg
+  artifactKey: Guid(d7a86d73b26e0064c9b7e73d317d168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebFaceB_1001.jpg using Guid(d7a86d73b26e0064c9b7e73d317d168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996369253b9a92916c929ece593edb3b') in 0.013715 seconds
+  Import took 0.017265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArms_1004.jpg
+  artifactKey: Guid(a53a14ad351ebfd479dff66e4b79081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/Seb/SebArms_1004.jpg using Guid(a53a14ad351ebfd479dff66e4b79081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a270cfd2b8d7caaa43c097d6fcbe27') in 0.012455 seconds
+  Import took 0.016193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.954123 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi
+  artifactKey: Guid(caf8c25570183b64d8b6c209cad1531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi using Guid(caf8c25570183b64d8b6c209cad1531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eea435782e7bcd6661c8b0255d968a') in 0.011284 seconds
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074497 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerOutfit - Example Outfit.asset
+  artifactKey: Guid(f186e69d4e71d0647961524cfb476fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/SciFi Settler Outfit Male from Tafi/SciFiSettlerOutfit - Example Outfit.asset using Guid(f186e69d4e71d0647961524cfb476fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac14ea505de27716fa87725c2d8cf0') in 0.270419 seconds
+  Import took 0.275663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.868221 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male
+  artifactKey: Guid(8982cbf60330f464fabcf09525cb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male using Guid(8982cbf60330f464fabcf09525cb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cce5d2b7845b1f0eb796f4262ecb191') in 0.009539 seconds
+  Import took 0.013891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070351 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/Beard.asset
+  artifactKey: Guid(1e7de1459589f5b4d9fd41799e8bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/Beard.asset using Guid(1e7de1459589f5b4d9fd41799e8bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb4006aa6c4d400d922107c3db42f12') in 0.251326 seconds
+  Import took 0.255701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male.fbx
+  artifactKey: Guid(b25553984a597a243be94bf9980cc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male.fbx using Guid(b25553984a597a243be94bf9980cc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25de68a80fa28ec545458ffc8b88edd9') in 0.050908 seconds
+  Import took 0.054836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male - SPrefab.prefab
+  artifactKey: Guid(2168de17ca25bb343b9db9ebd9d8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tafi/Characters/Male/Starter Bundle/NikanHair/NikanBeardGenesis8Male/NikanBeardGenesis8Male - SPrefab.prefab using Guid(2168de17ca25bb343b9db9ebd9d8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0098e8a056c387e8a6788ea2309fc0') in 0.020102 seconds
+  Import took 0.023834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.761219 seconds.
+  path: Assets/blacksmit/textures
+  artifactKey: Guid(39aae33fdf9223445ba72e15dede558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blacksmit/textures using Guid(39aae33fdf9223445ba72e15dede558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80cfaa008773c01c7a8e6f94d5d46bb') in 0.012091 seconds
+  Import took 0.017537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.576775 seconds.
+  path: Assets/blacksmit/blacksmith
+  artifactKey: Guid(98a927c0d30e7764fb0b6cfa8a63e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blacksmit/blacksmith using Guid(98a927c0d30e7764fb0b6cfa8a63e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb2b933f347481ec8d02584861c10bd') in 0.008669 seconds
+  Import took 0.012109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.152556 seconds.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(dd20d007fee509947b99b1e761331533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain.asset using Guid(dd20d007fee509947b99b1e761331533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9068194e8a6f9fe885694f9cbf945f70') in 0.037531 seconds
+  Import took 0.041940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Terrain/Stone.terrainlayer
+  artifactKey: Guid(882a2890e81cb18478619ef7a9af65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Stone.terrainlayer using Guid(882a2890e81cb18478619ef7a9af65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa9e0d7e565884ba218e3aa31eb0f08') in 0.049267 seconds
+  Import took 0.055045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.559623 seconds.
+  path: Assets/Character Triangl High Poly.fbx
+  artifactKey: Guid(bbebaf2a8b2ad974c8092f8ceaaf261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Triangl High Poly.fbx using Guid(bbebaf2a8b2ad974c8092f8ceaaf261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e087c92d9108724fce90358f8925f4') in 0.615787 seconds
+  Import took 0.647056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1548.168243 seconds.
+  path: Assets/Scripts/WanderAI.cs
+  artifactKey: Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WanderAI.cs using Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3040e26b0c99f8ac3f38ae07e84230ca') in 0.017506 seconds
+  Import took 0.022707 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006773 seconds.
+Registered in 0.005911 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -1072,113 +915,107 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  1.049 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 197.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.489600 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.095500 ms MarkObjects: 1.370200 ms  DeleteObjects: 0.807700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.7 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 1.985600 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.465300 ms  DeleteObjects: 0.232600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006813 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
+- Completed reload, in  0.864 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.7 MB.
-System memory in use after: 197.6 MB.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 197.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2671.
-Total: 2.208800 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.112700 ms MarkObjects: 1.610600 ms  DeleteObjects: 0.245800 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 3.182800 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.004700 ms  DeleteObjects: 0.806100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14158.950156 seconds.
-  path: Assets/Scripts/Grinding.cs
-  artifactKey: Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Grinding.cs using Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe96ae9e7e215e500a43f69a1074dfe4') in 0.007706 seconds
-  Import took 0.011414 seconds .
+  Time since last request: 1744.049795 seconds.
+  path: Assets/Scripts/WanderAI.cs
+  artifactKey: Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WanderAI.cs using Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ebf438e88c07b50a62715054643c22') in 0.004443 seconds
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 197.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 7.925300 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.605600 ms MarkObjects: 4.333300 ms  DeleteObjects: 2.410400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.023512 seconds.
-  path: Assets/Scripts/Grinding.cs
-  artifactKey: Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Grinding.cs using Guid(d421adff28237444ba8f3652ab1da112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe96ae9e7e215e500a43f69a1074dfe4') in 0.004325 seconds
-  Import took 0.008469 seconds .
+  Time since last request: 154.941796 seconds.
+  path: Assets/Scripts/WanderAI.cs
+  artifactKey: Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WanderAI.cs using Guid(77c564511f6b6bd4c9a6d345bc932d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1462b67861cfd7606547e2817fc43634') in 0.004808 seconds
+  Import took 0.008650 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007366 seconds.
+Registered in 0.005752 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.940 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.7 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 2.031100 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.513000 ms  DeleteObjects: 0.238600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007001 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.7 MB.
-System memory in use after: 197.6 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.2 MB.
+System memory in use after: 197.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 2.051500 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.087700 ms MarkObjects: 1.519600 ms  DeleteObjects: 0.250100 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 3.722900 ms (FindLiveObjects: 0.419400 ms CreateObjectMapping: 0.142900 ms MarkObjects: 1.732400 ms  DeleteObjects: 1.426600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======

@@ -14,20 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 42.666668
-    width: 1280
-    height: 637.3334
+    x: 1
+    y: 51
+    width: 958
+    height: 988
   m_ShowMode: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Title: Hierarchy
 =======
   m_Title: Scene
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  m_Title: Scene
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,12 +52,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1280
 <<<<<<< HEAD
     height: 637.3334
 =======
     height: 637.3333
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    width: 958
+    height: 988
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -77,11 +86,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1280
+    width: 958
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 19}
   m_MainToolbar: {fileID: 19}
@@ -89,6 +99,10 @@ MonoBehaviour:
   - {fileID: 18}
   m_MainToolbar: {fileID: 18}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  - {fileID: 20}
+  m_MainToolbar: {fileID: 20}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -107,11 +121,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 617.3334
 =======
     y: 617.3333
 >>>>>>> parent of a76e9fcff (AI Changes)
     width: 1280
+=======
+    y: 968
+    width: 958
+>>>>>>> parent of ab07fe416 (UI Fixes)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -134,6 +153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1280
 <<<<<<< HEAD
     height: 587.3334
@@ -148,6 +168,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 250
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    width: 958
+    height: 938
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 8156
+>>>>>>> parent of ab07fe416 (UI Fixes)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,6 +196,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 911.3333
     height: 587.3334
   m_MinSize: {x: 403, y: 492}
@@ -182,6 +211,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 301
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    width: 682
+    height: 938
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 8157
+>>>>>>> parent of ab07fe416 (UI Fixes)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,6 +239,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 911.3333
     height: 310
   m_MinSize: {x: 403, y: 221}
@@ -216,6 +254,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 302
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    width: 682
+    height: 504
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 8158
+>>>>>>> parent of ab07fe416 (UI Fixes)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,17 +280,22 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 268
     height: 310
 =======
     width: 242
     height: 316.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    width: 201
+    height: 504
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -263,6 +314,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 268
     y: 0
     width: 643.3333
@@ -273,16 +325,28 @@ MonoBehaviour:
     width: 735.3333
     height: 316.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 201
+    y: 0
+    width: 481
+    height: 504
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 14}
   - {fileID: 12}
 <<<<<<< HEAD
   - {fileID: 15}
 =======
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  - {fileID: 15}
+  - {fileID: 12}
+  - {fileID: 16}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
@@ -302,15 +366,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 310
     width: 911.3333
     height: 277.33337
+=======
+    y: 504
+    width: 682
+    height: 434
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+<<<<<<< HEAD
 =======
     y: 316.66666
     width: 977.3333
@@ -322,6 +392,9 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 16}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  - {fileID: 18}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -340,14 +413,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 911.3333
+=======
+    x: 682
+>>>>>>> parent of ab07fe416 (UI Fixes)
     y: 0
-    width: 368.6667
-    height: 587.3334
+    width: 276
+    height: 938
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 18}
 =======
     x: 977.3333
@@ -360,6 +438,9 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 17}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  - {fileID: 19}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -378,11 +459,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 269
     y: 19
@@ -394,6 +476,12 @@ MonoBehaviour:
     width: 733.3333
     height: 295.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 202
+    y: 19
+    width: 479
+    height: 483
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -416,10 +504,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -853.3334
-    m_HBaseRangeMax: 853.3334
-    m_VBaseRangeMin: -480
-    m_VBaseRangeMax: 480
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -437,6 +525,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1280
 <<<<<<< HEAD
       height: 547.3334
@@ -447,12 +536,19 @@ MonoBehaviour:
     m_Scale: {x: 0.5701389, y: 0.5701389}
     m_Translation: {x: 640, y: 273.66666}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+      width: 958
+      height: 898
+    m_Scale: {x: 0.37421876, y: 0.37421873}
+    m_Translation: {x: 479, y: 449}
+>>>>>>> parent of ab07fe416 (UI Fixes)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -1122.5334
       y: -480
@@ -470,12 +566,46 @@ MonoBehaviour:
   m_defaultScale: 0.5701389
   m_LastWindowPixelSize: {x: 1920, y: 852.5}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+      x: -1280
+      y: -1199.833
+      width: 2560
+      height: 2399.666
+    m_MinimalGUI: 1
+  m_defaultScale: 0.37421876
+  m_LastWindowPixelSize: {x: 958, y: 919}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.CoreModule:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Failed to load
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -491,11 +621,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 72.66667
 <<<<<<< HEAD
@@ -505,10 +636,17 @@ MonoBehaviour:
     width: 241
     height: 295.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 1
+    y: 81
+    width: 200
+    height: 483
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -518,6 +656,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 54f8ffff
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+      m_SelectedIDs: e2fd0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: fe68feff80befeff32d3feff1e14ffff9029ffffe241ffff987fffff68b2ffff70390100b43a0100
+>>>>>>> parent of ab07fe416 (UI Fixes)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -541,7 +684,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -557,11 +700,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 268
     y: 72.66667
@@ -573,6 +717,12 @@ MonoBehaviour:
     width: 733.3333
     height: 295.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 202
+    y: 81
+    width: 479
+    height: 483
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -588,12 +738,16 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Target: {x: 5.7017984, y: 0.52774346, z: 1.9968898}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: 20.939571, y: 0.08004952, z: 3.3990846}
 =======
     m_Target: {x: -5.4577107, y: 0.4484321, z: -3.5853994}
     speed: 2
     m_Value: {x: -5.4577107, y: 0.4484321, z: -3.5853994}
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    m_Value: {x: 5.7017984, y: 0.52774346, z: 1.9968898}
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -643,10 +797,11 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Target: {x: 0.18035431, y: -0.72703403, z: 0.20852032, w: 0.6288436}
     speed: 2
-    m_Value: {x: 0.18035151, y: -0.72702277, z: 0.20851709, w: 0.6288339}
+    m_Value: {x: -0.18035433, y: 0.72703403, z: -0.20852032, w: -0.6288436}
   m_Size:
-    m_Target: 10.364571
+    m_Target: 1.0878932
     speed: 2
+<<<<<<< HEAD
     m_Value: 10.06457
 =======
     m_Target: {x: -0.10509233, y: 0.66750324, z: -0.09598092, w: -0.7308932}
@@ -657,6 +812,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 4.403685
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    m_Value: 1.0878932
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,8 +839,12 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 --- !u!114 &15
 <<<<<<< HEAD
+=======
+--- !u!114 &16
+>>>>>>> parent of ab07fe416 (UI Fixes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -698,7 +860,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -708,9 +870,13 @@ MonoBehaviour:
     width: 880.4
     height: 371.8
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &16
 =======
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+--- !u!114 &17
+>>>>>>> parent of ab07fe416 (UI Fixes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,11 +892,12 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 382.6667
@@ -741,6 +908,12 @@ MonoBehaviour:
     width: 976.3333
     height: 249.66666
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 1
+    y: 585
+    width: 681
+    height: 413
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -756,15 +929,20 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Particle Effect Stuff
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    - Assets/Scenes
+>>>>>>> parent of ab07fe416 (UI Fixes)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: -1
@@ -788,6 +966,19 @@ MonoBehaviour:
     m_LastClickedID: 21054
     m_ExpandedIDs: 000000000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001a5200001c5200001e5200002052000000ca9a3b
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Bryanna\OneDrive\Documents\GitHub\Gaming-Capstone\Virtual
+    Forge
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 199}
+    m_SelectedIDs: 46e70000
+    m_LastClickedID: 59206
+    m_ExpandedIDs: 00000000fce60000fee6000000e7000002e7000004e7000006e7000008e700000ae700000ce700000ee7000010e7000012e7000014e7000016e7000018e700001ae700001ce700001ee7000020e7000022e7000024e7000000ca9a3b
+>>>>>>> parent of ab07fe416 (UI Fixes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,10 +1007,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005a9700005c9700005e97000060970000629700006497000066970000689700006a9700006c9700006e97000070970000729700007497000076970000789700007a9700007c9700007e9700008097000000ca9a3b
 =======
     m_ExpandedIDs: 000000000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001a5200001c5200001e5200002052000000ca9a3b
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    m_ExpandedIDs: 00000000fce60000fee6000000e7000002e7000004e7000006e7000008e700000ae700000ce700000ee7000010e7000012e7000014e7000016e700001ae700001ce700001ee7000020e7000022e7000024e7000000ca9a3b
+>>>>>>> parent of ab07fe416 (UI Fixes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -876,10 +1071,14 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &17
 =======
 --- !u!114 &16
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+--- !u!114 &18
+>>>>>>> parent of ab07fe416 (UI Fixes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -895,21 +1094,25 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 382.6667
-    width: 910.3333
-    height: 256.33337
+    y: 562.6667
+    width: 1750.3334
+    height: 316.3333
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &18
 =======
 --- !u!114 &17
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+--- !u!114 &19
+>>>>>>> parent of ab07fe416 (UI Fixes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -925,11 +1128,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 911.3334
     y: 72.66667
@@ -941,6 +1145,12 @@ MonoBehaviour:
     width: 301.6667
     height: 566.3333
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+    x: 683
+    y: 81
+    width: 275
+    height: 917
+>>>>>>> parent of ab07fe416 (UI Fixes)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -955,10 +1165,14 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 =======
 --- !u!114 &18
 >>>>>>> parent of a76e9fcff (AI Changes)
+=======
+--- !u!114 &20
+>>>>>>> parent of ab07fe416 (UI Fixes)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
