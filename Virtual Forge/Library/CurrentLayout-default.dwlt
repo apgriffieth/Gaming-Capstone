@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1280
     height: 637.3334
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
+=======
+  m_Title: Scene
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,7 +49,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1280
+<<<<<<< HEAD
     height: 637.3334
+=======
+    height: 637.3333
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -74,8 +82,13 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
+<<<<<<< HEAD
   - {fileID: 19}
   m_MainToolbar: {fileID: 19}
+=======
+  - {fileID: 18}
+  m_MainToolbar: {fileID: 18}
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -93,7 +106,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 617.3334
+=======
+    y: 617.3333
+>>>>>>> parent of a76e9fcff (AI Changes)
     width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -118,11 +135,19 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1280
+<<<<<<< HEAD
     height: 587.3334
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 442
+=======
+    height: 587.3333
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 250
+>>>>>>> parent of a76e9fcff (AI Changes)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +167,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 911.3333
     height: 587.3334
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 443
+=======
+    width: 977.3333
+    height: 587.3333
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 301
+>>>>>>> parent of a76e9fcff (AI Changes)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,12 +201,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 911.3333
     height: 310
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 444
+=======
+    width: 977.3333
+    height: 316.66666
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 302
+>>>>>>> parent of a76e9fcff (AI Changes)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +233,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 268
     height: 310
+=======
+    width: 242
+    height: 316.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -214,17 +262,27 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 268
     y: 0
     width: 643.3333
     height: 310
+=======
+    x: 242
+    y: 0
+    width: 735.3333
+    height: 316.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
+<<<<<<< HEAD
   - {fileID: 15}
+=======
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
@@ -243,6 +301,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 310
     width: 911.3333
     height: 277.33337
@@ -252,6 +311,17 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
+=======
+    y: 316.66666
+    width: 977.3333
+    height: 270.66666
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -269,6 +339,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 911.3333
     y: 0
     width: 368.6667
@@ -278,6 +349,17 @@ MonoBehaviour:
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
+=======
+    x: 977.3333
+    y: 0
+    width: 302.6667
+    height: 587.3333
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -301,10 +383,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 269
     y: 19
     width: 641.3333
     height: 289
+=======
+    x: 243
+    y: 19
+    width: 733.3333
+    height: 295.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -349,15 +438,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1280
+<<<<<<< HEAD
       height: 547.3334
     m_Scale: {x: 0.57013893, y: 0.57013893}
     m_Translation: {x: 640, y: 273.6667}
+=======
+      height: 547.3333
+    m_Scale: {x: 0.5701389, y: 0.5701389}
+    m_Translation: {x: 640, y: 273.66666}
+>>>>>>> parent of a76e9fcff (AI Changes)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1122.5334
       y: -480
       width: 2245.067
@@ -365,6 +461,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.57013893
   m_LastWindowPixelSize: {x: 1920, y: 852.50006}
+=======
+      x: -1122.5336
+      y: -480
+      width: 2245.0671
+      height: 960
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5701389
+  m_LastWindowPixelSize: {x: 1920, y: 852.5}
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -393,15 +498,26 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
+<<<<<<< HEAD
     width: 267
     height: 289
+=======
+    width: 241
+    height: 295.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 56c2ffff20c5ffff
+=======
+      m_SelectedIDs: 64520000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 54f8ffff
+>>>>>>> parent of a76e9fcff (AI Changes)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -446,10 +562,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 268
     y: 72.66667
     width: 641.3333
     height: 289
+=======
+    x: 242
+    y: 72.66667
+    width: 733.3333
+    height: 295.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -462,9 +585,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 5.7017984, y: 0.52774346, z: 1.9968898}
     speed: 2
     m_Value: {x: 20.939571, y: 0.08004952, z: 3.3990846}
+=======
+    m_Target: {x: -5.4577107, y: 0.4484321, z: -3.5853994}
+    speed: 2
+    m_Value: {x: -5.4577107, y: 0.4484321, z: -3.5853994}
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,6 +640,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.18035431, y: -0.72703403, z: 0.20852032, w: 0.6288436}
     speed: 2
     m_Value: {x: 0.18035151, y: -0.72702277, z: 0.20851709, w: 0.6288339}
@@ -518,6 +648,15 @@ MonoBehaviour:
     m_Target: 10.364571
     speed: 2
     m_Value: 10.06457
+=======
+    m_Target: {x: -0.10509233, y: 0.66750324, z: -0.09598092, w: -0.7308932}
+    speed: 2
+    m_Value: {x: -0.10509233, y: 0.6675032, z: -0.09598092, w: -0.7308932}
+  m_Size:
+    m_Target: 4.403685
+    speed: 2
+    m_Value: 4.403685
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -543,6 +682,7 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 --- !u!114 &15
+<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -569,6 +709,8 @@ MonoBehaviour:
     height: 371.8
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
+=======
+>>>>>>> parent of a76e9fcff (AI Changes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -590,9 +732,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 382.6667
     width: 910.3333
     height: 256.33337
+=======
+    y: 389.33334
+    width: 976.3333
+    height: 249.66666
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -607,22 +755,39 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Particle Effect Stuff
+>>>>>>> parent of a76e9fcff (AI Changes)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\racho\OneDrive\Desktop\Gaming-Capstone\Virtual Forge
+=======
+  - Assets/Particle Effect Stuff
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\apgri\Desktop\School\Spring 2021\CPI 441\Gaming-Capstone\Virtual
+    Forge
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
+<<<<<<< HEAD
     m_SelectedIDs: 84970000
     m_LastClickedID: 38788
     m_ExpandedIDs: 000000005a9700005c9700005e97000060970000629700006497000066970000689700006a9700006c9700006e97000070970000729700007497000076970000789700007a9700007c9700007e970000809700008497000000ca9a3b
+=======
+    m_SelectedIDs: 3e520000
+    m_LastClickedID: 21054
+    m_ExpandedIDs: 000000000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001a5200001c5200001e5200002052000000ca9a3b
+>>>>>>> parent of a76e9fcff (AI Changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +815,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005a9700005c9700005e97000060970000629700006497000066970000689700006a9700006c9700006e97000070970000729700007497000076970000789700007a9700007c9700007e9700008097000000ca9a3b
+=======
+    m_ExpandedIDs: 000000000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001a5200001c5200001e5200002052000000ca9a3b
+>>>>>>> parent of a76e9fcff (AI Changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,7 +846,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001c4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -694,7 +863,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -706,7 +875,11 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
+<<<<<<< HEAD
 --- !u!114 &17
+=======
+--- !u!114 &16
+>>>>>>> parent of a76e9fcff (AI Changes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -732,7 +905,11 @@ MonoBehaviour:
     width: 910.3333
     height: 256.33337
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &17
+>>>>>>> parent of a76e9fcff (AI Changes)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -753,10 +930,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 911.3334
     y: 72.66667
     width: 367.6667
     height: 566.3334
+=======
+    x: 977.3334
+    y: 72.66667
+    width: 301.6667
+    height: 566.3333
+>>>>>>> parent of a76e9fcff (AI Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -770,7 +954,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &19
+=======
+--- !u!114 &18
+>>>>>>> parent of a76e9fcff (AI Changes)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
