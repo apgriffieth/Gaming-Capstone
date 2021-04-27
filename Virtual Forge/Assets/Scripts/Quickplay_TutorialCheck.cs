@@ -6,7 +6,7 @@ public class Quickplay_TutorialCheck : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public bool isQuickplay = true;
+    public bool isQuickplay = false;
 
     public static Quickplay_TutorialCheck instance;
 
