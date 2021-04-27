@@ -17,7 +17,6 @@ public class CraftingManager : MonoBehaviour
 
     public Text timer;
     private Sprite itemSprite;
-    public Image ticketDisplay;
     public GameObject orderCanvas;
     public GameObject playerCanvas;
 
@@ -46,6 +45,12 @@ public class CraftingManager : MonoBehaviour
         {
             quickplayManager.SetActive(true);
             tutorial.SetActive(false);
+            controls.SetActive(false);
+        }
+        else
+        {
+            quickplayManager.SetActive(false);
+            tutorial.SetActive(true);
             controls.SetActive(false);
         }
     }
