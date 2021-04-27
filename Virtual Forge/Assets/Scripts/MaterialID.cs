@@ -39,11 +39,6 @@ public class MaterialID : MonoBehaviour
 
             transform.SetParent(null, true);
             transform.localScale = new Vector3(0.001f, 0.001f, 1);
-
-            if (manager[playerIndex - 1].GetComponent<PlayerUIManager>().uiState != PlayerUIManager.UIState.all)
-            {
-                gameObject.SetActive(false);
-            }
         }
 
     }
@@ -58,11 +53,5 @@ public class MaterialID : MonoBehaviour
         float thick = Mathf.Round(item.lossyScale.y * 100f) / 100f;
 
         scaler.text = "Length: " + length + ", Thickness: " + thick;
-
-        if (item.gameObject.activeInHierarchy == false)
-        {
-            manager[playerIndex - 1].GetComponent<PlayerUIManager>().labels.Remove(gameObject);
-            gameObject.SetActive(false);
-        }
     }
 }

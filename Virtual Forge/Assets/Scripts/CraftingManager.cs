@@ -17,6 +17,7 @@ public class CraftingManager : MonoBehaviour
 
     public Text timer;
     private Sprite itemSprite;
+    public Image ticketDisplay;
     public GameObject orderCanvas;
     public GameObject playerCanvas;
 

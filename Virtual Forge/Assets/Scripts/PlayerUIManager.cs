@@ -19,8 +19,8 @@ public class PlayerUIManager : MonoBehaviour
 
     public GameObject playerCanvas;
     public GameObject detailCanvas;
-    public enum UIState { none, overlay, all, reset };
-    public UIState uiState;
+    private enum UIState { none, overlay, all, reset };
+    private UIState uiState;
 
     public List<GameObject> labels;
 

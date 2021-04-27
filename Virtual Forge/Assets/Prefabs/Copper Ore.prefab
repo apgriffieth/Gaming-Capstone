@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 803503768914186167, guid: 865a710c2677f404cac3cd613c69af98,
         type: 3}
       propertyPath: displacement.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5789248436654520646, guid: 865a710c2677f404cac3cd613c69af98,
         type: 3}
