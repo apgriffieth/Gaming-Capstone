@@ -1,0 +1,390 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 7069 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/racho/OneDrive/Desktop/Gaming-Capstone/Virtual Forge
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51822
+Successfully changed project path to: C:/Users/racho/OneDrive/Desktop/Gaming-Capstone/Virtual Forge
+C:/Users/racho/OneDrive/Desktop/Gaming-Capstone/Virtual Forge
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 319.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/racho/OneDrive/Desktop/Gaming-Capstone/Virtual Forge/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   
+    VRAM:     3534 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007988 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 426.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.494 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.030350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.659 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.1 MB.
+System memory in use after: 197.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2611.
+Total: 11.232900 ms (FindLiveObjects: 0.731100 ms CreateObjectMapping: 0.385200 ms MarkObjects: 8.983300 ms  DeleteObjects: 1.128400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Particle Effect Stuff/SmokeTrail.mat
+  artifactKey: Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Effect Stuff/SmokeTrail.mat using Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c6dfc8e42d53b26cef356c2aa6164d') in 0.436847 seconds
+  Import took 0.448748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Particle Effect Stuff/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Effect Stuff/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660d9f6fc6c870c7a425c855d23bb3a1') in 0.045083 seconds
+  Import took 0.072353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1446.302661 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(ae664659b54a7f745a77bc66c56447b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830e35295cae6dae77917ab552e8fe9c') in 0.547337 seconds
+  Import took 0.695687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.369596 seconds.
+  path: Assets/Scripts/Launcher.cs
+  artifactKey: Guid(6013c3d90be920740abe01a36cc9c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Launcher.cs using Guid(6013c3d90be920740abe01a36cc9c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82907cf8df0765fa54cb9c8f5ea97e37') in 0.055107 seconds
+  Import took 0.068717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139242 seconds.
+  path: Assets/Scripts/Launcher.cs
+  artifactKey: Guid(6013c3d90be920740abe01a36cc9c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Launcher.cs using Guid(6013c3d90be920740abe01a36cc9c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82907cf8df0765fa54cb9c8f5ea97e37') in 0.014179 seconds
+  Import took 0.031019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.185259 seconds.
+  path: Assets/Scripts/MaterialID.cs
+  artifactKey: Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaterialID.cs using Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7bdc9647c665433ec1276fdd261e75') in 0.028810 seconds
+  Import took 0.043403 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.834470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.225 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.3 MB.
+System memory in use after: 197.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 23.037000 ms (FindLiveObjects: 1.213900 ms CreateObjectMapping: 0.329100 ms MarkObjects: 20.028400 ms  DeleteObjects: 1.458500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.4 MB.
+System memory in use after: 197.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 9.354900 ms (FindLiveObjects: 0.695300 ms CreateObjectMapping: 0.222300 ms MarkObjects: 6.860400 ms  DeleteObjects: 1.571700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 540.026712 seconds.
+  path: Assets/Scripts/MaterialID.cs
+  artifactKey: Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaterialID.cs using Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3ca4ae8383aeea09b313ce2090879b') in 0.045907 seconds
+  Import took 0.061322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.366642 seconds.
+  path: Assets/Scripts/MaterialID.cs
+  artifactKey: Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaterialID.cs using Guid(a55e896336cdd32499c8442403206af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a614c6309e2ece847005da490848e8') in 0.044364 seconds
+  Import took 0.060603 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.4 MB.
+System memory in use after: 197.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 5.712100 ms (FindLiveObjects: 0.528100 ms CreateObjectMapping: 0.121900 ms MarkObjects: 4.386700 ms  DeleteObjects: 0.670100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 465.655293 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(f406a29b035cf28498cb1957c797245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf2907183074df7bceaa936ca5b3b73') in 0.106380 seconds
+  Import took 0.132872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.889937 seconds.
+  path: Assets/Prefabs/Capstonium Ore.prefab
+  artifactKey: Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Ore.prefab using Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9230877854900fc12407f703b692c0') in 0.610083 seconds
+  Import took 0.633357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Prefabs/Capstonium Sword.prefab
+  artifactKey: Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Sword.prefab using Guid(612e4174882db1e41a3f53c40632fb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054002cb5cf5ab4d95450197908b46f1') in 0.241672 seconds
+  Import took 0.280523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/Copper Ore.prefab
+  artifactKey: Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Ore.prefab using Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96791ec8fd9eeb1da55e93ed62b75fb6') in 0.125289 seconds
+  Import took 0.146102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Prefabs/Titanium Sword Forgeable.prefab
+  artifactKey: Guid(58b16bd89f0887c4aba587315fbe949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Sword Forgeable.prefab using Guid(58b16bd89f0887c4aba587315fbe949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf37980bf9219410b653c630e9a722ec') in 0.050742 seconds
+  Import took 0.061511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Prefabs/P1 Forgeable.prefab
+  artifactKey: Guid(865a710c2677f404cac3cd613c69af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/P1 Forgeable.prefab using Guid(865a710c2677f404cac3cd613c69af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3510bf691dfd7cebab725cfbcb30fbf') in 0.046891 seconds
+  Import took 0.079364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001266 seconds.
+  path: Assets/Prefabs/Copper Sword.prefab
+  artifactKey: Guid(2689a93afe602f04d9296f089c388a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Sword.prefab using Guid(2689a93afe602f04d9296f089c388a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d689ad6edc9f4346c2e52bba9acb3e') in 0.058047 seconds
+  Import took 0.068575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Prefabs/Iron Sword.prefab
+  artifactKey: Guid(b9f4ad87894ce8843a02699c1bd41d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Sword.prefab using Guid(b9f4ad87894ce8843a02699c1bd41d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290834f8fa7003afff47541f81e620be') in 0.103577 seconds
+  Import took 0.115031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/Iron Sword Forgeable.prefab
+  artifactKey: Guid(d84f15dd6dbd9494cadbe4a267271ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Sword Forgeable.prefab using Guid(d84f15dd6dbd9494cadbe4a267271ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccc95d9646d1b90a77c756716631222') in 0.079346 seconds
+  Import took 0.093361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Prefabs/Copper Sword Forgeable.prefab
+  artifactKey: Guid(3816f2e660ecb1141a64a9fec2b47c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Sword Forgeable.prefab using Guid(3816f2e660ecb1141a64a9fec2b47c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbdbe0c5bf3fb74702112ccf29ae365') in 0.059265 seconds
+  Import took 0.084055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Prefabs/Titanium Ore.prefab
+  artifactKey: Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Ore.prefab using Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5907ce0f0e2f01d09e9745b5c93affb5') in 0.148033 seconds
+  Import took 0.179807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Prefabs/FPSPlayer.prefab
+  artifactKey: Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FPSPlayer.prefab using Guid(eedd1ae0961a1e04e9adf08f7416bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc35d779b8cd35dc7f1b8a21897044') in 0.177603 seconds
+  Import took 0.198923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Prefabs/Iron Ore.prefab
+  artifactKey: Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Ore.prefab using Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643bdc69b2d1acdab106652b580fe60') in 0.058282 seconds
+  Import took 0.081385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Prefabs/Titanium Sword.prefab
+  artifactKey: Guid(9575cbec4a76215458889609b2fbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Sword.prefab using Guid(9575cbec4a76215458889609b2fbd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc9010e239c1aa6bd3656d49a65d7c') in 0.090681 seconds
+  Import took 0.106904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Prefabs/Capstonium Sword Forgeable.prefab
+  artifactKey: Guid(02dfb142c906a434386fbc84864e1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Sword Forgeable.prefab using Guid(02dfb142c906a434386fbc84864e1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d2b968f4cafa1039a071678c7b30a') in 0.074534 seconds
+  Import took 0.100891 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.498428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2065 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.6 MB.
+System memory in use after: 197.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 3.720200 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.172000 ms MarkObjects: 2.636000 ms  DeleteObjects: 0.429800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.415554 seconds.
+  path: Assets/Prefabs/Copper Ore.prefab
+  artifactKey: Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copper Ore.prefab using Guid(4695a2746cdcc29488b7d51a54c0d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6ab3887c9e107073cfbbaac7388a83') in 0.144730 seconds
+  Import took 0.156474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Prefabs/Capstonium Ore.prefab
+  artifactKey: Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Capstonium Ore.prefab using Guid(4070a5eb8d58cfe489c8a52da980910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e7d2a6cc469a217aec242caa51560d') in 0.037597 seconds
+  Import took 0.047742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.672051 seconds.
+  path: Assets/Prefabs/Titanium Ore.prefab
+  artifactKey: Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Titanium Ore.prefab using Guid(9fd5926b6170f17499a4b8995c479ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94200b6edf40ed02a7a66e7ba3872672') in 0.036890 seconds
+  Import took 0.050077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.354672 seconds.
+  path: Assets/Prefabs/Iron Ore.prefab
+  artifactKey: Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Iron Ore.prefab using Guid(a0a27490eb72fa940a9ed4d18d2b3393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb07d8d9c381860c9c9369d5ec507a7') in 0.034616 seconds
+  Import took 0.044776 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
